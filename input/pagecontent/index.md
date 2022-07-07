@@ -1,4 +1,4 @@
-# Introduction - work in progress
+### Introduction - work in progress
 
 This implementation guide (IG) is provided by MedCom to describe the use of FHIR ®© Terminology in exchange of information within the Danish healthcare sector.
 
@@ -8,14 +8,14 @@ The IG contains CodeSystems, ValueSets, and ConceptMaps developed by MedCom and 
 
 Previously, have CodeSystems, ValueSets, and ConceptMaps been included in the respective IG. When storing them on a separate server, it allows to update a terminology and maintain the historical versions at the same time.
 
-## CodeSystems
+#### CodeSystems
 
-## ValueSets
+#### ValueSets
 
-## ConceptMaps
+#### ConceptMaps
 
-# Maintainance 
+### Maintainance 
 
-# Contact
+### Contact
 [MedCom](https://www.medcom.dk/) is responsible for this site.
 If you have any questions, please contact <fhir@medcom.dk> or write to MedCom’s stream in [Zulip](https://chat.fhir.org/#narrow/stream/315677-denmark.2Fmedcom.2FFHIRimplementationErfaGroup).
