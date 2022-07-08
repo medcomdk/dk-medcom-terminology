@@ -8,5 +8,5 @@ Description: "Codes for SOREDI message types"
 ValueSet: MedComMessagingSorEdiValues
 Id: medcom-messaging-sorEdiValues
 Title: "MedComMessagingSorEdiValues"
-Description: "Value set ofr SOREDI message types"
+Description: "Values for SOREDI message types"
 * include codes from system MedComMessagingSorEdiSystem

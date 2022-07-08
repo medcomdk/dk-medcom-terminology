@@ -1,7 +1,7 @@
 CodeSystem: MedComMessageEventCodes
 Id: medcom-messaging-eventCodes
 Title: "MedComMessagingEventCodes"
-Description: "Message events for MedCom messages"
+Description: "CodeSystem including all types of MedCom messages"
 * #empty-message "Message with no content"
 * #care-communication-message "Care Communication Message"
 * #hospital-notification-message "Hospital Notification Message"
