@@ -6,8 +6,8 @@
 id: dk.fhir.ig.dk-medcom-terminology
 canonical: http://medcomfhir.dk/fhir/dk-medcom-terminology
 name: MedComTerminology
-# title: Example Title
-# description: Example Implementation Guide for getting started with SUSHI
+title: "DK MedCom Terminology"
+description: The DK MedCom Terminology IG
 status: draft # draft | active | retired | unknown
 version: 0.1.0-a.1
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
@@ -19,6 +19,11 @@ publisher:
   name: MedCom
   url: http://www.medcom.dk
   # email: test@example.org
+
+parameters:
+  apply-contact: true
+  apply-juristiction: true
+  apply-publisher: true
 
 # The dependencies property corresponds to IG.dependsOn. The key is the
 # package id and the value is the version (or dev/current). For advanced
@@ -74,7 +79,10 @@ publisher:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
+  Terminology: terminology.html
   Artifacts: artifacts.html
+  Downloads: downloads.html
+
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │
