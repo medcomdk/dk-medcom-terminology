@@ -16,7 +16,8 @@ This FHIR&reg;&copy; standard is developed by [MedCom](https://www.medcom.dk/).
   * [1.3 Implementation Guide](#13-implementation-guide)
 * [2 Test and Certification](#2-test-and-certification)
 * [3 Release Notes](#3-release-notes)
-
+<br>
+<br>
 
 > Clinical guidelines and use cases are in both Danish and English. The remaining documentation will be in English.
 
