@@ -1,5 +1,14 @@
 # MedCom Terminology - WORK IN PROGRESS!
-<!-- HomePage -->
+* [1 Standard Documentation](#1-standard-documentation)
+  * [1.1 Use Cases](#11-use-cases)
+  * [1.2 Implementation Guide](#12-implementation-guide)
+* [2 Test and Certification](#2-test-and-certification)
+* [3 Release Notes](#3-release-notes)
+<br><br>
+
+  > Clinical guidelines and use cases are in both Danish and English. The remaining documentation will be in English.
+<br><br>
+
 This FHIR&reg;&copy; standard is developed by [MedCom](https://www.medcom.dk/). 
 
 *Short description concerning the purpose of the standard. Remember to include both the English and Danish name of the standard.*
@@ -8,22 +17,14 @@ This FHIR&reg;&copy; standard is developed by [MedCom](https://www.medcom.dk/).
  
 <!-- below is the table of content. Ensure to update it. -->
 
-**Table of Content**
 
-* [1 Standard Documentation](#1-standard-documentation)
-  * [1.1 Clinical Guidelines](#11-clinical-guidelines)
-  * [1.2 Use Cases](#12-use-cases)
-  * [1.3 Implementation Guide](#13-implementation-guide)
-* [2 Test and Certification](#2-test-and-certification)
-* [3 Release Notes](#3-release-notes)
 <br>
 <br>
 
-> Clinical guidelines and use cases are in both Danish and English. The remaining documentation will be in English.
+
 
 ## 1 Standard Documentation 
 The standard documentation below provides the necessary content to understand the needs for modernization, the role of the *STANDARDNAME* message, what to implement and how to get a MedCom certificate. The standard documentation for *STANDARDNAME* includes:
-  * Clinical Guidelines
   * Use cases
   * Technical Specifications in terms of the relevant IGs and clinical introduction to the content of the IG.
   * *mention other relevant documentation*
