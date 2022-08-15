@@ -11,7 +11,7 @@
 <hr/>
 
   >Note: Clinical guidelines and use cases are in both Danish and English. The remaining documentation will be in English.
-<br>
+<p>&nbsp;</p>	
 
 
 This page presents MedComs Terminology standard (Dansk: Terminologi). 
@@ -40,7 +40,6 @@ Below can the clinical guidelines in Danish and English be found:
 [English: Clinical guidelines](assets/documents/Clinical-guidelines-ENG.md)  -->
 
 ### 1.1 Use Cases
-
 Use cases describe the different scenarios a standard support. For a certain real-world scenario, it describes the requirements for the content of a message. The purpose of the use cases is to ensure a coherent implementation and use of the Terminology standard. The descriptions are targeted IT-system vendors and the people responsible for the implementation in regions and municipalities.
 
 The use cases for Terminology standard are qualified in collaboration with EPR- and vendors catering to the municipalities.
@@ -49,7 +48,7 @@ Below can the use cases in Danish and English be found:
 
 [Danish: Use cases](assets/documents/UseCases-DA.md) <br> 
 [English: Use cases](assets/documents/UseCases-ENG.md) 
-<br>
+<p>&nbsp;</p>	
 
 ### 1.2 Implementation Guide
 The technical specifications for the Terminology standard are defined in IGs. As mentioned previously is the Terminology standard composed by profiles from *NUMBER* IGs and terminology from one IG. Links to the IG’s are listed below:
@@ -60,11 +59,12 @@ The technical specifications for the Terminology standard are defined in IGs. As
 IGs might be difficult for people with little or no knowledge about FHIR and how to understand an IG. Therefore has MedCom developed a webpage describing the content of the Terminology standard. The link below gives an overview of which profiles are included, what their purpose are, and which elements that shall be supported in a system. Further the structure of the standard is described and supported with examples in different degree of technical skills.
 <br>
 
-[An introduction to the technical specificationscan be found here.]((assets/documents/Intro-Technical-Spec-ENG.md))
+[An introduction to the technical specificationscan be found here.](../docs/assets/documents/Intro-Technical-Spec-ENG.md)
+<p>&nbsp;</p>	
 
 ## 2 Test and Certification
 Certification of a system implies both an approved testprotocol and run-trough of TouchStone testscripts. TouchStone describes an infrastructure that allows for automated test and validation against the IGs developes by MedCom. 
-<br>
+<p>&nbsp;</p>	
 <a href="https://medcomdk.github.io/MedComLandingPage/#3-test-and-certification" target="_blank"> Find a general description of MedCom test and certification proces here.</a> 
 
 The testprotocols and testscripts are currently in preparation. As soon as the tesprotocols and testscripts are reday, they will be presented below.
