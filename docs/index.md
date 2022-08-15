@@ -1,14 +1,18 @@
 # MedCom Terminology - WORK IN PROGRESS!
+<hr/>
 <!-- below is the table of content. Ensure to update it. -->
+
+**Table of Content**
 * [1 Standard Documentation](#1-standard-documentation)
   * [1.1 Use Cases](#11-use-cases)
   * [1.2 Implementation Guide](#12-implementation-guide)
 * [2 Test and Certification](#2-test-and-certification)
 * [3 Release Notes](#3-release-notes)
-<br><br>
+<hr/>
 
-  > Clinical guidelines and use cases are in both Danish and English. The remaining documentation will be in English.
-<br><br>
+  >Note: Clinical guidelines and use cases are in both Danish and English. The remaining documentation will be in English.
+<br>
+
 
 This page presents MedComs Terminology standard (Dansk: Terminologi). 
 
@@ -26,16 +30,16 @@ The standard documentation below provides the necessary content to understand th
   <!-- * *mention other relevant documentation* -->
 <p>&nbsp;</p>
 
-### 1.1 Clinical Guidelines 
+<!-- ### 1.1 Clinical Guidelines 
 
 The clinical guidelines is the foundation for the Terminology standard. It describes the clinical needs for the modernization, the requirement for the content of the standard and how the standard supports the business requirements. It is the primary textual part of the documentation for Terminology standard. It is important for both implementers and business specialists to understand the clinical guidelines to ensure that the implemented standard supports the requirements.
 
 Below can the clinical guidelines in Danish and English be found:
 
 [Danish: Sundhedsfaglige retningslinjer](assets/documents/Clinical-guidelines-DA.md) <br> 
-[English: Clinical guidelines](assets/documents/Clinical-guidelines-ENG.md) 
+[English: Clinical guidelines](assets/documents/Clinical-guidelines-ENG.md)  -->
 
-### 1.2 Use Cases
+### 1.1 Use Cases
 
 Use cases describe the different scenarios a standard support. For a certain real-world scenario, it describes the requirements for the content of a message. The purpose of the use cases is to ensure a coherent implementation and use of the Terminology standard. The descriptions are targeted IT-system vendors and the people responsible for the implementation in regions and municipalities.
 
@@ -45,15 +49,16 @@ Below can the use cases in Danish and English be found:
 
 [Danish: Use cases](assets/documents/UseCases-DA.md) <br> 
 [English: Use cases](assets/documents/UseCases-ENG.md) 
+<br>
 
-### 1.3 Implementation Guide
-
+### 1.2 Implementation Guide
 The technical specifications for the Terminology standard are defined in IGs. As mentioned previously is the Terminology standard composed by profiles from *NUMBER* IGs and terminology from one IG. Links to the IG’s are listed below:
 
   * *Insert link to ImplemantationGuides*
 <p>&nbsp;</p>
 
 IGs might be difficult for people with little or no knowledge about FHIR and how to understand an IG. Therefore has MedCom developed a webpage describing the content of the Terminology standard. The link below gives an overview of which profiles are included, what their purpose are, and which elements that shall be supported in a system. Further the structure of the standard is described and supported with examples in different degree of technical skills.
+<br>
 
 [An introduction to the technical specificationscan be found here.]((assets/documents/Intro-Technical-Spec-ENG.md))
 
