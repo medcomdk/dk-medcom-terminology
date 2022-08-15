@@ -59,7 +59,7 @@ The technical specifications for the Terminology standard are defined in IGs. As
 IGs might be difficult for people with little or no knowledge about FHIR and how to understand an IG. Therefore has MedCom developed a webpage describing the content of the Terminology standard. The link below gives an overview of which profiles are included, what their purpose are, and which elements that shall be supported in a system. Further the structure of the standard is described and supported with examples in different degree of technical skills.
 <br>
 
-[An introduction to the technical specificationscan be found here.](../docs/assets/documents/Intro-Technical-Spec-ENG.md)
+[An introduction to the technical specificationscan be found here.](docs/assets/documents/Intro-Technical-Spec-ENG.md)
 <p>&nbsp;</p>	
 
 ## 2 Test and Certification
