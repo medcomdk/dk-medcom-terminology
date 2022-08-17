@@ -21,6 +21,8 @@ For this server, no use-cases have been prepared since the coded values depend o
 The standard documentation for Terminology includes:
 *	Technical Specifications in terms of the relevant IGs and clinical introduction to the content of the IG.
 
+The Implementation Guide for Terminology server is under development and will be added soon.
+
 
 <!-- ### 1.2 Implementation Guide
 The technical specifications for the Terminology standard are defined in IGs. As mentioned previously is the Terminology standard composed by profiles from *NUMBER* IGs and terminology from one IG. Links to the IG’s are listed below:
