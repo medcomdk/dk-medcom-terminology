@@ -14,7 +14,7 @@
 <p>&nbsp;</p>	
 
 
-This page presents MedComs Terminology standard (Dansk: Terminologi). 
+This page presents MedCom's FHIR®© Terminology standard (Dansk: Terminologi). This standard will replace existing MedComs EDIFACT & HTML standards 
 
 <!-- *Short description concerning the purpose of the standard. Remember to include both the English and Danish name of the standard.*
 
@@ -25,7 +25,6 @@ This page presents MedComs Terminology standard (Dansk: Terminologi).
 
 ## 1 Standard Documentation 
 The standard documentation below provides the necessary content to understand the needs for modernization, the role of the Terminology standard, what to implement and how to get a MedCom certificate. The standard documentation for Terminology standard includes:
-  * Use cases
   * Technical Specifications in terms of the relevant IGs and clinical introduction to the content of the IG.
   <!-- * *mention other relevant documentation* -->
 <p>&nbsp;</p>
