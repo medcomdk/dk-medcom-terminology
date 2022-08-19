@@ -55,6 +55,6 @@ The testprotocols and testscripts are currently in preparation. As soon as the t
   * TouchStone Testscripts
 <p>&nbsp;</p> -->
 
-## 3 Release Notes
+<!-- ## 3 Release Notes
 
-[Updates in the latest release.](assets/documents/ReleaseNote-ENG.md)
+[Updates in the latest release.](assets/documents/ReleaseNote-ENG.md) -->
