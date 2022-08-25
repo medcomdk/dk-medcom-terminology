@@ -4,12 +4,11 @@
 
 **Table of Content**
 * [1 Standard Documentation](#1-standard-documentation)
-  * [1.1 Use Cases](#11-use-cases)
-  * [1.2 Implementation Guide](#12-implementation-guide)
 * [2 Test and Certification](#2-test-and-certification)
-* [3 Release Notes](#3-release-notes)
 <hr/>
 
+  <!-- [1.1 Use Cases](#11-use-cases)
+   [1.2 Implementation Guide](#12-implementation-guide) -->
 This page presents MedCom's FHIR®© Terminology server (Dansk: Terminologi). The terminologies on the server will replace the existing code lists (Dansk: Kvalifikatorliste) that are in all MedComs EDIFACT & XML standards. 
 The Terminology server includes classifications and terminologies which are defined by MedCom and used in MedComs FHIR standards, such as HospitalNotification, CareCommunication and Acknowlegdement. Examples of the codes could be status codes for an admission used in HospitalNotification, category codes for a CareCommunication message or error codes for an Acknowledgement message. Technically, the codes on the terminology server are structured using FHIR CodeSystems, ValueSets and ConceptMaps resource.
 
