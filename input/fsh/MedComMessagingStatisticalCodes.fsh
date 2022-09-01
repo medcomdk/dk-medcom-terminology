@@ -2,6 +2,10 @@ CodeSystem: MedComMessagingStatisticalCodes
 Id: medcom-messaging-statisticalCodes
 Title: "MedComMessagingStatisticalCodes"
 Description: "Statistical Codes for MedCom VANS messages"
+* ^version  =  "1.0.0"
+* ^status  =  #active
+* ^date  =  "2022-09-01"
+* ^caseSensitive = false
 * #MCM:FDIS20#AcuteAmbulant "Start hospital stay-acute ambulant"
 * #MCM:FDIS20#AdmissionInpatient "Start hospital stay-admission"
 * #MCM:FDIS20#OnLeave "Start leave"
