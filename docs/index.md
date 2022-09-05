@@ -15,7 +15,7 @@ The Terminology server includes classifications and terminologies which are defi
 
 ## 1 Standard Documentation 
 The standard documentation below provides the necessary content to understand the needs for modernization, the role of the Terminology server, what to implement and how to get a MedCom certificate. 
-For this server, no use-cases have been prepared since the coded values depend on the type of message being sent and the content of the message. To get information about which code represents which message please go to use case for <a href="https://medcomdk.github.io/dk-medcom-acknowledgement/#11-use-cases" target="_blank">Acknowledgement</a>, <a href="https://medcomdk.github.io/dk-medcom-carecommunication/#12-use-cases" target="_blank"> CareCommunication </a>, and <a href="https://medcomdk.github.io/dk-medcom-hospitalnotification/#12-use-cases" target="_blank"> HospitalNotification</a>.
+For this server, no use-cases have been prepared since the coded values depend on the type of message being sent and the content of the message. To get information about which code represents which message please go to use case for <a href="https://medcomdk.github.io/dk-medcom-acknowledgement/#11-use-cases">Acknowledgement</a>, <a href="https://medcomdk.github.io/dk-medcom-carecommunication/#12-use-cases"> CareCommunication </a>, and <a href="https://medcomdk.github.io/dk-medcom-hospitalnotification/#12-use-cases"> HospitalNotification</a>.
 
 The standard documentation for Terminology includes:
 *	Technical Specifications in terms of the relevant IGs and clinical introduction to the content of the IG.
@@ -40,7 +40,7 @@ IGs might be difficult for people with little or no knowledge about FHIR and how
 ## 2 Test and Certification
 Certification of a system implies both an approved testprotocol and run-trough of TouchStone testscripts. TouchStone describes an infrastructure that allows for automated test and validation against the IGs developes by MedCom. 
 <p>&nbsp;</p>	
-<a href="https://medcomdk.github.io/MedComLandingPage/#3-test-and-certification" target="_blank"> Find a general description of MedCom test and certification proces here.</a> 
+<a href="https://medcomdk.github.io/MedComLandingPage/#3-test-and-certification"> Find a general description of MedCom test and certification proces here.</a> 
 
 The testprotocols and testscripts are currently in preparation. As soon as the tesprotocols and testscripts are reday, they will be presented below.
 
