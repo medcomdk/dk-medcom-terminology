@@ -4,7 +4,7 @@ This Implementation Guide (IG) is provided by [MedCom](https://www.medcom.dk/) a
 
 The purpose of this IG is to present terminologies used in MedComs standards. This offers stakeholders the possibility to view terminologies online and to download them in different formats. 
 
-This IG contains CodeSystems, ValueSets, and ConceptMaps defined by MedCom and used in MedComs FHIR standards such as [MedComCareCommunication IG](https://build.fhir.org/ig/medcomdk/dk-medcom-carecommunication/), [MedComHospitalNotification IG](https://build.fhir.org/ig/medcomdk/dk-medcom-hospitalnotification/), and [MedComAcknowledgement IG](https://build.fhir.org/ig/medcomdk/dk-medcom-acknowledgement/). 
+This IG contains CodeSystems, ValueSets, and ConceptMaps defined by MedCom and used in MedComs FHIR standards such as [CareCommunication](https://build.fhir.org/ig/medcomdk/dk-medcom-carecommunication/), [HospitalNotification](https://build.fhir.org/ig/medcomdk/dk-medcom-hospitalnotification/), and [Acknowledgement](https://build.fhir.org/ig/medcomdk/dk-medcom-acknowledgement/). 
 
 > Note: Previously, CodeSystems, ValueSets, and ConceptMaps have been included in the respective IG. When storing them on a separate server, it allows to update a terminology and maintain the historical versions at the same time, without interfering with the version of the entire IG.
 
@@ -22,9 +22,9 @@ CodeSystems, ValueSets, and ConceptMaps can be found under [Terminology](https:/
 
 [ValueSets](https://www.hl7.org/fhir/valueset.html) specifies a set of codes drawn from one or more CodeSystems, intended for use in a particular context. A ValueSet constitutes the selection of possible codes that can be used for a specific codable element in a profile. An example of a ValueSet defined by MedCom is [MedComHospitalNotificationMessageActivityCodes](https://build.fhir.org/ig/medcomdk/dk-medcom-terminology/ValueSet-medcom-hospitalNotification-messageActivities.html), which describes the possible activities for at HospitalNotification message e.g., an admit-inpatient message. The ValueSet [MedComCareCommunicationMessageActivityCodes](https://build.fhir.org/ig/medcomdk/dk-medcom-terminology/ValueSet-medcom-careCommunication-messagingActivities.html) is another example, which includes codes to describe the possible activities for a CareCommunication message. Both ValueSets are originated from the same CodeSystem [MedComMessagingActivityCodes](https://build.fhir.org/ig/medcomdk/dk-medcom-terminology/CodeSystem-medcom-messaging-activityCodes.html). 
 
-Some ValueSets are intensional defined, meaning that all codes from a CodeSystem is included. Whenever the CodeSystem is updated, so is the ValueSet. For intensional defined ValueSets, there will always only be one active ValueSets, with a date for latest update. ValueSets used to describe the content of a message, such as [MedComCareCommunicationCategoryCodes](https://build.fhir.org/ig/medcomdk/dk-medcom-terminology/ValueSet-medcom-careCommunication-categories.html)
+Some ValueSets are intensional defined, meaning that all codes from a CodeSystem are included. Whenever the CodeSystem is updated, so is the ValueSet. For intensional defined ValueSets, there will always only be one active ValueSets, with a date for latest update. This way of defining ValueSets will account for ValueSets used to describe the content of a message, such as [MedComCareCommunicationCategoryCodes](https://build.fhir.org/ig/medcomdk/dk-medcom-terminology/ValueSet-medcom-careCommunication-categories.html). Therefore vendors shall expect that the codes in this type of ValueSets will change, based on the requirements in the healthcare sector.
 
-Other ValueSets are extensional defined, meaning that means that codes from CodeSystems are explicitly listed in each ValueSet. Therefore, will ValueSets not automatically be expanded when a CodeSystem is, it requires a change in the ValueSet. These ValueSets are used to describe the codes used for routing of a message and the logical setup within a system, such as [MedComHospitalNotificationMessageActivityCodes](https://build.fhir.org/ig/medcomdk/dk-medcom-terminology/ValueSet-medcom-hospitalNotification-messageActivities.html). There may be more than one active ValueSet, as this typr of changes often takes time to implement. 
+Other ValueSets are extensional defined, meaning that codes from CodeSystems are explicitly listed in each ValueSet. Therefore, will ValueSets not be automatically updated when a CodeSystem is, it requires a change in the ValueSet. This applies for ValueSets including codes used for routing of a message and the logical setup within a system, such as [MedComHospitalNotificationMessageActivityCodes](https://build.fhir.org/ig/medcomdk/dk-medcom-terminology/ValueSet-medcom-hospitalNotification-messageActivities.html). There may be more than one active ValueSet, as changes in this type of ValueSet often takes time to implement. 
 
 #### ConceptMaps
 
@@ -33,7 +33,7 @@ An example of a ConceptMaps is [MedComMessagingMapFhirToSorEdi](https://build.fh
 
 ### Governance of Terminologies
 
-[This page the governance concerning updating, maintaining and versioning CodeSystems, ValueSets and ConceptMaps.](https://medcomdk.github.io/MedCom-FHIR-Communication/#70-governance-for-terminiology)
+[This page the governance concerning updating, maintaining and versioning CodeSystems, ValueSets and ConceptMaps.](https://medcomdk.github.io/MedCom-FHIR-Communication/#7-governance-for-medcom-fhir-terminology)
 
 ### Usage 
 
