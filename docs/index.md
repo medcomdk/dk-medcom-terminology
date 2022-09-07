@@ -1,18 +1,14 @@
-# MedCom Terminology - WORK IN PROGRESS!
+# MedCom Terminology
 <hr/>
 <!-- below is the table of content. Ensure to update it. -->
 
 **Table of Content**
 * [1 Standard Documentation](#1-standard-documentation)
-  * [1.1 Use Cases](#11-use-cases)
-  * [1.2 Implementation Guide](#12-implementation-guide)
 * [2 Test and Certification](#2-test-and-certification)
-* [3 Release Notes](#3-release-notes)
 <hr/>
 
   >Note: Clinical guidelines and use cases are in both Danish and English. The remaining documentation will be in English.
 <p>&nbsp;</p>	
-
 
 This page presents MedComs Terminology server used in MedComs FHIR standard. (Dansk: Terminologi). Terminology is an umbrella term for CodeSystems, ValueSets and ConceptMaps which represents different kind and usage of codes and categories in FHIR. CodeSystems, ValueSets and ConceptMaps all includes codes and they may be defined by HL7, SNOMED CT or a third party. However, this IG only holds CodeSystems, ValueSets and ConceptMaps that are modified or defined by MedCom. 
 
@@ -42,8 +38,5 @@ The technical specifications for the Terminology standard are defined in IGs.
 ## 2 Test and Certification
 
 The terminologies will not be tested by itself, but together with a MedCom FHIR standard, why no testprotocols are provided. 
+<!-- ## 3 Release Notes
 
-
-## 3 Release Notes
-
-[Updates in the latest release.](assets/documents/ReleaseNote-ENG.md)
