@@ -3,7 +3,8 @@ InstanceOf: ConceptMap
 Title: "MedComMessagingMapFhirToSorEdi"
 Description: "ConceptMap between MedComs FHIR message names and SOREDI message names"
 * name = "MedComMessagingMapFhirToSorEdi"
-* status = #active
+* version  =  "1.0.0"
+* status  =  #active
 * sourceUri = Canonical(MedComMessagingMessageTypes)
 * targetUri = Canonical(MedComMessagingSorEdiValues)
 * group.element[+].code = #care-communication-message

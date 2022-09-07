@@ -1,4 +1,4 @@
-# MedCom Terminology - WORK IN PROGRESS!
+# MedCom Terminology
 <hr/>
 <!-- below is the table of content. Ensure to update it. -->
 
@@ -7,55 +7,36 @@
 * [2 Test and Certification](#2-test-and-certification)
 <hr/>
 
-  <!-- [1.1 Use Cases](#11-use-cases)
-   [1.2 Implementation Guide](#12-implementation-guide) -->
-This page presents MedCom's FHIR®© Terminology server (Dansk: Terminologi). The terminologies on the server will replace the existing code lists (Dansk: Kvalifikatorliste) that are in all MedComs EDIFACT & XML standards. 
-The Terminology server includes classifications and terminologies which are defined by MedCom and used in MedComs FHIR standards, such as HospitalNotification, CareCommunication and Acknowlegdement. Examples of the codes could be status codes for an admission used in HospitalNotification, category codes for a CareCommunication message or error codes for an Acknowledgement message. Technically, the codes on the terminology server are structured using FHIR CodeSystems, ValueSets and ConceptMaps resource.
+  >Note: Clinical guidelines and use cases are in both Danish and English. The remaining documentation will be in English.
+<p>&nbsp;</p>	
+
+This page presents MedComs Terminology server used in MedComs FHIR standard. (Dansk: Terminologi). Terminology is an umbrella term for CodeSystems, ValueSets and ConceptMaps which represents different kind and usage of codes and categories in FHIR. CodeSystems, ValueSets and ConceptMaps all includes codes and they may be defined by HL7, SNOMED CT or a third party. However, this IG only holds CodeSystems, ValueSets and ConceptMaps that are modified or defined by MedCom. 
+
+The terminologies on the server will replace the existing code lists (Dansk: Kvalifikatorliste) that are in all MedComs EDIFACT & OIOXML standards. The Terminology server includes classifications and terminologies which are defined by MedCom and used in MedComs FHIR standards, such as HospitalNotification, CareCommunication and Acknowlegdement. Examples of the codes could be status codes for an admission used in HospitalNotification, category codes for a CareCommunication message or error codes for an Acknowledgement message. Technically, the codes on the terminology server are structured using FHIR CodeSystems, ValueSets and ConceptMaps resource.
+<!-- *Short description concerning the purpose of the standard. Remember to include both the English and Danish name of the standard.*
+
+*Create an item list with the profiles this IG includes.* -->
+<!-- <br>
+<br> -->
 
 
 ## 1 Standard Documentation 
-The standard documentation below provides the necessary content to understand the needs for modernization, the role of the Terminology server, what to implement and how to get a MedCom certificate. 
-For this server, no use-cases have been prepared since the coded values depend on the type of message being sent and the content of the message. To get information about which code represents which message please go to use case for <a href="https://medcomdk.github.io/dk-medcom-acknowledgement/#11-use-cases">Acknowledgement</a>, <a href="https://medcomdk.github.io/dk-medcom-carecommunication/#12-use-cases"> CareCommunication </a>, and <a href="https://medcomdk.github.io/dk-medcom-hospitalnotification/#12-use-cases"> HospitalNotification</a>.
-
-The standard documentation for Terminology includes:
-*	Technical Specifications in terms of the relevant IGs and clinical introduction to the content of the IG.
-<br>
-
-<b>The Implementation Guide for Terminology server is under development and will be added soon.</b>
-
-<br>
-
-<!-- ### 1.2 Implementation Guide
-The technical specifications for the Terminology standard are defined in IGs. As mentioned previously is the Terminology standard composed by profiles from *NUMBER* IGs and terminology from one IG. Links to the IG’s are listed below:
-
-  * The Implementation Guide is under development and will be added soon. 
+The standard documentation below provides the necessary content to understand the needs for modernization, the role of the Terminology standard, what to implement and how to get a MedCom certificate. The standard documentation for Terminology standard includes:
+  * Technical Specifications in terms of the relevant IGs and clinical introduction to the content of the IG.
 <p>&nbsp;</p>
 
-IGs might be difficult for people with little or no knowledge about FHIR and how to understand an IG. Therefore has MedCom developed a webpage describing the content of the Terminology standard. The link below gives an overview of which profiles are included, what their purpose are, and which elements that shall be supported in a system. Further the structure of the standard is described and supported with examples in different degree of technical skills.
-<br>
 
-[An introduction to the technical specificationscan be found here.](docs/assets/documents/Intro-Technical-Spec-ENG.md)
-<p>&nbsp;</p>	 -->
+### 1.2 Implementation Guide
+The technical specifications for the Terminology standard are defined in IGs. 
+
+  * [Terminology IG](https://build.fhir.org/ig/medcomdk/dk-medcom-terminology/)
+<p>&nbsp;</p>
+
+[Governance concerning the CodeSystems, ValueSets and ConceptMaps](https://medcomdk.github.io/MedCom-FHIR-Communication/#70-governance-for-terminiology) describes how updates of new and existing codes is handled. History of the changes will be available on the page as well. 
+<p>&nbsp;</p>	
 
 ## 2 Test and Certification
-Certification of a system implies both an approved testprotocol and run-trough of TouchStone testscripts. TouchStone describes an infrastructure that allows for automated test and validation against the IGs developes by MedCom. 
-<p>&nbsp;</p>	
-<a href="https://medcomdk.github.io/MedComLandingPage/#3-test-and-certification"> Find a general description of MedCom test and certification proces here.</a> 
 
-The testprotocols and testscripts are currently in preparation. As soon as the tesprotocols and testscripts are reday, they will be presented below.
-
-<!-- Find a general description of MedCom test and certification [here](https://tmsmedcom.github.io/GitHubPagesTest/#test-and-certification). 
-
-**Sending a HospitalNotification message**
-  * Testprotocol
-  * TouchStone Testscripts
-<p>&nbsp;</p>
- 
-**Receiving a HospitalNotification message**
-  * Testprotocol
-  * TouchStone Testscripts
-<p>&nbsp;</p> -->
-
+The terminologies will not be tested by itself, but together with a MedCom FHIR standard, why no testprotocols are provided. 
 <!-- ## 3 Release Notes
 
-[Updates in the latest release.](assets/documents/ReleaseNote-ENG.md) -->

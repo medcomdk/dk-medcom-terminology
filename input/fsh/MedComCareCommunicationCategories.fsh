@@ -2,6 +2,9 @@ CodeSystem: MedComCareCommunicationCategoryCodes
 Id: medcom-careCommunication-categoryCodes
 Title: "MedComCareCommunicationCategories"
 Description: "Category codes for care communication messages"
+* ^status  =  #active
+* ^date  =  "2022-09-01"
+* ^caseSensitive = false
 * #alcohol-and-drug-treatment "Alcohol and drug treatment"
 * #assessment "Assessment"
 * #assistive-devices "Assistive Devices"
