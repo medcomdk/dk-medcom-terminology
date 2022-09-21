@@ -1,2 +1,3 @@
 # MedComTerminology
- Implementation Guide for ConceptsMaps, CodeSystems and ValueSets defined for MedComs FHIR standards. 
+
+Documents in this branch are used to develope [GitHubPages for MedCom Terminology](https://medcomdk.github.io/dk-medcom-terminology/)
