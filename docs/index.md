@@ -2,9 +2,10 @@
 <hr/>
 <!-- below is the table of content. Ensure to update it. -->
 
-**Table of Content**
-* [1 Standard Documentation](#1-standard-documentation)
-* [2 Test and Certification](#2-test-and-certification)
+**Table of contents**
+* [1 Standard documentation](#1-standard-documentation)
+  * [1.1](#11-implementation-guide)
+* [2 Test and certification](#2-test-and-certification)
 <hr/>
 
   >Note: Clinical guidelines and use cases are in both Danish and English. The remaining documentation will be in English.
@@ -12,7 +13,7 @@
 
 This page presents MedComs Terminology server used in MedComs FHIR standard. (Dansk: Terminologi). Terminology is an umbrella term for CodeSystems, ValueSets and ConceptMaps which represents different kind and usage of codes and categories in FHIR. CodeSystems, ValueSets and ConceptMaps all includes codes and they may be defined by HL7, SNOMED CT or a third party. However, this IG only holds CodeSystems, ValueSets and ConceptMaps that are modified or defined by MedCom. 
 
-The terminologies on the server will replace the existing code lists (Dansk: Kvalifikatorliste) that are in all MedComs EDIFACT & OIOXML standards. The Terminology server includes classifications and terminologies which are defined by MedCom and used in MedComs FHIR standards, such as HospitalNotification, CareCommunication and Acknowlegdement. Examples of the codes could be status codes for an admission used in HospitalNotification, category codes for a CareCommunication message or error codes for an Acknowledgement message. Technically, the codes on the terminology server are structured using FHIR CodeSystems, ValueSets and ConceptMaps resource.
+The terminologies on the server will replace the existing code lists (Dansk: Kvalifikatorliste) that are in all MedCom's EDIFACT & OIOXML standards. The Terminology server includes classifications and terminologies which are defined by MedCom and used in MedCom's FHIR standards, such as HospitalNotification, CareCommunication and Acknowlegdement. Examples of the codes could be status codes for an admission used in HospitalNotification, category codes for a CareCommunication message or error codes for an Acknowledgement message. Technically, the codes on the terminology server are structured using FHIR CodeSystems, ValueSets and ConceptMaps resources.
 <!-- *Short description concerning the purpose of the standard. Remember to include both the English and Danish name of the standard.*
 
 *Create an item list with the profiles this IG includes.* -->
@@ -21,12 +22,13 @@ The terminologies on the server will replace the existing code lists (Dansk: Kva
 
 
 ## 1 Standard Documentation 
-The standard documentation below provides the necessary content to understand the needs for modernization, the role of the Terminology standard, what to implement and how to get a MedCom certificate. The standard documentation for Terminology standard includes:
+The standard documentation below provides the necessary content to understand the needs for modernization, the role of the Terminology standard, what to implement and how to get a MedCom Certificate. 
+The standard documentation for Terminology standard includes:
   * Technical Specifications in terms of the relevant IGs and clinical introduction to the content of the IG.
 <p>&nbsp;</p>
 
 
-### 1.2 Implementation Guide
+### 1.1 Implementation Guide
 The technical specifications for the Terminology standard are defined in IGs. 
 
   * [Terminology IG](https://build.fhir.org/ig/medcomdk/dk-medcom-terminology/)
@@ -38,5 +40,4 @@ The technical specifications for the Terminology standard are defined in IGs.
 ## 2 Test and Certification
 
 The terminologies will not be tested by itself, but together with a MedCom FHIR standard, why no testprotocols are provided. 
-<!-- ## 3 Release Notes
 
