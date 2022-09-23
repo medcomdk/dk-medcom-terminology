@@ -77,7 +77,7 @@ Description: "ValueSet containg activity codes for hospital notification message
 * ^compose.include[=].concept[+].code = #admit-emergency
 * ^compose.include[=].concept[=].display = "Start hospital stay-acute ambulant"
 * ^compose.include[=].concept[=].designation[+].language = #da
-* ^compose.include[=].concept[=].designation[=].value = "En ny meddelelse er blevet sendt"
+* ^compose.include[=].concept[=].designation[=].value = "Start sygehusophold - akut ambulant"
 * ^compose.include[=].concept[+].code = #revise-admit-emergency
 * ^compose.include[=].concept[=].display = "Update of Start hospital stay - acute ambulant"
 * ^compose.include[=].concept[=].designation[+].language = #da
