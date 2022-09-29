@@ -1,7 +1,7 @@
 CodeSystem: MedComCoreECPRCodes
 Id: medcom-core-ecpr-codes
 Title: "MedComCoreECPRCodes"
-Description: "CodeSystem with systems used to represent the origin of a replacement person identifier (E-CPR)."
+Description: "CodeSystem with systems used to represent the system of a Danish replacement person identifier (eCPR)."
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2022-09-01"
@@ -11,7 +11,7 @@ Description: "CodeSystem with systems used to represent the origin of a replacem
 ValueSet: MedComCoreECPRValues
 Id: medcom-core-ecpr-values
 Title: "MedComCoreECPRValues"
-Description: "ValueSet containg systems used to represent the origin of a replacement person identifier (E-CPR)."
+Description: "ValueSet containing systems used to represent the origin of a Danish replacement person identifier (eCPR)."
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2022-09-01"
