@@ -11,3 +11,4 @@ Description: "ValueSet containg activity codes for care communication messages"
 * include #forward-message from system medcom-messaging-activityCodes 
 * include #retract-message from system medcom-messaging-activityCodes
 * include #modified-message from system medcom-messaging-activityCodes
+* include #carboncopy-message from system medcom-messaging-activityCodes
