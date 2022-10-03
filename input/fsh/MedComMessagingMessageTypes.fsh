@@ -9,7 +9,7 @@ Description: "CodeSystem including all types of MedCom messages"
 * #empty-message "Message with no content"
 * #care-communication-message "Care Communication Message"
 * #hospital-notification-message "Hospital Notification Message"
-* #acknowledgment-message "Acknowledgment Message"
+* #acknowledgement-message "Acknowledgment Message"
 
 
 ValueSet: MedComMessagingMessageTypes
@@ -22,4 +22,4 @@ Description: "All message types of MedCom messages"
 * MedComMessageEventCodes#empty-message "Message with no content"
 * MedComMessageEventCodes#care-communication-message "Care Communication Message"
 * MedComMessageEventCodes#hospital-notification-message "Hospital Notification Message"
-* MedComMessageEventCodes#acknowledgment-message "Acknowledgment Message"
+* MedComMessageEventCodes#acknowledgement-message "Acknowledgement Message"
