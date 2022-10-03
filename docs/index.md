@@ -24,14 +24,13 @@ The terminologies on the server will replace the existing code lists (Danish: Kv
 The standard documentation below provides the necessary content to understand the needs for modernization, the role of the Terminology, what to implement and how to get a MedCom Certificate. 
 
 The standard documentation for Terminology includes:
-  * Technical Specifications in terms of the relevant IGs and clinical introduction to the content of the IG.
+  * Technical Specifications in terms of the relevant Implementation Guides (IGs) and clinical introduction to the content of the IG.
 <p>&nbsp;</p>
 
 
 ### 1.1 Technical specification
 The technical specifications for the Terminology are defined in IGs. 
-
-  * [Terminology IG](https://build.fhir.org/ig/medcomdk/dk-medcom-terminology/)
+  * <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-terminology/" target="_blank">Terminology IG</a>
 <p>&nbsp;</p>
 <a href="https://medcomdk.github.io/MedCom-FHIR-Communication/assets/documents/070_Governance-for-Terminology.html">Governance concerning the CodeSystems, ValueSets and ConceptMaps </a> describes how updates of new and existing codes is handled. History of the changes will be available on the page as well. 
 <p>&nbsp;</p>	
