@@ -1,12 +1,12 @@
 # MedCom Terminology
-<hr/>
+
 <!-- below is the table of content. Ensure to update it. -->
 
 **Table of contents**
 * [1 Standard documentation](#1-standard-documentation)
   * [1.1 Technical specification](#11-technical-specification)
 * [2 Test and certification](#2-test-and-certification)
-<hr/>
+
 <!-- >Note: Clinical guidelines and use cases are in both Danish and English. The remaining documentation will be in English. -->
 <p>&nbsp;</p>	
 
