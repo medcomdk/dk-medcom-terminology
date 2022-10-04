@@ -3,8 +3,8 @@
 # │  used properties are included. For a list of all supported properties and their functions,     │
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: dk.fhir.ig.dk-medcom-terminology
-canonical: http://medcomfhir.dk/fhir/dk-medcom-terminology
+id: medcom.fhir.dk.terminology
+canonical: http://medcomfhir.dk/ig/terminology
 name: MedComTerminology
 title: "DK MedCom Terminology"
 description: The DK MedCom Terminology IG
