@@ -10,6 +10,7 @@
         "desc": "Continuous Integration Build",
         "path": "http://build.fhir.org/ig/hl7dk/dk-core",
         "status": "ci-build",
+        "fhirversion": "4.0.1",
         "current": true
       },
       {
@@ -19,7 +20,8 @@
         "date": "2022-10-04",
         "sequence": "Release",
         "path": "http://medcomfhir.dk/ig/terminology/1.0.0",
-        "fhirversion": "4.0.1"
+        "fhirversion": "4.0.1",
+        "current": true
       }
     ]
   }
