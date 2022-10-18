@@ -30,7 +30,7 @@ The standard documentation for Terminology includes:
 
 ### 1.1 Technical specification
 The technical specifications for the Terminology are defined in IGs. 
-  * <a href="https://medcomfhir.dk/ig/dk-medcom-terminology/" target="_blank">Terminology IG</a>
+  * <a href="https://medcomfhir.dk/ig/terminology/" target="_blank">Terminology IG</a>
 <p>&nbsp;</p>
 <a href="https://medcomdk.github.io/MedCom-FHIR-Communication/assets/documents/070_Governance-for-Terminology.html">Governance concerning the CodeSystems, ValueSets and ConceptMaps </a> describes how updates of new and existing codes is handled. History of the changes will be available on the page as well. 
 <p>&nbsp;</p>	
