@@ -74,7 +74,7 @@ Description: "ValueSet containg activity codes for hospital notification message
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2022-09-01"
-* ^url  =  "http://medcomfhir.dk/ig/terminology/ValueSet/medcom-hospitalNotification-messageActivities"
+* ^url  =  "https://medcomfhir.dk/ig/terminology/ValueSet/medcom-hospitalNotification-messageActivities"
 * ^compose.include[+].system = "http://medcomfhir.dk/ig/terminology/CodeSystem/medcom-messaging-activityCodes"
 * ^compose.include[=].concept[+].code = #admit-emergency
 * ^compose.include[=].concept[=].display = "Start hospital stay-acute ambulant"
