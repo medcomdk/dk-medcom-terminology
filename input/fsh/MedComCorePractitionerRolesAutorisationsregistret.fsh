@@ -6,7 +6,7 @@ Description: "CodeSystem containing codes for practionerroles (Danish:Stillingsb
 * ^status  =  #active
 * ^date  =  "2022-12-01"
 * ^caseSensitive = false
-* #ambulancebehandler "Ambulancevehandler"
+* #ambulancebehandler "Ambulancebehandler"
 * #bandagist "Bandagist"
 * #behandlerfarmaceut "Behandlerfarmaceut"
 * #bioanalytiker "Bioanalytiker"
