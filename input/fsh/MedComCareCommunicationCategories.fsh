@@ -9,10 +9,7 @@ Description: "Category codes for care communication messages"
 * #alcohol-and-drug-treatment "Alcohol and drug treatment"
   * ^designation.language = #da
   * ^designation.value = "Rusmiddelbehandling"
-* #assessment "Assessment"
-  * ^designation.language = #da
-  * ^designation.value = "visitation"
-* #assistive-devices "Assistive Devices"
+* #assistive-devices "Assistive technology"
   * ^designation.language = #da
   * ^designation.value = "Hjælpemidler"
 * #carecoordination "Care Coordination"
@@ -30,6 +27,9 @@ Description: "Category codes for care communication messages"
 * #healthcare "Healthcare"
   * ^designation.language = #da
   * ^designation.value = "Sundhedspleje"
+* #home-care-assessment "Home care assessment"
+  * ^designation.language = #da
+  * ^designation.value = "Visitation"
 * #medicine "Medicine"
   * ^designation.language = #da
   * ^designation.value = "Medicin"
