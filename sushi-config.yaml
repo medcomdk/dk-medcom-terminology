@@ -4,15 +4,15 @@
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: medcom.fhir.dk.terminology
-canonical: https://medcomfhir.dk/ig/terminology
+canonical: http://medcomfhir.dk/ig/terminology
 name: MedComTerminology
 title: "DK MedCom Terminology"
 description: The DK MedCom Terminology IG
-status: draft # draft | active | retired | unknown
+status: active # draft | active | retired | unknown
 version: 1.1.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2022+
-releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
+releaseLabel: Release # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 # license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
 jurisdiction: urn:iso:std:iso:3166#DK "Denmark"
 publisher:

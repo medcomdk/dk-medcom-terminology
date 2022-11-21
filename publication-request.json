@@ -1,0 +1,12 @@
+{
+  "package-id": "medcom.fhir.dk.terminology",
+  "version": "1.1.0",
+  "path": "http://medcomfhir.dk/ig/terminology/1.1.0",
+  "status": "release",
+  "sequence": "Release",
+  "milestone" : true,
+  "title": "The DK MedCom Terminology IG",
+  "category": "MedCom Terminology",
+  "introduction": "The MedCom Terminology Implementation Guide covers the common terminology parts of the MedCom IGs",
+  "descmd": "@release-notes.md"
+}
