@@ -85,7 +85,7 @@ Description: "ValueSet containg activity codes for hospital notification message
 * ^compose.include[=].concept[=].designation[+].language = #da
 * ^compose.include[=].concept[=].designation[=].value = "Rettelse Start sygehusophold - akut ambulant"
 * ^compose.include[=].concept[+].code = #cancel-admit-emergency
-* ^compose.include[=].concept[=].display = "Cancellation start hospital stay - acute ambulant"
+* ^compose.include[=].concept[=].display = "Cancellation Start hospital stay - acute ambulant"
 * ^compose.include[=].concept[=].designation[+].language = #da
 * ^compose.include[=].concept[=].designation[=].value = "Annullering Start sygehusophold - akut ambulant"
 * ^compose.include[=].concept[+].code = #admit-inpatient
@@ -93,11 +93,11 @@ Description: "ValueSet containg activity codes for hospital notification message
 * ^compose.include[=].concept[=].designation[+].language = #da
 * ^compose.include[=].concept[=].designation[=].value = "Start sygehusophold - indlagt"
 * ^compose.include[=].concept[+].code = #revise-admit-inpatient
-* ^compose.include[=].concept[=].display = "Update start hospital stay - admission"
+* ^compose.include[=].concept[=].display = "Update Start hospital stay - admission"
 * ^compose.include[=].concept[=].designation[+].language = #da
 * ^compose.include[=].concept[=].designation[=].value = "Rettelse Start sygehusophold - indlagt"
 * ^compose.include[=].concept[+].code = #cancel-admit-inpatient
-* ^compose.include[=].concept[=].display = "Cancellation start hospital stay - admission"
+* ^compose.include[=].concept[=].display = "Cancellation Start hospital stay - admission"
 * ^compose.include[=].concept[=].designation[+].language = #da
 * ^compose.include[=].concept[=].designation[=].value = "Annullering Start sygehusophold  - indlagt"
 * ^compose.include[=].concept[+].code = #start-leave-inpatient
