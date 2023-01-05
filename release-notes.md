@@ -1,4 +1,1 @@
-- Added the CodeSystem MedComCorePractitionerRolesAutorisationsregistret and MedComCorePractitionerRolesSKSadministrativ and the ValueSet MedComCorePractitionerRoles to describe the roles of a practitioner.
-- The ValueSet MedComCareCommunicationMessageActivityCodes was updated as the code 'carbon copy' was deprecated.
-- The ValueSet MedComCoreAttachmentMimeTypes was updated as the code 'tiff' was added
-- The CodeSystem MedComCareCommunicationCategoryCodes was updated as Danish translations were added
+Alligned the content of display values in the CodeSystem MedComMessagingActivityCodes and ValueSet MedComHospitalNotificationMessageActivityCodes.
