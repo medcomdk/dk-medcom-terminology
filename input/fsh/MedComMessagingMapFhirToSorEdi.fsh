@@ -3,8 +3,9 @@ InstanceOf: ConceptMap
 Title: "MedComMessagingMapFhirToSorEdi"
 Description: "ConceptMap between MedComs FHIR message names and SOREDI message names"
 * name = "MedComMessagingMapFhirToSorEdi"
-* version  =  "1.0.0"
+* version  =  "1.1.0"
 * status  =  #active
+* date = "2023-02-27"
 * sourceUri = Canonical(MedComMessagingMessageTypes)
 * targetUri = Canonical(MedComMessagingSorEdiValues)
 * group.element[+].code = #care-communication-message
@@ -16,4 +17,9 @@ Description: "ConceptMap between MedComs FHIR message names and SOREDI message n
 * group.element[=].display = "FHIR: Hospital Notification Message (Advis om Sygehusophold)"
 * group.element[=].target.code = #FDIS20
 * group.element[=].target.display = "SOREDI: Hospital Notification Message (Advis om Sygehusophold)"
+* group.element[=].target.equivalence = #equivalent
+* group.element[+].code = #acknowledgement-message
+* group.element[=].display = "FHIR: Acknowledgement Message (Kvittering)"
+* group.element[=].target.code = #FCTL01
+* group.element[=].target.display = "SOREDI: Acknowledgement Message (Kvittering)"
 * group.element[=].target.equivalence = #equivalent
