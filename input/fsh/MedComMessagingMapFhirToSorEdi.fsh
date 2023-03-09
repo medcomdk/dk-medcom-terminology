@@ -20,6 +20,6 @@ Description: "ConceptMap between MedComs FHIR message names and SOREDI message n
 * group.element[=].target.equivalence = #equivalent
 * group.element[+].code = #acknowledgement-message
 * group.element[=].display = "FHIR: Acknowledgement Message (Kvittering)"
-* group.element[=].target.code = #FCTL01
+* group.element[=].target.code = #FCTL
 * group.element[=].target.display = "SOREDI: Acknowledgement Message (Kvittering)"
 * group.element[=].target.equivalence = #equivalent
