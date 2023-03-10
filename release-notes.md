@@ -1,1 +1,1 @@
-Alligned the content of display values in the CodeSystem MedComMessagingActivityCodes and ValueSet MedComHospitalNotificationMessageActivityCodes.
+* Added the code 'FCTL' and display value to CodeSystem MedComMessagingSorEdiSystem, ValueSet MedComMessagingSorEdiValues and added Acknowledgement as codes in the ConceptMap MedComMessagingMapFhirToSorEdi.
