@@ -1,1 +1,1 @@
-* Added the code 'FCTL' and display value to CodeSystem MedComMessagingSorEdiSystem, ValueSet MedComMessagingSorEdiValues and added Acknowledgement as codes in the ConceptMap MedComMessagingMapFhirToSorEdi.
+* Added CodeSystem with cancellation texts. 
