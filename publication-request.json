@@ -2,11 +2,14 @@
   "package-id": "medcom.fhir.dk.terminology",
   "version": "1.3.0",
   "path": "http://medcomfhir.dk/ig/terminology/1.3.0",
-  "status": "release",
-  "sequence": "Release",
   "milestone" : true,
+  "status": "release",
+  "sequence": "Releases",
+  "first": false,
+  "descmd": "@release-notes.md",
   "title": "The DK MedCom Terminology IG",
   "category": "MedCom Terminology",
   "introduction": "The MedCom Terminology Implementation Guide covers the common terminology parts of the MedCom IGs",
-  "descmd": "@release-notes.md"
+  "ci-build": "http://build.fhir.org/ig/medcomdk/dk-medcom-terminology/",
+  "changes": "https://github.com/medcomdk/dk-medcom-terminology/releases"
 }

@@ -1,1 +1,1 @@
-* Added CodeSystem with cancellation texts. 
+* Added CodeSystem with reasons for cancellation, called MedComMessagingCancellationReason. 
