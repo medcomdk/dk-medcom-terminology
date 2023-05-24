@@ -37,7 +37,7 @@ Description: "ValueSet including detailed issues describtions. This ValueSet is 
 * $AckOperationOutcomeCodes#MSG_RESOURCE_FAIL "Unable to allocat resource id"
 * $AckOperationOutcomeCodes#MSG_RESOURCE_ID_MISSING "Resource Id missing"
 * $AckOperationOutcomeCodes#MSG_RESOURCE_NOT_ALLOWED "Not allowed to submit a resource for this operation"
-* $AckOperationOutcomeCodes#MSG_RESOURCE_REQUIRED "Aresource is required"
+* $AckOperationOutcomeCodes#MSG_RESOURCE_REQUIRED "A resource is required"
 * $AckOperationOutcomeCodes#MSG_RESOURCE_TYPE_MISMATCH "Resource type mismatch"
 * $AckOperationOutcomeCodes#MSG_TRANSACTION_DUBLICATE_ID "Dublicate Identifier in transaction: %s"
 * $AckOperationOutcomeCodes#MSG_TRANSACTION_MISSING_ID "Missing Identifier in transaction - an entry.id must be provided"
@@ -47,11 +47,11 @@ Description: "ValueSet including detailed issues describtions. This ValueSet is 
 * $AckOperationOutcomeCodes#MSG_VERSION_AWARE_CONFLICT "Update Conflict (server current version = %s, client version referenced =%s)"
 * $AckOperationOutcomeCodes#MSG_VERSION_AWARE_URL "Version specific URL not recognised"
 * $AckOperationOutcomeCodes#MSG_WRONG_NS "This does not appear to be a FHIR element or resource (wrong namespace %s)"
-* #MSG_Receiver_Identifier_UNKNIWN "Receiver identifier unknown"
-* #MSG_Receiver_Identifier_MISSING "Receiver identifier missing"
-* #MSG_RECEIVER_UNABLE_TO_RECEIVE_MSG_TYPE "Receiver unable to receive this Message type"
-* #MSG_VALUESET_VALUE_UNKNOWN "The value provided is not in the valueset"
-* #MSG_CodeSystem_VALUE_UNKNOWN "The value provided is not in the CodeSystem"
+* #MSG_Receiver_Identifier_UNKNIWN "Receiver identifier unknown" from system medcom-acknowledgement-error-codes
+* #MSG_Receiver_Identifier_MISSING "Receiver identifier missing" from system medcom-acknowledgement-error-codes
+* #MSG_RECEIVER_UNABLE_TO_RECEIVE_MSG_TYPE "Receiver unable to receive this Message type" from system medcom-acknowledgement-error-codes
+* #MSG_VALUESET_VALUE_UNKNOWN "The value provided is not in the valueset" from system medcom-acknowledgement-error-codes
+* #MSG_CodeSystem_VALUE_UNKNOWN "The value provided is not in the CodeSystem" from system medcom-acknowledgement-error-codes
 
 // MedComAcknowledgementIssueDetails#message-development-error "This code is temporary. It is used to describe an error in the development of the message."
 // * MedComAcknowledgementIssueDetails#message-delivery-error "This code is temporary. It is used to describe an error in the delivery of the message."
