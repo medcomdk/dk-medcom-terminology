@@ -51,6 +51,7 @@ Description: "ValueSet including detailed issues describtions. This ValueSet is 
 * #MSG_VALUESET_VALUE_UNKNOWN "The value provided is not in the valueset" from system medcom-acknowledgement-error-codes
 * #MSG_CodeSystem_VALUE_UNKNOWN "The value provided is not in the CodeSystem" from system medcom-acknowledgement-error-codes
 * #MSG_Element_To_Long "The value of the element is to long" from system medcom-acknowledgement-error-codes
+* #MSG_Datatype_Wrong "The data type is wrong" from syste mmedcom-acknowledgement-error-codes
 
 // MedComAcknowledgementIssueDetails#message-development-error "This code is temporary. It is used to describe an error in the development of the message."
 // * MedComAcknowledgementIssueDetails#message-delivery-error "This code is temporary. It is used to describe an error in the delivery of the message."
