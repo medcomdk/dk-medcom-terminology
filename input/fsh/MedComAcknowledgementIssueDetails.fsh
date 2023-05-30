@@ -50,6 +50,7 @@ Description: "ValueSet including detailed issues describtions. This ValueSet is 
 * #MSG_RECEIVER_UNABLE_TO_RECEIVE_MSG_TYPE "Receiver unable to receive this Message type" from system medcom-acknowledgement-error-codes
 * #MSG_VALUESET_VALUE_UNKNOWN "The value provided is not in the valueset" from system medcom-acknowledgement-error-codes
 * #MSG_CodeSystem_VALUE_UNKNOWN "The value provided is not in the CodeSystem" from system medcom-acknowledgement-error-codes
+* #MSG_Element_To_Long "The value of the element is to long" from system medcom-acknowledgement-error-codes
 
 // MedComAcknowledgementIssueDetails#message-development-error "This code is temporary. It is used to describe an error in the development of the message."
 // * MedComAcknowledgementIssueDetails#message-delivery-error "This code is temporary. It is used to describe an error in the delivery of the message."
