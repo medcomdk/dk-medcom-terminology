@@ -12,4 +12,5 @@ Description: "CodeSystem including detailed error codes describtions. "
 * #MSG_VALUESET_VALUE_UNKNOWN "The value provided is not in the valueset"
 * #MSG_CodeSystem_VALUE_UNKNOWN "The value provided is not in the CodeSystem"
 * #MSG_Element_To_Long "The value of the element is to long"
+* #MSG_Datatype_Wrong "The data type is wrong"
 
