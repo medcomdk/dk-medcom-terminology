@@ -21,7 +21,7 @@ Description: "CodeSystem containing codes for practionerroles (Danish:Stillingsb
 * #optikerogoptometrist "Optiker og Optometrist"
 * #osteopat "Osteopat"
 * #radiograf "Radiofraf"
-* #socialogsundhedsassistent "Social-og- sundhedsassistent"
+* #socialogsundhedsassistent "Social- og sundhedsassistent"
 * #sygeplejerske "Sygeplejerske"
 * #tandlaege "Tandlæge"
 * #tandplejer "Tandplejer"
