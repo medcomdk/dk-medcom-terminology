@@ -21,10 +21,10 @@ Description: "ValueSet including detailed issues describtions. This ValueSet is 
 * $AckOperationOutcomeCodes#MSG_ID_TOO_LONG "Id %s too long (length limit 36)"
 * $AckOperationOutcomeCodes#MSG_BAD_FORMAT "Bad syntaxt: '%s' must be %s'"
 * $AckOperationOutcomeCodes#MSG_BAD_SYNTAX "Bad sysntaxt in %s"
-* $AckOperationOutcomeCodes#MSG_DATE_FORMAT "The Date value is not in the correct format (Xml Date Format required)"
+* $AckOperationOutcomeCodes#MSG_DATE_FORMAT "The date value is not in the correct format (XML Date Format required)"
 * $AckOperationOutcomeCodes#MSG_DUPLICATE_ID "Duplicate Id %s for resource type %s"
 * $AckOperationOutcomeCodes#MSG_INVALID_ID "ID not accepted"
-* $AckOperationOutcomeCodes#MSG_JSON_OBJECT "Json Source for a resource should start with an object"
+* $AckOperationOutcomeCodes#MSG_JSON_OBJECT "JSON Source for a resource should start with an object"
 * $AckOperationOutcomeCodes#MSG_LOCAL_FAIL "Unable to resolve local reference to resource %s"
 * $AckOperationOutcomeCodes#MSG_NO_MATCH "No Resource found matching the query"
 * $AckOperationOutcomeCodes#MSG_NO_EXIST "Resource Id does not exist"
@@ -33,7 +33,7 @@ Description: "ValueSet including detailed issues describtions. This ValueSet is 
 * $AckOperationOutcomeCodes#MSG_PARAM_NO_REPEAT "Parameter %s is not allowed to repeat"
 * $AckOperationOutcomeCodes#MSG_PARAM_UNKNOWN "Parameter %s not understood"
 * $AckOperationOutcomeCodes#MSG_RESOURCE_ID_MISMATCH "Resource Id mismatch"
-* $AckOperationOutcomeCodes#MSG_RESOURCE_FAIL "Unable to allocat resource id"
+* $AckOperationOutcomeCodes#MSG_RESOURCE_FAIL "Unable to allocat Resource Id"
 * $AckOperationOutcomeCodes#MSG_RESOURCE_ID_MISSING "Resource Id missing"
 * $AckOperationOutcomeCodes#MSG_RESOURCE_NOT_ALLOWED "Not allowed to submit a resource for this operation"
 * $AckOperationOutcomeCodes#MSG_RESOURCE_REQUIRED "A resource is required"
@@ -52,6 +52,8 @@ Description: "ValueSet including detailed issues describtions. This ValueSet is 
 * #MSG_CodeSystem_VALUE_UNKNOWN "The value provided is not in the CodeSystem" from system medcom-acknowledgement-error-codes
 * #MSG_Element_To_Long "The value of the element is to long" from system medcom-acknowledgement-error-codes
 * #MSG_Datatype_Wrong "The data type is wrong" from syste mmedcom-acknowledgement-error-codes
+* #MSG_Mailbox_Out_Of_Operation "The mailbox is temporary out of operation" from syste mmedcom-acknowledgement-error-codes
+* #MSG_Damaged_durin_transport "The message has been damaged during trasport" from syste mmedcom-acknowledgement-error-codes
 
 // MedComAcknowledgementIssueDetails#message-development-error "This code is temporary. It is used to describe an error in the development of the message."
 // * MedComAcknowledgementIssueDetails#message-delivery-error "This code is temporary. It is used to describe an error in the delivery of the message."
