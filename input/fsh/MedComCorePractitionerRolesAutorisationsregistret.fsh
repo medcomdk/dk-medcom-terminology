@@ -20,7 +20,7 @@ Description: "CodeSystem containing codes for practionerroles (Danish:Stillingsb
 * #laege "Læge"
 * #optikerogoptometrist "Optiker og Optometrist"
 * #osteopat "Osteopat"
-* #radiograf "Radiofraf"
+* #radiograf "Radiograf"
 * #socialogsundhedsassistent "Social- og sundhedsassistent"
 * #sygeplejerske "Sygeplejerske"
 * #tandlaege "Tandlæge"
