@@ -14,9 +14,9 @@ ValueSet: MedComAcknowledgementIssueDetailValues
 Id: medcom-acknowledgement-issue-details
 Title: "MedComAcknowledgementIssueDetailValues"
 Description: "ValueSet including detailed issues describtions. This ValueSet is intended to be extended in collaboration the IT-vendors."
-* ^version  =  "1.0.0-a.1"
-* ^status  =  #draft
-* ^date  =  "2022-09-01"
+* ^version  =  "1.0.0"
+* ^status  =  #active
+* ^date  =  "2023-06-29"
 * $AckOperationOutcomeCodes#MSG_ID_INVALID "Id has an invalid character"
 * $AckOperationOutcomeCodes#MSG_ID_TOO_LONG "Id %s too long (length limit 36)"
 * $AckOperationOutcomeCodes#MSG_BAD_FORMAT "Bad syntaxt: '%s' must be %s'"

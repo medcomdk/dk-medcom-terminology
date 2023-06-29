@@ -4,7 +4,7 @@ Title: "MedComAcknowledgementErrorCodes"
 Description: "CodeSystem including detailed error codes describtions. "
 * ^version  =  "1.0.0"
 * ^status  =  #active
-* ^date  =  "2023-05-34"
+* ^date  =  "2023-06-29"
 * ^caseSensitive = false
 * #MSG_Receiver_Identifier_UNKNOWN "Receiver identifier unknown"
 * #MSG_Receiver_Identifier_MISSING "Receiver identifier missing"
