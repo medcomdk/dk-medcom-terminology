@@ -10,7 +10,7 @@ Description: "CodeSystem including all types of MedCom messages"
 * #care-communication-message "Care Communication Message"
 * #hospital-notification-message "Hospital Notification Message"
 * #acknowledgement-message "Acknowledgement Message"
-* #homecareobservations-message "HomeCare Observations Message"
+* #homecareobservation-message "HomeCare Observation Message"
 
 ValueSet: MedComMessagingMessageTypes
 Id: medcom-messaging-messageTypes
@@ -23,4 +23,4 @@ Description: "All message types of MedCom messages"
 * MedComMessageEventCodes#care-communication-message "Care Communication Message"
 * MedComMessageEventCodes#hospital-notification-message "Hospital Notification Message"
 * MedComMessageEventCodes#acknowledgement-message "Acknowledgement Message"
-* MedComMessageEventCodes#homecareobservations-message "HomeCare Observations Message"
+* MedComMessageEventCodes#homecareobservation-message "HomeCare Observation Message"

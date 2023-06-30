@@ -2,7 +2,7 @@ CodeSystem: NPUObservation
 Id: NPU-obs-codes
 Title: "NPU Obeservation Codes "
 Description: "NPU Obeservation Codes for Medcom HomeCare Observations standard "
-*  ^version = "1.0.0"
+* ^version = "1.0.0"
 * ^status = #draft
 * ^date = "2023-06-29"
 * ^caseSensitive = false
@@ -50,14 +50,13 @@ Description: "NPU Obeservation Codes for Medcom HomeCare Observations standard "
 
 
 ValueSet: NPUObservationCodesValueSet
-Id: NPU-Observation-Codes-ValueSet
+Id: NPUObservationCodesValueSet
 Title: "NPUObservationCodesValueSet"
-Description: ""
-* *  ^version = "1.0.0"
+Description: "ValuseSet with NPU observations Codes "
+* ^version = "1.0.0"
 * ^status = #draft
 * ^date = "2023-06-29"
-* ^caseSensitive = false
-* MedComObservationValueSet#DNK05473 "Arm—Blodtryk(diastolisk); tryk = ? mmHg" "Blodtryk diastolisk;Arm"
+* MedComObservationValueSet#DNK05473 "Arm—Blodtryk(diastolisk); tryk =? mmHg" 
 * MedComObservationValueSet#DNK05472 "Arm—Blodtryk(systolisk); tryk = ? mmHg"
 * MedComObservationValueSet#NPU21692 "Hjerte—Systole; frekv. = ? × 1/min"
 * MedComObservationValueSet#NPU10197 "Hb(Fe; O2-bind.; kB)—Oxygen(O2); mætn. = ?"
