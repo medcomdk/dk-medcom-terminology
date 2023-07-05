@@ -6,10 +6,10 @@ Description: "CodeSystem including observations codes used in HomeCare"
 * ^status = #draft
 * ^date = "2023-06-29"
 * ^caseSensitive = false
-* #MCS88122 "Pt—Respiration; frekvens = ? X 1/min"
-* #MCS88125 "Pt—Tidlig Opsporing af Begyndende Sygdom (TOBS) score; antal (værdi 0-15) = ?"
-* #MCS88126 "Pt—Bevidsthedsniveau; arb.antal(værdi 0-3) = ?"
-* #MCS88147 "Pt—Manniche VAS-score(total); antal(værdi 0-60) = ?"
+* #MCS88122 "Respirationsfrekvens;Pt" "Pt—Respiration; frekvens = ? X 1/min"
+* #MCS88125 "TOBS score;Pt" "Pt—Tidlig Opsporing af Begyndende Sygdom (TOBS) score; antal (værdi 0-15) = ?"
+* #MCS88126 "Bevidsthed;Pt" "Pt—Bevidsthedsniveau; arb.antal(værdi 0-3) = ?"
+* #MCS88147 "Manniche VAS-score(total);Pt" "Pt—Manniche VAS-score(total); antal(værdi 0-60) = ?"
 
 
 ValueSet: MedComObservationValueSet
@@ -22,4 +22,4 @@ Description: "Valuesets for Observation"
 * MedComObservationCodes#MCS88122 "Pt—Respiration; frekvens = ? X 1/min"
 * MedComObservationCodes#MCS88125 "Pt—Tidlig Opsporing af Begyndende Sygdom (TOBS) score; antal (værdi 0-15) = ?"
 * MedComObservationCodes#MCS88126 "Pt—Bevidsthedsniveau; arb.antal(værdi 0-3) = ?"
-* MedComObservationCodes#MCS88147 "Pt—Manniche VAS-score(total); antal(værdi 0-60) = ?"
+* MedComObservationCodes#MCS88147 "Manniche VAS-score(total);Pt" "Pt—Manniche VAS-score(total); antal(værdi 0-60) = ?"
