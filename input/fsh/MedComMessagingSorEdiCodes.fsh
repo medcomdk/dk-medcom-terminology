@@ -2,22 +2,22 @@ CodeSystem: MedComMessagingSorEdiSystem
 Id: medcom-messaging-sorEdiSystem
 Title: "MedComMessagingSorEdiCodeSystem"
 Description: "Codes for SOREDI message types"
-* ^version  =  "1.1.0"
+* ^version  =  "1.2.0"
 * ^status  =  #active
-* ^date  =  "2023-02-27"
+* ^date  =  "2023-05-23"
 * ^caseSensitive = false
-* #FDIS20 "Care Communication Message (Korrepondance meddelelse)"
-* #FDIS91 "Hospital Notification Message (Advis om Sygehusophold)"
+* #FDIS91 "Care Communication Message (Korrepondance meddelelse)"
+* #FDIS20 "Hospital Notification Message (Advis om Sygehusophold)"
 * #FCTL "Acknowledgement Message (Kvittering)"
 
 ValueSet: MedComMessagingSorEdiValues
 Id: medcom-messaging-sorEdiValues
 Title: "MedComMessagingSorEdiValues"
 Description: "Values for SOREDI message types"
-* ^version  =  "1.1.0"
+* ^version  =  "1.2.0"
 * ^status  =  #active
-* ^date  =  "2023-02-27"
-* MedComMessagingSorEdiSystem#FDIS20 "Care Communication Message (Korrepondance meddelelse)"
-* MedComMessagingSorEdiSystem#FDIS91 "Hospital Notification Message (Advis om Sygehusophold)"
+* ^date  =  "2023-05-23"
+* MedComMessagingSorEdiSystem#FDIS91 "Care Communication Message (Korrepondance meddelelse)"
+* MedComMessagingSorEdiSystem#FDIS20 "Hospital Notification Message (Advis om Sygehusophold)"
 * MedComMessagingSorEdiSystem#FCTL "Acknowledgement Message (Kvittering)"
 
