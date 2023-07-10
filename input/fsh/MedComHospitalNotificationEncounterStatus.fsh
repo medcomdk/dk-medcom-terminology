@@ -5,6 +5,7 @@ Description: "ValueSet containing status codes for hospital notification encount
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2022-09-01"
+* ^experimental = false
 * $StatusCodes#in-progress "In Progress"
 * $StatusCodes#onleave "On Leave"
 * $StatusCodes#finished "Finished"

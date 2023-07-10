@@ -13,10 +13,11 @@
 ValueSet: MedComAcknowledgementIssueDetailValues
 Id: medcom-acknowledgement-issue-details
 Title: "MedComAcknowledgementIssueDetailValues"
-Description: "ValueSet including detailed issues describtions. This ValueSet is intended to be extended in collaboration the IT-vendors."
+Description: "ValueSet including detailed issues describtions."
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2023-06-29"
+* ^experimental = false
 * $AckOperationOutcomeCodes#MSG_ID_INVALID "Id has an invalid character"
 * $AckOperationOutcomeCodes#MSG_ID_TOO_LONG "Id %s too long (length limit 36)"
 * $AckOperationOutcomeCodes#MSG_BAD_FORMAT "Bad syntaxt: '%s' must be %s'"
@@ -51,9 +52,9 @@ Description: "ValueSet including detailed issues describtions. This ValueSet is 
 * #MSG_VALUESET_VALUE_UNKNOWN "The value provided is not in the valueset" from system medcom-acknowledgement-error-codes
 * #MSG_CodeSystem_VALUE_UNKNOWN "The value provided is not in the CodeSystem" from system medcom-acknowledgement-error-codes
 * #MSG_Element_To_Long "The value of the element is to long" from system medcom-acknowledgement-error-codes
-* #MSG_Datatype_Wrong "The data type is wrong" from syste mmedcom-acknowledgement-error-codes
-* #MSG_Mailbox_Out_Of_Operation "The mailbox is temporary out of operation" from syste mmedcom-acknowledgement-error-codes
-* #MSG_Damaged_durin_transport "The message has been damaged during trasport" from syste mmedcom-acknowledgement-error-codes
+* #MSG_Datatype_Wrong "The data type is wrong" from system medcom-acknowledgement-error-codes
+* #MSG_Mailbox_Out_Of_Operation "The mailbox is temporary out of operation" from system medcom-acknowledgement-error-codes
+* #MSG_Damaged_durin_transport "The message has been damaged during trasport" from system medcom-acknowledgement-error-codes
 
 // MedComAcknowledgementIssueDetails#message-development-error "This code is temporary. It is used to describe an error in the development of the message."
 // * MedComAcknowledgementIssueDetails#message-delivery-error "This code is temporary. It is used to describe an error in the delivery of the message."

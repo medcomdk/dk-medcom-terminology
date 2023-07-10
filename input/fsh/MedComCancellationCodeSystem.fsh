@@ -6,6 +6,7 @@ Description: "CodeSystem including text that describes the reason for cancelling
 * ^status  =  #draft
 * ^date  =  "2023-03-30"
 * ^caseSensitive = false
+* ^experimental = false
 * #incorrect-cpr "Cancellation due to incorrect CPR-number"
   * ^designation.language = #da
   * ^designation.value = "Annullering grundet forkert CPR-nr."

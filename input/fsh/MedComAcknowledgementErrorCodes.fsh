@@ -6,6 +6,7 @@ Description: "CodeSystem including detailed error codes describtions. "
 * ^status  =  #active
 * ^date  =  "2023-06-29"
 * ^caseSensitive = false
+* ^experimental = false
 * #MSG_Receiver_Identifier_UNKNOWN "Receiver identifier unknown"
 * #MSG_Receiver_Identifier_MISSING "Receiver identifier missing"
 * #MSG_RECEIVER_UNABLE_TO_RECEIVE_MSG_TYPE "Receiver unable to receive this message type"

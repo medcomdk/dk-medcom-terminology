@@ -6,6 +6,7 @@ Description: "Statistical Codes for MedCom VANS messages"
 * ^status  =  #active
 * ^date  =  "2022-09-01"
 * ^caseSensitive = false
+* ^experimental = false
 * #MCM:FDIS20#AcuteAmbulant "Start hospital stay-acute ambulant"
 * #MCM:FDIS20#AdmissionInpatient "Start hospital stay-admission"
 * #MCM:FDIS20#OnLeave "Start leave"

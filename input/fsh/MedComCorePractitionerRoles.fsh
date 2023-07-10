@@ -5,6 +5,7 @@ Description: "ValueSet containing codes for practionerroles (Danish:Stillingsbet
 * ^version  =  "1.0.1"
 * ^status  =  #active
 * ^date  =  "2023-06-29"
+* ^experimental = false
 * #ambulancebehandler "Ambulancebehandler" from system medcom-core-PractitionerRolesAutorisationsregistret
 * #laege "Læge" from system medcom-core-PractitionerRolesAutorisationsregistret
 * #osteopat "Osteopat" from system medcom-core-PractitionerRolesAutorisationsregistret

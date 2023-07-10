@@ -6,6 +6,7 @@ Description: "Codes for SOREDI message types"
 * ^status  =  #active
 * ^date  =  "2023-05-23"
 * ^caseSensitive = false
+* ^experimental = false
 * #FDIS91 "Care Communication Message (Korrepondance meddelelse)"
 * #FDIS20 "Hospital Notification Message (Advis om Sygehusophold)"
 * #FCTL "Acknowledgement Message (Kvittering)"
@@ -17,6 +18,7 @@ Description: "Values for SOREDI message types"
 * ^version  =  "1.2.0"
 * ^status  =  #active
 * ^date  =  "2023-05-23"
+* ^experimental = false
 * MedComMessagingSorEdiSystem#FDIS91 "Care Communication Message (Korrepondance meddelelse)"
 * MedComMessagingSorEdiSystem#FDIS20 "Hospital Notification Message (Advis om Sygehusophold)"
 * MedComMessagingSorEdiSystem#FCTL "Acknowledgement Message (Kvittering)"

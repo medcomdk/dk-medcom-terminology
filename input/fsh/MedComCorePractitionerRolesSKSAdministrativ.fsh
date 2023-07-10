@@ -6,6 +6,7 @@ Description: "CodeSystem containing codes for practionerroles (Danish:Stillingsb
 * ^status  =  #active
 * ^date  =  "2022-12-01"
 * ^caseSensitive = false
+* ^experimental = false
 * #speciallaege "Speciallæge"
 * #speciallaegeipraksis "Speciallæge i praksis"
 * #cheflaege "Cheflæge"

@@ -6,6 +6,7 @@ Description: "CodeSystem containing codes for activities occuring in MedCom mess
 * ^status  =  #active
 * ^date  =  "2023-01-06"
 * ^caseSensitive = false
+* ^experimental = false
 * #new-message "A new message has been sent"
 * #forward-message "A message has been forwarded and potentially changed"
 * #reply-message "A message has been replied to"
@@ -40,6 +41,7 @@ Description: "ValueSet containing codes for activities occuring in MedCom messag
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2023-01-06"
+* ^experimental = false
 * MedComMessagingActivityCodes#new-message "A new message has been sent"
 * MedComMessagingActivityCodes#forward-message "A message has been forwarded and potentially changed"
 * MedComMessagingActivityCodes#reply-message "A message has been replied to"
@@ -74,6 +76,7 @@ Description: "ValueSet containg activity codes for hospital notification message
 * ^version  =  "1.0.1"
 * ^status  =  #active
 * ^date  =  "2023-01-06"
+* ^experimental = false
 * ^url  =  "https://medcomfhir.dk/ig/terminology/ValueSet/medcom-hospitalNotification-messageActivities"
 * ^compose.include[+].system = "http://medcomfhir.dk/ig/terminology/CodeSystem/medcom-messaging-activityCodes"
 * ^compose.include[=].concept[+].code = #admit-emergency
