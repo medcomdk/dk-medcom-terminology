@@ -6,6 +6,7 @@ Description: "NPU Obeservation Codes for Medcom HomeCare Observations standard "
 * ^status = #draft
 * ^date = "2023-06-29"
 * ^caseSensitive = false
+* ^identifier.system = "urn:oid:1.2.208.176.2.1"
 // Kapillærblodprøver
 * #DNK05473 "Blodtryk diastolisk;Arm" "Arm—Blodtryk(diastolisk); tryk = ? mmHg" 
 * #DNK05472 "Blodtryk systolisk;Arm" "Arm—Blodtryk(systolisk); tryk = ? mmHg"
@@ -53,6 +54,7 @@ ValueSet: NPUObservationCodesValueSet
 Id: NPUObservationCodesValueSet
 Title: "NPUObservationCodesValueSet"
 Description: "ValuseSet with NPU observations Codes "
+* ^identifier.system = "urn:oid:1.2.208.176.2.1" 
 * ^version = "1.0.0"
 * ^status = #draft
 * ^date = "2023-06-29"
