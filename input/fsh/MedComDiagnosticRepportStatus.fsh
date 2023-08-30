@@ -6,20 +6,20 @@ Description: "ValueSet containing status codes for MedCom DiagnosticRepport"
 * ^status = #active
 * ^date = "2023-06-26"
 * $StatusCodeDiagnosticRepport#registered "Registered"
-    * ^designation.language = #da
-    * ^designation.value = "Registreret"
+    * ^compose.include.designation.language = #da
+    * ^compose.include.designation.value = "Registreret"
 * $StatusCodeDiagnosticRepport#partial "Partial"
-    * ^designation.language = #da
-    * ^designation.value = "Delvis"
+    * ^compose.include.designation.language = #da
+    * ^compose.include.designation.value = "Delvis"
 * $StatusCodeDiagnosticRepport#preliminary "Preliminary"
-    * ^designation.language = #da
-    * ^designation.value = "Forløbig"
+    * ^compose.include.designation.language = #da
+    * ^compose.include.designation.value = "Forløbig"
 * $StatusCodeDiagnosticRepport#final "Final"
-    * ^designation.language = #da
-    * ^designation.value = "Komplet"
+    * ^compose.include.designation.language = #da
+    * ^compose.include.designation.value = "Komplet"
 * $StatusCodeDiagnosticRepport#corrected "Corrected"
-    * ^designation.language = #da
-    * ^designation.value = "Rettet"
+    * ^compose.include.designation.language = #da
+    * ^compose.include.designation.value = "Rettet"
 * $StatusCodeDiagnosticRepport#cancelled "Cancelled"
-    * ^designation.language = #da
-    * ^designation.value = "Annulleret"
+    * ^compose.include.designation.language = #da
+    * ^compose.include.designation.value = "Annulleret"
