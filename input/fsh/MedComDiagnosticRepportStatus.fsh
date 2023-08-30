@@ -5,21 +5,28 @@ Description: "ValueSet containing status codes for MedCom DiagnosticRepport"
 * ^version = "1.0.0"
 * ^status = #active
 * ^date = "2023-06-26"
-* $StatusCodeDiagnosticRepport#registered "Registered"
-    * ^compose.include.designation.language = #da
-    * ^compose.include.designation.value = "Registreret"
-* $StatusCodeDiagnosticRepport#partial "Partial"
-    * ^compose.include.designation.language = #da
-    * ^compose.include.designation.value = "Delvis"
-* $StatusCodeDiagnosticRepport#preliminary "Preliminary"
-    * ^compose.include.designation.language = #da
-    * ^compose.include.designation.value = "Forløbig"
-* $StatusCodeDiagnosticRepport#final "Final"
-    * ^compose.include.designation.language = #da
-    * ^compose.include.designation.value = "Komplet"
-* $StatusCodeDiagnosticRepport#corrected "Corrected"
-    * ^compose.include.designation.language = #da
-    * ^compose.include.designation.value = "Rettet"
-* $StatusCodeDiagnosticRepport#cancelled "Cancelled"
-    * ^compose.include.designation.language = #da
-    * ^compose.include.designation.value = "Annulleret"
+* ^compose.include[+].system = $StatusCodeDiagnosticRepport
+* ^compose.include[=].concept[+].code = #registered 
+* ^compose.include[=].concept[=].display = "Registered"
+* ^compose.include[=].concept[=].designation[+].language = #da 
+* ^compose.include[=].concept[=].designation[=].value = "Modtaget"
+* ^compose.include[=].concept[+].code = #partial
+* ^compose.include[=].concept[=].display = "Partial"
+* ^compose.include[=].concept[=].designation[+].language = #da 
+* ^compose.include[=].concept[=].designation[=].value = "Del svar"
+* ^compose.include[=].concept[+].code = #preliminary 
+* ^compose.include[=].concept[=].display = "Preliminary"
+* ^compose.include[=].concept[=].designation[+].language = #da 
+* ^compose.include[=].concept[=].designation[=].value = "Forløbig svar"
+* ^compose.include[=].concept[+].code = #final 
+* ^compose.include[=].concept[=].display = "Final"
+* ^compose.include[=].concept[=].designation[+].language = #da 
+* ^compose.include[=].concept[=].designation[=].value = "Komplet svar"
+* ^compose.include[=].concept[+].code = #corrected
+* ^compose.include[=].concept[=].display = "Corrected"
+* ^compose.include[=].concept[=].designation[+].language = #da 
+* ^compose.include[=].concept[=].designation[=].value = "Rettet"
+* ^compose.include[=].concept[+].code = #cancelled 
+* ^compose.include[=].concept[=].display = "Cancelled"
+* ^compose.include[=].concept[=].designation[+].language = #da 
+* ^compose.include[=].concept[=].designation[=].value = "Annulleret"
