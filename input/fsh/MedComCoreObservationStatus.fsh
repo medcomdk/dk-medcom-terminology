@@ -6,9 +6,20 @@ Description: "ValueSet containing status codes for MedCom Core Observation"
 * ^status = #active
 * ^date = "2023-06-26"
 * $ObsStatusCodes#registered "Registered"
+    * ^designation.language = #da
+    * ^designation.value = "Modtaget"
 * $ObsStatusCodes#partial "Partial"
+    * ^designation.language = #da
+    * ^designation.value = "Del svar"
 * $ObsStatusCodes#preliminary "Preliminary"
+    * ^designation.language = #da
+    * ^designation.value = "Svar midlertidig"
 * $ObsStatusCodes#final "Final"
+    * ^designation.language = #da
+    * ^designation.value = "Endelig"
 * $ObsStatusCodes#corrected "Corrected"
+    * ^designation.language = #da
+    * ^designation.value = "Svar rettet"
 * $ObsStatusCodes#cancelled "Cancelled"
-* $ObsStatusCodes#entered-in-error "Entered in Error"
+    * ^designation.language = #da
+    * ^designation.value = "Svar annulleret"
