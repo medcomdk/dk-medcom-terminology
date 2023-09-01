@@ -10,14 +10,10 @@ Description: "ValueSet containing status codes for MedCom Core Observation"
 * ^compose.include[=].concept[=].display = "Registered"
 * ^compose.include[=].concept[=].designation[+].language = #da 
 * ^compose.include[=].concept[=].designation[=].value = "Modtaget"
-* ^compose.include[=].concept[+].code = #partial
-* ^compose.include[=].concept[=].display = "Partial"
-* ^compose.include[=].concept[=].designation[+].language = #da 
-* ^compose.include[=].concept[=].designation[=].value = "Del svar"
 * ^compose.include[=].concept[+].code = #preliminary 
 * ^compose.include[=].concept[=].display = "Preliminary"
 * ^compose.include[=].concept[=].designation[+].language = #da 
-* ^compose.include[=].concept[=].designation[=].value = "Midlertidig svar"
+* ^compose.include[=].concept[=].designation[=].value = "Forløbigt svar"
 * ^compose.include[=].concept[+].code = #final 
 * ^compose.include[=].concept[=].display = "Final"
 * ^compose.include[=].concept[=].designation[+].language = #da 

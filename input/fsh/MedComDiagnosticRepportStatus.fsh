@@ -14,10 +14,6 @@ Description: "ValueSet containing status codes for MedCom DiagnosticRepport"
 * ^compose.include[=].concept[=].display = "Partial"
 * ^compose.include[=].concept[=].designation[+].language = #da 
 * ^compose.include[=].concept[=].designation[=].value = "Del svar"
-* ^compose.include[=].concept[+].code = #preliminary 
-* ^compose.include[=].concept[=].display = "Preliminary"
-* ^compose.include[=].concept[=].designation[+].language = #da 
-* ^compose.include[=].concept[=].designation[=].value = "Forløbig svar"
 * ^compose.include[=].concept[+].code = #final 
 * ^compose.include[=].concept[=].display = "Final"
 * ^compose.include[=].concept[=].designation[+].language = #da 
