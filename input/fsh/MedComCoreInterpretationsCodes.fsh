@@ -12,7 +12,7 @@ ValueSet: MedComCoreInterpretationCodesValueset
 Id: medcom-core-interpreation-valueset
 Title: "MedComCoreInterpretationValueset"
 Description: "Valueset containg interpretation codes for an observation"
- * ^version  =  "1.0.0"
+* ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2023-09-06"
 * include codes from system $obsInterpretation
