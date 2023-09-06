@@ -14,6 +14,7 @@ Id: medcom-media-type-valueset
 Title: "MedCom Media types"
 Description: "Media types "
 * include #document from system medcom-media-typecodes
-* include #video from system $mediatype
+* include codes from system $mediatype
+'* include #video from system 
 * include #audio from system $mediatype
-* include #image from system $mediatype
+* include #image from system $mediatype'
