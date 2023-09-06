@@ -6,3 +6,4 @@ Alias: $StatusCodeDiagnosticRepport = http://hl7.org/fhir/ValueSet/diagnostic-re
 Alias: $ObsStatusCodes = http://hl7.org/fhir/ValueSet/observation-status
 Alias: $NPU = urn:oid:1.2.208.176.2.1
 Alias: $mediatype = http://terminology.hl7.org/CodeSystem/media-type
+Alias: $obsInterpretation = http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation
