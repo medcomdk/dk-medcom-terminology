@@ -15,6 +15,3 @@ Title: "MedCom Media types"
 Description: "Media types "
 * include #document from system medcom-media-typecodes
 * include codes from system $mediatype
-'* include #video from system 
-* include #audio from system $mediatype
-* include #image from system $mediatype'
