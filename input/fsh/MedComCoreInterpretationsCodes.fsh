@@ -6,6 +6,7 @@ Description: "Codesystem with code for interpreation of an observation"
 * ^status  =  #active
 * ^date  =  "2023-09-06"
 * ^caseSensitive = false
+* ^experimental = false
 * #NI "Not Interpreted"
 
 ValueSet: MedComCoreInterpretationCodesValueset
@@ -15,6 +16,7 @@ Description: "Valueset containg interpretation codes for an observation"
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2023-09-06"
+* ^experimental = false
 * include codes from system $obsInterpretation
 * MedComCoreInterpretationCodes#NI "Not Interpreted"
 

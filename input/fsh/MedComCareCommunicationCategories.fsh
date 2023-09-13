@@ -6,6 +6,7 @@ Description: "Category codes for care communication messages"
 * ^status  =  #active
 * ^date  =  "2022-11-01"
 * ^caseSensitive = false
+* ^experimental = false
 * #alcohol-and-drug-treatment "Alcohol and drug treatment"
   * ^designation.language = #da
   * ^designation.value = "Rusmiddelbehandling"
@@ -64,4 +65,5 @@ Description: "ValueSet containing category codes for care communication messages
 * ^version  =  "1.0.1"
 * ^status  =  #active
 * ^date  =  "2022-11-01"
+* ^experimental = false
 * include codes from system MedComCareCommunicationCategoryCodes

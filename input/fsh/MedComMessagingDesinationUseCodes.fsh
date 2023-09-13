@@ -6,5 +6,6 @@ Description: "Codes indicatin whether the use of a destination in a MedCom messa
 * ^status  =  #active
 * ^date  =  "2022-09-01"
 * ^caseSensitive = false
+* ^experimental = false
 * #primary "Primary destination"
 * #cc "Carbon-copy destination"

@@ -1,10 +1,11 @@
 ValueSet: MedComCorePractitionerRoles
 Id: medcom-core-PractitionerRoles
 Title: "MedComCorePractitionerRoles"
-Description: "ValueSet containing codes for practionerroles (Danish:Stillingsbetegnelser) from medcom "
+Description: "ValueSet containing codes for practionerroles (Danish: Stillingsbetegnelser) from MedCom"
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2022-12-01"
+* ^experimental = false
 * #ambulancebehandler "Ambulancebehandler" from system medcom-core-PractitionerRolesAutorisationsregistret
 * #laege "Læge" from system medcom-core-PractitionerRolesAutorisationsregistret
 * #osteopat "Osteopat" from system medcom-core-PractitionerRolesAutorisationsregistret

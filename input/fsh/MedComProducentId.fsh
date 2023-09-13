@@ -6,4 +6,5 @@ Description: "ProducentD that describes who performed the observation"
 * ^status = #draft
 * ^date = "2023-07-05"
 * ^caseSensitive = false
+* ^experimental = false
 * #KAF "Kommunal akutfunktion"

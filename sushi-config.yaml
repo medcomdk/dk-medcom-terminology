@@ -30,3 +30,5 @@ menu:
   Artifacts: artifacts.html
   Downloads: downloads.html
 
+parameters:
+  special-url: [urn:oid:1.2.208.176.2.1, urn:iso:std:iso:11073:10101, urn:oid:1.2.208.176.2.4, urn:oid:1.2.208.176.2.21, urn:oid:1.2.208.176.2.4.12]

@@ -6,6 +6,7 @@ Description: "The observation result group are intende to be udes to sort the in
 * ^status = #draft
 * ^date = "2023-06-29"
 * ^caseSensitive = false
+* ^experimental = false
 * #haematologi "Hæmatologi"
 * #vaeske-og-elektrolytbalance "Væske- og elektro"
 * #syre/base-og-oxygenstatus "Syre/base- og oxygenstatus"

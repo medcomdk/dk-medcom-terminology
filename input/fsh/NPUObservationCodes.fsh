@@ -1,10 +1,11 @@
 ValueSet: NPUObservationCodesValueSet
 Id: NPUObservationCodesValueSet
 Title: "NPUObservationCodesValueSet"
-Description: "ValuseSet with NPU observations Codes "
+Description: "ValuseSet with NPU observations Codes"
 * ^version = "1.0.0"
 * ^status = #active
 * ^date = "2023-06-29"
+* ^experimental = false
 * ^identifier.value = "urn:oid:1.2.208.176.2.1"
 * $NPU#DNK05473 "Arm—Blodtryk(diastolisk); tryk =? mmHg" 
 * $NPU#DNK05472 "Arm—Blodtryk(systolisk); tryk = ? mmHg"
