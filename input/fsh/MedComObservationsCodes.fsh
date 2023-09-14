@@ -1,5 +1,5 @@
 CodeSystem: MedComObservationCodes 
-Id: medcom-observation-codes
+Id: observation-code
 Title: "MedCom Observation codes"
 Description: "CodeSystem including observations codes used in HomeCare"
 * ^version = "1.0.0"
