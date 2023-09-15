@@ -8,18 +8,20 @@ Description: "ConceptMap between MedComs FHIR message names and SOREDI message n
 * date = "2023-02-27"
 * sourceUri = Canonical(MedComMessagingMessageTypes)
 * targetUri = Canonical(MedComMessagingSorEdiValues)
+* group.source = "http://medcomfhir.dk/ig/terminology/CodeSystem/medcom-messaging-eventCodes"
+* group.target = "http://medcomfhir.dk/ig/terminology/CodeSystem/medcom-messaging-sorEdiSystem"
 * group.element[+].code = #care-communication-message
-* group.element[=].display = "FHIR: Care Communication Message (Korrepondance meddelelse)"
+* group.element[=].display = "Care Communication Message"
 * group.element[=].target.code = #FDIS91
-* group.element[=].target.display = "SOREDI: Care Communication Message (Korrepondance meddelelse)"
+* group.element[=].target.display = "Care Communication Message (Korrepondance meddelelse)"
 * group.element[=].target.equivalence = #equivalent
 * group.element[+].code = #hospital-notification-message
-* group.element[=].display = "FHIR: Hospital Notification Message (Advis om Sygehusophold)"
+* group.element[=].display = "Hospital Notification Message"
 * group.element[=].target.code = #FDIS20
-* group.element[=].target.display = "SOREDI: Hospital Notification Message (Advis om Sygehusophold)"
+* group.element[=].target.display = "Hospital Notification Message (Advis om Sygehusophold)"
 * group.element[=].target.equivalence = #equivalent
 * group.element[+].code = #acknowledgement-message
-* group.element[=].display = "FHIR: Acknowledgement Message (Kvittering)"
+* group.element[=].display = "Acknowledgement Message"
 * group.element[=].target.code = #FCTL
-* group.element[=].target.display = "SOREDI: Acknowledgement Message (Kvittering)"
+* group.element[=].target.display = "Acknowledgement Message (Kvittering)"
 * group.element[=].target.equivalence = #equivalent
