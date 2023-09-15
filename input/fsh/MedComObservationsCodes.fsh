@@ -21,7 +21,7 @@ Description: "Valuesets for Observation"
 * ^status = #draft
 * ^date = "2023-06-29" 
 * ^experimental = false
-* ^compose.include[+].system =$medcomcodes
+* ^compose.include[+].system = $medcomcodes
 * ^compose.include[=].concept[+].code = #MCS88122 
 * ^compose.include[=].concept[=].display = "Pt—Respiration; frekvens = ? X 1/min"
 * ^compose.include[=].concept[=].designation[+].use = #900000000000013009

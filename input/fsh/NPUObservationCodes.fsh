@@ -7,7 +7,7 @@ Description: "ValuseSet with NPU observations Codes"
 * ^date = "2023-06-29"
 * ^experimental = false
 * ^identifier.value = "urn:oid:1.2.208.176.2.1"
-* ^compose.include[+].system =$NPU
+* ^compose.include[+].system = $NPU
 * ^compose.include[=].concept[+].code = #DNK05473
 * ^compose.include[=].concept[=].display = "Arm—Blodtryk(diastolisk); tryk =? mmHg" 
 * ^compose.include[=].concept[=].designation[+].use = #900000000000013009
