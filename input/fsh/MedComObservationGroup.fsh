@@ -25,3 +25,28 @@ Description: "The observation result group are intende to be udes to sort the in
 * #molekyaer-genetik "Molekylær genetik"
 * #andreUndersogelser "Andre undersøgelser"
 * #projektundersogelser "Projekundersøgelser"
+
+ValueSet: MedComObservarionResponesGroupValueSet
+Id: medcom-obs-responseGroup
+Title: "MedComObservarionResultGroupValueSet"
+Description: "National response groups for observation results."
+* ^version = "1.0.0"
+* ^status = #draft
+* ^date = "2023-06-29"
+* MedComObservationResultGroup#haematologi "Hæmatologi"
+* MedComObservationResultGroup#vaeske-og-elektrolytbalance "Væske- og elektro"
+* MedComObservationResultGroup#syre/base-og-oxygenstatus "Syre/base- og oxygenstatus"
+* MedComObservationResultGroup#haemostase "Hæmostase"
+* MedComObservationResultGroup#organmarkorer "Organmarkører"
+* MedComObservationResultGroup#metabolisme "Metabolisme"
+* MedComObservationResultGroup#endokrinologi "Endokrinologi"
+* MedComObservationResultGroup#tumormarkorer "Tumormarkører"
+* MedComObservationResultGroup#immunologi-og-infalmation "Immunologi og inflamation"
+* MedComObservationResultGroup#infektion "Infektion"
+* MedComObservationResultGroup#farmakologi "Farmakologi"
+* MedComObservationResultGroup#allergi "Allergi"
+* MedComObservationResultGroup#sporstoffer-og-vitaminer "Sporstoffer og vitaminer"
+* MedComObservationResultGroup#urinmikroskopi-og-stix "Urinmikroskopi og -stix"
+* MedComObservationResultGroup#cerebrospinal-led-og-pleuravaeske "Cerebrospinal- led- og pleuravæske, ascites m.m."
+* MedComObservationResultGroup#molekyaer-genetik "Molekylær genetik"
+* MedComObservationResultGroup#andreUndersogelser "Andre undersøgelser"
