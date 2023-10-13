@@ -7,7 +7,7 @@ Description: "ProducentD that describes who performed the observation"
 * ^date = "2023-07-05"
 * ^caseSensitive = false
 * ^experimental = false
-* #KAF "Kommunal akutfunktion"
+* #KAF "Kommunal akutfunktion "
 
 
 ValueSet: MedComProducentIDValueSet
