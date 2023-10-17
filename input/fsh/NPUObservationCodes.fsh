@@ -112,7 +112,7 @@ Description: "ValuseSet with NPU observations Codes"
 * ^compose.include[=].concept[=].display = "U—Protein; arb.k.(proc.) = ?"
 * ^compose.include[=].concept[=].designation[+].use = #900000000000013009
 * ^compose.include[=].concept[=].designation[=].value = "Protein(semikvant);U"
-* ^compose.include[=].concept[+].code = #NPU2157
+* ^compose.include[=].concept[+].code = #NPU21578
 * ^compose.include[=].concept[=].display = "U—Nitrit; arb.k.(proc.) = ?"
 * ^compose.include[=].concept[=].designation[+].use = #900000000000013009
 * ^compose.include[=].concept[=].designation[=].value = "Nitrit (semikvant);U"
