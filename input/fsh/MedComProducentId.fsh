@@ -6,7 +6,7 @@ Description: "ProducentD that describes who performed the observation"
 * ^status = #draft
 * ^date = "2023-07-05"
 * ^caseSensitive = false
-* ^experimental = false
+* ^experimental = true
 * #KAF "Kommunal akutfunktion "
 
 
@@ -17,5 +17,5 @@ Description: "ProducentID "
 * ^version = "1.0.0"
 * ^status = #draft
 * ^date = "2023-09-14" 
-* ^experimental = false
+* ^experimental = true
 * MedComProducentID#KAF

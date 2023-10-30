@@ -5,7 +5,7 @@ Description: "ValueSet containing status codes for MedCom Core Observation"
 * ^version = "1.0.0"
 * ^status = #active
 * ^date = "2023-06-26"
-* ^experimental = false
+* ^experimental = true
 * ^compose.include[+].system = $ObsStatusCodes
 * ^compose.include[=].concept[+].code = #registered 
 * ^compose.include[=].concept[=].display = "Registered"
