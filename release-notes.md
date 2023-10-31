@@ -10,5 +10,5 @@
     * MedComProducerID
     * NPUObservationCodes 
 
-* Experimental flag added to all CodeSystems and ValueSet
-* Conceptmappet updated
+* Experimental flag added to CodeSystems and ValueSets
+* Updated MedComMessagingMapFhirToSorEdi ConceptMap
