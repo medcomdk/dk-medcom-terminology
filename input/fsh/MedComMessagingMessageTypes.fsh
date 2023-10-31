@@ -4,7 +4,7 @@ Title: "MedComMessagingEventCodes"
 Description: "CodeSystem including all types of MedCom messages"
 * ^version  =  "1.1.0"
 * ^status  =  #active
-* ^date  =  "2023-06-29"
+* ^date  =  "2023-10-31"
 * ^caseSensitive = false
 * ^experimental = true
 * #empty-message "Message with no content"
@@ -19,7 +19,7 @@ Title: "MedComMessagingMessageTypes"
 Description: "All message types of MedCom messages"
 * ^version  =  "1.1.0"
 * ^status  =  #active
-* ^date  =  "2023-06-29"
+* ^date  =  "2023-10-31"
 * ^experimental = true
 * MedComMessageEventCodes#empty-message "Message with no content"
 * MedComMessageEventCodes#care-communication-message "Care Communication Message"

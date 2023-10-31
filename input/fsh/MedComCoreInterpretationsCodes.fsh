@@ -1,10 +1,10 @@
 CodeSystem: MedComCoreInterpretationCodes
 Id: medcom-core-interpretation-codes
 Title: "MedComCoreInterpretationCodes"
-Description: "Codesystem with code for interpreation of an observation"
+Description: "CodeSystem with code for interpretation of an observation"
 * ^version  =  "1.0.0"
 * ^status  =  #active
-* ^date  =  "2023-09-06"
+* ^date  =  "2023-10-31"
 * ^caseSensitive = false
 * ^experimental = true
 * #NI "Not Interpreted"
@@ -12,10 +12,10 @@ Description: "Codesystem with code for interpreation of an observation"
 ValueSet: MedComCoreInterpretationCodesValueset
 Id: medcom-core-interpreation-valueset
 Title: "MedComCoreInterpretationValueset"
-Description: "Valueset containg interpretation codes for an observation"
+Description: "Valueset with code for interpretation of an observation"
 * ^version  =  "1.0.0"
 * ^status  =  #active
-* ^date  =  "2023-09-06"
+* ^date  =  "2023-10-31"
 * ^experimental = true
 * include codes from system $obsInterpretation
 * MedComCoreInterpretationCodes#NI "Not Interpreted"

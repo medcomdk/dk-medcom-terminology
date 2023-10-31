@@ -1,12 +1,12 @@
-ValueSet: MedComCoreDiagnosticRepportStatus
-Id: medcom-corediagnosticrepport-status
-Title: "MedComCoreDiagnosticRepportStatus"
-Description: "ValueSet containing status codes for MedCom DiagnosticRepport"
+ValueSet: MedComCoreDiagnosticReportStatus
+Id: medcom-corediagnosticreport-status
+Title: "MedComCoreDiagnosticReportStatus"
+Description: "ValueSet containing status codes for MedCom DiagnosticReport"
 * ^version = "1.0.0"
 * ^status = #active
-* ^date = "2023-06-26"
+* ^date = "2023-10-31"
 * ^experimental = true
-* ^compose.include[+].system = $StatusCodeDiagnosticRepport
+* ^compose.include[+].system = $StatusCodeDiagnosticReport
 * ^compose.include[=].concept[+].code = #registered 
 * ^compose.include[=].concept[=].display = "Registered"
 * ^compose.include[=].concept[=].designation[+].language = #da 

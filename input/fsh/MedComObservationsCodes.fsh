@@ -16,10 +16,10 @@
 ValueSet: MedComObservationValueSet
 Id: MedComObservationValueSet
 Title: "MedCom Observation ValueSet"
-Description: "Valuesets for Observation"
+Description: "Valuesets for Observation defined by MedCom"
 * ^version = "1.0.0"
 * ^status = #draft
-* ^date = "2023-06-29" 
+* ^date = "2023-10-31" 
 * ^experimental = true
 * ^compose.include[+].system = $medcomcodes
 * ^compose.include[=].concept[+].code = #MCS88122 

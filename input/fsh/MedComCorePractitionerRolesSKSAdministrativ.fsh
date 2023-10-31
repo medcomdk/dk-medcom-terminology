@@ -21,7 +21,7 @@ Description: "CodeSystem containing codes for practionerroles (Danish:Stillingsb
 * #plejer "Plejer" 
 * #plejehjemsassistent "Plejehjemsassistent"  
 * #tandlaege "Tandlæge"
-* #klinisktandtekniker "klinisk tandtekniker"
+* #klinisktandtekniker "Klinisk tandtekniker"
 * #tandplejer "Tandplejer"
 * #farmaceut "Farmaceut"
 * #apoteker "Apoteker"
