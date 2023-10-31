@@ -2,9 +2,9 @@ CodeSystem: MedComCorePractitionerRolesSKSadministrativ
 Id: medcom-core-PractitionerRolesSKSadministrativ
 Title: "MedComCorePractitionerRolesSKSadministrativ"
 Description: "CodeSystem containing codes for practionerroles (Danish:Stillingsbetegnelser) from [SKS Administrativt-Personaleklassifikation](https://medinfo.dk/sks/brows.php?s_nod=924) "
-* ^version  =  "1.0.0"
+* ^version  =  "1.1.0"
 * ^status  =  #active
-* ^date  =  "2022-12-01"
+* ^date  =  "2023-10-31"
 * ^caseSensitive = false
 * ^experimental = false
 * #speciallaege "Speciallæge"
@@ -33,12 +33,12 @@ Description: "CodeSystem containing codes for practionerroles (Danish:Stillingsb
 * #radiograf "Radiograf"
 * #diaetist "Diætist"
 * #diaetistassistent "Diætistassistent"
-* #audilogassistent "Audilogassistent"
+* #audilogiassistent "Audilogiassistent"
 * #neurofysiologassistent "Neurofysiologassistent"
 * #kiropraktor "Kiropraktor"
 * #zoneterapeut "Zoneterapeut"
 * #psykoterapeut "Psykoterapeut"
-* #audiologpaed "Audiologpæd"
+* #audiologopaed "Audiologopæd"
 * #laegesekretaer "Lægesekretær"
 * #ledendelaegesekretaer "Ledende lægesekretær"
 * #sygeplejesekretear "Sygeplejesekretær"

@@ -2,9 +2,9 @@ ValueSet: MedComCorePractitionerRoles
 Id: medcom-core-PractitionerRoles
 Title: "MedComCorePractitionerRoles"
 Description: "ValueSet containing codes for practionerroles (Danish: Stillingsbetegnelser) from MedCom"
-* ^version  =  "1.0.0"
+* ^version  =  "1.1.0"
 * ^status  =  #active
-* ^date  =  "2022-12-01"
+* ^date  =  "2023-10-31"
 * ^experimental = false
 * #ambulancebehandler "Ambulancebehandler" from system medcom-core-PractitionerRolesAutorisationsregistret
 * #laege "Læge" from system medcom-core-PractitionerRolesAutorisationsregistret
@@ -35,12 +35,12 @@ Description: "ValueSet containing codes for practionerroles (Danish: Stillingsbe
 * #radiograf "Radiograf" from system medcom-core-PractitionerRolesSKSadministrativ
 * #diaetist "Diætist" from system medcom-core-PractitionerRolesSKSadministrativ
 * #diaetistassistent "Diætistassistent" from system medcom-core-PractitionerRolesSKSadministrativ
-* #audilogassistent "Audilogassistent" from system medcom-core-PractitionerRolesSKSadministrativ
+* #audilogiassistent "Audilogiassistent" from system medcom-core-PractitionerRolesSKSadministrativ
 * #neurofysiologassistent "Neurofysiologassistent" from system medcom-core-PractitionerRolesSKSadministrativ
 * #kiropraktor "Kiropraktor" from system medcom-core-PractitionerRolesSKSadministrativ
 * #zoneterapeut "Zoneterapeut" from system medcom-core-PractitionerRolesSKSadministrativ
 * #psykoterapeut "Psykoterapeut" from system medcom-core-PractitionerRolesSKSadministrativ
-* #audiologpaed "Audiologpæd" from system medcom-core-PractitionerRolesSKSadministrativ
+* #audiologopaed "Audiologopæd" from system medcom-core-PractitionerRolesSKSadministrativ
 * #laegesekretaer "Lægesekretær" from system medcom-core-PractitionerRolesSKSadministrativ
 * #ledendelaegesekretaer "Ledende lægesekretær" from system medcom-core-PractitionerRolesSKSadministrativ
 * #sygeplejesekretear "Sygeplejesekretær" from system medcom-core-PractitionerRolesSKSadministrativ
