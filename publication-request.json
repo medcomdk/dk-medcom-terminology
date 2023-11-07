@@ -1,6 +1,6 @@
 {
   "package-id": "medcom.fhir.dk.terminology",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "path": "http://medcomfhir.dk/ig/terminology/1.5.0",
   "milestone" : true,
   "status": "release",
