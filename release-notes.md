@@ -1,15 +1,4 @@
-* Added ValueSets and Codsystem that shall be used in HomecareObservation message:
-    * MedComInterpretationCodes
-    * MedComCoreObservationStatus
-    * MedComDiagnosticReportCodes
-    * MedComDiagnosticReportStatus
-    * MedComHomeCareObservationMessageActivityCodes
-    * MedComMessagingMessageType
-    * MedComObservationGroup
-    * MedComObservationCodes
-    * MedComProducerID
-    * NPUObservationCodes 
-
-* Experimental flag added to CodeSystems and ValueSets
-* Updated MedComMessagingMapFhirToSorEdi ConceptMap
+* Added the code 'image/bmp' to the ValueSet MedComCoreAttachmentMimeTypes to support the CareCommunication standard.
+* Added the code 'NAVU'to the ValueSet MedComCorePractitionerRoles to support the CareCommunication standard.
+* Updated the codes in CodeSystem MedComObservationResultGroup and ValueSet MedComObservarionResponesGroupValueSet
 
