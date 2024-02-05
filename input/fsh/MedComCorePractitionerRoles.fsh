@@ -2,7 +2,7 @@ ValueSet: MedComCorePractitionerRoles
 Id: medcom-core-PractitionerRoles
 Title: "MedComCorePractitionerRoles"
 Description: "ValueSet containing codes for practionerroles (Danish: Stillingsbetegnelser) from MedCom"
-* ^version  =  "1.1.0"
+* ^version  =  "1.2.0"
 * ^status  =  #active
 * ^date  =  "2023-10-31"
 * ^experimental = false
@@ -53,3 +53,4 @@ Description: "ValueSet containing codes for practionerroles (Danish: Stillingsbe
 * #bandagist "Bandagist" from system medcom-core-PractitionerRolesSKSadministrativ
 * #skomager "Skomager" from system medcom-core-PractitionerRolesSKSadministrativ
 * #optiker "Optiker" from system medcom-core-PractitionerRolesSKSadministrativ
+* #NAVU "Ikke tilgængeligt" from system $nullflavor

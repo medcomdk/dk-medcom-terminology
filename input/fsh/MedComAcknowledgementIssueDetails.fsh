@@ -2,9 +2,9 @@ ValueSet: MedComAcknowledgementIssueDetailValues
 Id: medcom-acknowledgement-issue-details
 Title: "MedComAcknowledgementIssueDetailValues"
 Description: "ValueSet including detailed issues describtions."
-* ^version  =  "1.0.0"
+* ^version  =  "1.1.0"
 * ^status  =  #active
-* ^date  =  "2023-06-29"
+* ^date  =  "2024-01-18"
 * ^experimental = false
 * $AckOperationOutcomeCodes#MSG_ID_INVALID "Id has an invalid character"
 * $AckOperationOutcomeCodes#MSG_ID_TOO_LONG "Id %s too long (length limit 36)"
@@ -22,7 +22,7 @@ Description: "ValueSet including detailed issues describtions."
 * $AckOperationOutcomeCodes#MSG_PARAM_NO_REPEAT "Parameter %s is not allowed to repeat"
 * $AckOperationOutcomeCodes#MSG_PARAM_UNKNOWN "Parameter %s not understood"
 * $AckOperationOutcomeCodes#MSG_RESOURCE_ID_MISMATCH "Resource Id mismatch"
-* $AckOperationOutcomeCodes#MSG_RESOURCE_FAIL "Unable to allocat Resource Id"
+* $AckOperationOutcomeCodes#MSG_RESOURCE_ID_FAIL "Unable to allocate Resource Id"
 * $AckOperationOutcomeCodes#MSG_RESOURCE_ID_MISSING "Resource Id missing"
 * $AckOperationOutcomeCodes#MSG_RESOURCE_NOT_ALLOWED "Not allowed to submit a resource for this operation"
 * $AckOperationOutcomeCodes#MSG_RESOURCE_REQUIRED "A resource is required"
