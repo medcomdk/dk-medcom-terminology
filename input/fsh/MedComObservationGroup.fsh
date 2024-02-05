@@ -1,7 +1,7 @@
 CodeSystem: MedComObservationResultGroup
 Id: medcom-observation-resultGroup
 Title: "MedCom Observation Result Group"
-Description: "The observation result group are intende to be udes to sort the individual analyzes."
+Description: "The observation result group are intende to be used to sort the individual analyzes."
 * ^version = "1.1.0"
 * ^status = #draft
 * ^date = "2024-01-18" 
