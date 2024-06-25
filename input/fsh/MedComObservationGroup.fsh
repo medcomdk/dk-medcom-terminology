@@ -34,7 +34,7 @@ Description: "The observation result group are intende to be used to sort the in
 
 ValueSet: MedComObservarionResponesGroupValueSet
 Id: medcom-obs-responseGroup
-Title: "MedComObservarionResultGroupValueSet"
+Title: "MedComObservationResultGroupValueSet"
 Description: "National response groups for observation results."
 * ^version = "1.1.0"
 * ^status = #draft
@@ -61,6 +61,6 @@ Description: "National response groups for observation results."
 * MedComObservationResultGroup#95 
 * MedComObservationResultGroup#100
 * MedComObservationResultGroup#105
-* MedcomObservationResultGroup#110
+* MedComObservationResultGroup#110
 * MedComObservationResultGroup#115
 * MedComObservationResultGroup#120
