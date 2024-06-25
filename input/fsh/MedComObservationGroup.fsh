@@ -40,27 +40,27 @@ Description: "National response groups for observation results."
 * ^status = #draft
 * ^date = "2024-01-18" 
 * ^experimental = true
-* MedComObservationResultGroup#5 "Hæmatologi"
-* MedComObservationResultGroup#10 "Væske- og elektrolytbalance"
-* MedComObservationResultGroup#15 "Syre/base- og oxygenstatus"
-* MedComObservationResultGroup#20 "Hæmostase"
-* MedComObservationResultGroup#25 "Organmarkører"
-* MedComObservationResultGroup#30 "Metabolisme"
-* MedComObservationResultGroup#35 "Endokrinologi"
-* MedComObservationResultGroup#40 "Tumormarkører"
-* MedComObservationResultGroup#45 "Immunologi og inflammation"
-* MedComObservationResultGroup#50 "Autoantistoffer"
-* MedComObservationResultGroup#55 "Allergi"
-* MedComObservationResultGroup#60 "Farmakologi"
-* MedComObservationResultGroup#65 "Sporstoffer og vitaminer"
-* MedComObservationResultGroup#70 "Infektion og smittemarkører"
-* MedComObservationResultGroup#75 "Blodtyper og transfusion"
-* MedComObservationResultGroup#80 "Vævstyper og transplantation"
-* MedComObservationResultGroup#85 "Molekylær genetik"
-* MedComObservationResultGroup#90 "Urin og fæces"
-* MedComObservationResultGroup#95 "CSV-,led-og pleuravæske,ascites m.m"
-* MedComObservationResultGroup#100 "Marv og andre biopsier"
-* MedComObservationResultGroup#105 "Sæd"
-* MedComObservationResultGroup#110 "Projektundersøgelser"
-* MedComObservationResultGroup#115 "Andre undersøgelser"
-* MedComObservationResultGroup#120 "Hjemmemåling"
+* MedComObservationResultGroup#5 
+* MedComObservationResultGroup#10
+* MedComObservationResultGroup#15
+* MedComObservationResultGroup#20
+* MedComObservationResultGroup#25
+* MedComObservationResultGroup#30 
+* MedComObservationResultGroup#35 
+* MedComObservationResultGroup#40 
+* MedComObservationResultGroup#45 
+* MedComObservationResultGroup#50 
+* MedComObservationResultGroup#55 
+* MedComObservationResultGroup#60 
+* MedComObservationResultGroup#65 
+* MedComObservationResultGroup#70 
+* MedComObservationResultGroup#75 
+* MedComObservationResultGroup#80 
+* MedComObservationResultGroup#85 
+* MedComObservationResultGroup#90 
+* MedComObservationResultGroup#95 
+* MedComObservationResultGroup#100
+* MedComObservationResultGroup#105
+* MedcomObservationResultGroup#110
+* MedComObservationResultGroup#115
+* MedComObservationResultGroup#120

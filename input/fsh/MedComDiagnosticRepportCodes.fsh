@@ -21,4 +21,4 @@ Description: "ValueSet with codes that represents the name of the diagnostic rep
 * ^status = #draft
 * ^date = "2023-10-31"
 * ^experimental = true
-* MedComDiagnosticReportCodes#HomeCareReport "HomeCareDiagnosticReport"
+* MedComDiagnosticReportCodes#HomeCareReport

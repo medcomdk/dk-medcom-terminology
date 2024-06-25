@@ -6,9 +6,9 @@ Description: "ValueSet containing allowed mime types for MedCom messages"
 * ^status  =  #active
 * ^date  =  "2024-01-18"
 * ^experimental = false
-* $bcp13#application/pdf "Adobe Portable Document Format"
-* $bcp13#image/gif "Graphics Interchange Format"
-* $bcp13#image/jpeg "JPEG Image"
-* $bcp13#image/png "Portable Network Graphics (PNG)"
-* $bcp13#image/tiff "Tag Image File Format"
-* $bcp13#image/bmp "Windows OS/2 Bitmap Graphics"
+* $bcp13#application/pdf
+* $bcp13#image/gif
+* $bcp13#image/jpeg
+* $bcp13#image/png
+* $bcp13#image/tiff
+* $bcp13#image/bmp

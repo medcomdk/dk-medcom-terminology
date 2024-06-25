@@ -1,4 +1,4 @@
-CodeSystem: MedComCoreECPRCodes
+/* CodeSystem: MedComCoreECPRCodes
 Id: medcom-core-ecpr-codes
 Title: "MedComCoreECPRCodes"
 Description: "CodeSystem with systems used to represent the system of a Danish replacement person identifier (eCPR)."
@@ -17,4 +17,4 @@ Description: "ValueSet containing systems used to represent the origin of a Dani
 * ^status  =  #active
 * ^date  =  "2022-09-01"
 * ^experimental = false
-* MedComCoreECPRCodes#nationalEcprregister "https://sundhedsdatastyrelsen.dk/da/registre-og-services/ecpr"
+* MedComCoreECPRCodes#nationalEcprregister */

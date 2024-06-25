@@ -21,8 +21,8 @@ Description: "All message types of MedCom messages"
 * ^status  =  #active
 * ^date  =  "2023-10-31"
 * ^experimental = true
-* MedComMessageEventCodes#empty-message "Message with no content"
-* MedComMessageEventCodes#care-communication-message "Care Communication Message"
-* MedComMessageEventCodes#hospital-notification-message "Hospital Notification Message"
-* MedComMessageEventCodes#acknowledgement-message "Acknowledgement Message"
-* MedComMessageEventCodes#homecareobservation-message "HomeCare Observation Message"
+* MedComMessageEventCodes#empty-message
+* MedComMessageEventCodes#care-communication-message 
+* MedComMessageEventCodes#hospital-notification-message 
+* MedComMessageEventCodes#acknowledgement-message 
+* MedComMessageEventCodes#homecareobservation-message

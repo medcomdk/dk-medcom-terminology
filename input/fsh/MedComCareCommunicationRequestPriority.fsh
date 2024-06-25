@@ -7,5 +7,5 @@ Description: "ValueSet containg priority codes for care communication messages"
 * ^status  =  #active
 * ^date  =  "2022-09-01"
 * ^experimental = false
-* $PriorityCode#routine "Routine"
-* $PriorityCode#asap "ASAP"
+* $PriorityCode#routine
+* $PriorityCode#asap 
