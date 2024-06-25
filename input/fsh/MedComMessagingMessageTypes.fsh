@@ -6,7 +6,7 @@ Description: "CodeSystem including all types of MedCom messages"
 * ^status  =  #active
 * ^date  =  "2023-10-31"
 * ^caseSensitive = false
-* ^experimental = true
+* ^experimental = false
 * #empty-message "Message with no content"
 * #care-communication-message "Care Communication Message"
 * #hospital-notification-message "Hospital Notification Message"
@@ -20,7 +20,7 @@ Description: "All message types of MedCom messages"
 * ^version  =  "1.1.0"
 * ^status  =  #active
 * ^date  =  "2023-10-31"
-* ^experimental = true
+* ^experimental = false
 * MedComMessageEventCodes#empty-message
 * MedComMessageEventCodes#care-communication-message 
 * MedComMessageEventCodes#hospital-notification-message 
