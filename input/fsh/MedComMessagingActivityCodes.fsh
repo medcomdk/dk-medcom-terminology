@@ -42,43 +42,42 @@ Description: "ValueSet containing codes for activities occuring in MedCom messag
 * ^status  =  #active
 * ^date  =  "2023-01-06"
 * ^experimental = false
-* MedComMessagingActivityCodes#new-message "A new message has been sent"
-* MedComMessagingActivityCodes#forward-message "A message has been forwarded and potentially changed"
-* MedComMessagingActivityCodes#reply-message "A message has been replied to"
-* MedComMessagingActivityCodes#retract-message "A message has been retracted/cancelled"
-* MedComMessagingActivityCodes#modified-message "A message has been modified"
-* MedComMessagingActivityCodes#admit-emergency "Start hospital stay - acute ambulant"
-* MedComMessagingActivityCodes#carboncopy-message "An exact copy of a message to a primary receiver has been sent to a carbon copy receiver"
-* MedComMessagingActivityCodes#revise-admit-emergency "Update Start hospital stay - acute ambulant"
-* MedComMessagingActivityCodes#cancel-admit-emergency "Cancellation Start hospital stay - acute ambulant"
-* MedComMessagingActivityCodes#admit-inpatient "Start hospital stay - admitted"
-* MedComMessagingActivityCodes#revise-admit-inpatient "Update Start hospital stay - admitted"
-* MedComMessagingActivityCodes#cancel-admit-inpatient "Cancellation Start hospital stay - admitted"
-* MedComMessagingActivityCodes#start-leave-inpatient "Start leave"
-* MedComMessagingActivityCodes#revise-start-leave-inpatient "Update Start leave"
-* MedComMessagingActivityCodes#cancel-start-leave-inpatient "Cancellation Start leave"
-* MedComMessagingActivityCodes#end-leave-inpatient "End leave"
-* MedComMessagingActivityCodes#revise-end-leave-inpatient "Update End leave"
-* MedComMessagingActivityCodes#cancel-end-leave-inpatient "Cancellation End leave"
-* MedComMessagingActivityCodes#discharge-emergency-home "End hospital stay - patient completed to home/primary sector"
-* MedComMessagingActivityCodes#discharge-inpatient-home "End hospital stay - patient completed to home/primary sector"
-* MedComMessagingActivityCodes#revise-discharge-emergency-home "Update End hospital stay - patient completed to home/primary sector"
-* MedComMessagingActivityCodes#revise-discharge-inpatient-home "Update End hospital stay - patient completed to home/primary sector"
-* MedComMessagingActivityCodes#cancel-discharge-emergency-home "Cancellation End hospital stay - patient completed to home/primary sector"
-* MedComMessagingActivityCodes#cancel-discharge-inpatient-home "Cancellation End hospital stay - patient completed to home/primary sector"
-* MedComMessagingActivityCodes#acknowledgement "Acknowledgement message has been sent"
-
+* MedComMessagingActivityCodes#new-message
+* MedComMessagingActivityCodes#forward-message
+* MedComMessagingActivityCodes#reply-message
+* MedComMessagingActivityCodes#retract-message 
+* MedComMessagingActivityCodes#modified-message
+* MedComMessagingActivityCodes#admit-emergency
+* MedComMessagingActivityCodes#carboncopy-message 
+* MedComMessagingActivityCodes#revise-admit-emergency 
+* MedComMessagingActivityCodes#cancel-admit-emergency 
+* MedComMessagingActivityCodes#admit-inpatient 
+* MedComMessagingActivityCodes#revise-admit-inpatient 
+* MedComMessagingActivityCodes#cancel-admit-inpatient 
+* MedComMessagingActivityCodes#start-leave-inpatient 
+* MedComMessagingActivityCodes#revise-start-leave-inpatient 
+* MedComMessagingActivityCodes#cancel-start-leave-inpatient
+* MedComMessagingActivityCodes#end-leave-inpatient 
+* MedComMessagingActivityCodes#revise-end-leave-inpatient 
+* MedComMessagingActivityCodes#cancel-end-leave-inpatient 
+* MedComMessagingActivityCodes#discharge-emergency-home 
+* MedComMessagingActivityCodes#discharge-inpatient-home
+* MedComMessagingActivityCodes#revise-discharge-emergency-home 
+* MedComMessagingActivityCodes#revise-discharge-inpatient-home 
+* MedComMessagingActivityCodes#cancel-discharge-emergency-home 
+* MedComMessagingActivityCodes#cancel-discharge-inpatient-home 
+* MedComMessagingActivityCodes#acknowledgement 
 
 ValueSet: MedComHospitalNotificationMessageActivities
 Id: medcom-hospitalNotification-messageActivities
 Title: "MedComHospitalNotificationMessageActivityCodes"
 Description: "ValueSet containg activity codes for hospital notification messages"
-* ^version  =  "1.0.1"
+* ^version  =  "1.0.2"
 * ^status  =  #active
 * ^date  =  "2023-01-06"
 * ^experimental = false
-* ^url  =  "https://medcomfhir.dk/ig/terminology/ValueSet/medcom-hospitalNotification-messageActivities"
-* ^compose.include[+].system = "http://medcomfhir.dk/ig/terminology/CodeSystem/medcom-messaging-activityCodes"
+* ^url = "https://medcomfhir.dk/ig/terminology/ValueSet/medcom-hospitalNotification-messageActivities"
+* ^compose.include[+].system = "https://medcomfhir.dk/ig/terminology/CodeSystem/medcom-messaging-activityCodes"
 * ^compose.include[=].concept[+].code = #admit-emergency
 * ^compose.include[=].concept[=].display = "Start hospital stay - acute ambulant"
 * ^compose.include[=].concept[=].designation[+].language = #da
