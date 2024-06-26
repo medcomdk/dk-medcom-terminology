@@ -18,7 +18,7 @@ Description: "ValueSet containing classification codes for MedComCoreEncounter."
 * ^date  =  "2022-09-01"
 * ^experimental = false
 * include codes from system $ActCodes where concept descendent-of #_ActEncounterCode
-* MedComCoreEncounterActCodes#other "Other encounter class"
+* MedComCoreEncounterActCodes#other
 
 ValueSet: MedComHospitalNotificationEncounterClass
 Id: medcom-hospitalNotification-encounterClass

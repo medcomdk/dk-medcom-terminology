@@ -18,5 +18,4 @@ Description: "Valueset with code for interpretation of an observation"
 * ^date  =  "2023-10-31"
 * ^experimental = true
 * include codes from system $obsInterpretation
-* MedComCoreInterpretationCodes#NI "Not Interpreted"
-
+* MedComCoreInterpretationCodes#NI
