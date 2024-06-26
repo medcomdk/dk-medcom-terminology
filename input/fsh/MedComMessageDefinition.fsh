@@ -1,11 +1,11 @@
 
-CodeSystem: MessageDefinitionIdentifierSystem
+CodeSystem: MedComMessageDefinitionIdentifierSystem
 Id: medcom-messagedefinition-identifer-system
 Title: "MessageDefinitionIdentifierSystemCodeSystem"
 Description: "MessageDefinitionIdentifierSystemCS for the messaging infrastructure"
 * ^version  =  "1.0.0"
 * ^status  =  #active
-* ^date  =  "2024-01-01"
+* ^date  =  "2024-06-26"
 * ^experimental = false
 * ^caseSensitive = true
 * #urn:dk:healthcare:medcom:messaging:edifact "urn:dk:healthcare:medcom:messaging:edifact"
@@ -13,7 +13,7 @@ Description: "MessageDefinitionIdentifierSystemCS for the messaging infrastructu
 * #urn:dk:healthcare:medcom:messaging:oioxml "urn:dk:healthcare:medcom:messaging:oioxml"
 * #urn:dk:healthcare:medcom:messaging:envelope "urn:dk:healthcare:medcom:messaging:envelope"
 
-ValueSet: MessageDefinitionIdentifierSystemVS
+ValueSet: MedComMessageDefinitionIdentifierSystemVS
 Id: medcom-messagedefinition-identifer-system-valueset
 Title: "MessageDefinitionIdentifierSystemValueset"
 Description: "MessageDefinitionIdentifierSystemVS for the messaging infrastructure"
