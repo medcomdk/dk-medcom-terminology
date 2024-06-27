@@ -9,7 +9,6 @@ This IG contains CodeSystems, ValueSets, and ConceptMaps defined by MedCom and u
 > Note: Previously, CodeSystems, ValueSets, and ConceptMaps have been included in the respective IG. When storing them on a separate server, it allows to update a terminology and maintain the historical versions at the same time, without interfering with the version of the entire IG.
 
 ### Content
-
 This IG includes CodeSystems, ValueSets, and ConceptMaps that are profiled from other sources or created for a specific use in one of MedCom's standards. Therefore, there might CodeSystems, ValueSets, and ConceptMaps used in a MedComs FHIR standards, which are not included in this IG. 
 
 CodeSystems, ValueSets, and ConceptMaps can be found under [Terminology](http://medcomfhir.dk/ig/terminology/terminology.html). They are provided together with their associated historical versions, which can be found under the individual CodeSystems, ValueSets, and ConceptMaps. 
