@@ -6,7 +6,7 @@ Description: "The observation result group are intende to be used to sort the in
 * ^status = #draft
 * ^date = "2024-01-18" 
 * ^caseSensitive = false
-* ^experimental = true
+* ^experimental = false
 * #5 "Hæmatologi"
 * #10 "Væske- og elektrolytbalance"
 * #15 "Syre/base- og oxygenstatus"
@@ -39,7 +39,7 @@ Description: "National response groups for observation results."
 * ^version = "1.1.0"
 * ^status = #draft
 * ^date = "2024-01-18" 
-* ^experimental = true
+* ^experimental = false
 * MedComObservationResultGroup#5 
 * MedComObservationResultGroup#10
 * MedComObservationResultGroup#15
