@@ -18,9 +18,9 @@ Id: MedComObservationValueSet
 Title: "MedCom Observation ValueSet"
 Description: "Valuesets for Observation defined by MedCom"
 * ^version = "1.0.0"
-* ^status = #active
+* ^status = #draft
 * ^date = "2023-10-31" 
-* ^experimental = false
+* ^experimental = true
 * ^compose.include[+].system = $medcomcodes
 * ^compose.include[=].concept[+].code = #MCS88122 
 * ^compose.include[=].concept[=].display = "Pt—Respiration; frekvens = ? X 1/min"
