@@ -3,7 +3,7 @@ Id: medcom-messaging-cancellation-reason
 Title: "MedComMessagingCancellationReason"
 Description: "CodeSystem including text that describes the reason for cancelling a message."
 * ^version  =  "1.0.0"
-* ^status  =  #draft
+* ^status = #active
 * ^date  =  "2023-03-30"
 * ^caseSensitive = false
 * ^experimental = false
