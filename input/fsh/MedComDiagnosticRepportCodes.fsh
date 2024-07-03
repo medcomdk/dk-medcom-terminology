@@ -6,7 +6,7 @@ Description: "Codes that represents the name of the diagnostic report"
 * ^status = #draft
 * ^date = "2023-10-31"
 * ^caseSensitive = false
-* ^experimental = false
+* ^experimental = true
 * #HomeCareReport "HomeCareDiagnosticReport"
 
 
@@ -20,5 +20,5 @@ Description: "ValueSet with codes that represents the name of the diagnostic rep
 * ^version = "1.0.0"
 * ^status = #draft
 * ^date = "2023-10-31"
-* ^experimental = false
+* ^experimental = true
 * MedComDiagnosticReportCodes#HomeCareReport
