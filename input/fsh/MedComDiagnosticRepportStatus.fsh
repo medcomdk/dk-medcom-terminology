@@ -5,7 +5,7 @@ Description: "ValueSet containing status codes for MedCom DiagnosticReport"
 * ^version = "1.0.0"
 * ^status = #active
 * ^date = "2023-10-31"
-* ^experimental = true
+* ^experimental = false
 * ^compose.include[+].system = $StatusCodeDiagnosticReport
 * ^compose.include[=].concept[+].code = #registered 
 * ^compose.include[=].concept[=].display = "Registered"
