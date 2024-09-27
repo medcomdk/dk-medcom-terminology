@@ -10,4 +10,5 @@ Alias: $mediatype = http://terminology.hl7.org/CodeSystem/media-type
 Alias: $obsInterpretation = http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation
 Alias: $medcomcodes = https://terminology.medcom.dk/fhir/observation-code
 Alias: $nullflavor = http://terminology.hl7.org/CodeSystem/v3-NullFlavor
+Alias: $sct = http://snomed.info/sct
 
