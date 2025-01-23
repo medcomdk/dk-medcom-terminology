@@ -1,7 +1,7 @@
 CodeSystem: MedComCorePractitionerRolesSKSadministrativ
 Id: medcom-core-PractitionerRolesSKSadministrativ
 Title: "MedComCorePractitionerRolesSKSadministrativ"
-Description: "CodeSystem containing codes for practionerroles (Danish:Stillingsbetegnelser) from [SKS Administrativt-Personaleklassifikation](https://medinfo.dk/sks/brows.php?s_nod=924) "
+Description: "CodeSystem containing codes for practionerroles (Danish:Stillingsbetegnelser) from [SKS Administrativt-Personaleklassifikation](https://medinfo.dk/sks/brows.php?s_nod=924). NOTE: The code #pyskolog is a legacy typo inherited from the parent ValueSet. The correct code #psykolog has been added, and both are supported for backwards compatibility purpose. Use of #psykolog is recommended."
 * ^version  =  "1.1.0"
 * ^status  =  #active
 * ^date  =  "2023-10-31"
@@ -25,6 +25,7 @@ Description: "CodeSystem containing codes for practionerroles (Danish:Stillingsb
 * #tandplejer "Tandplejer"
 * #farmaceut "Farmaceut"
 * #apoteker "Apoteker"
+* #psykolog "Psykolog"
 * #pyskolog "Psykolog"
 * #jordemoder "Jordemoder"
 * #fysioterapeut "Fysioterapeut"
