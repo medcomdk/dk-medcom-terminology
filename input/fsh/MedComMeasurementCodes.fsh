@@ -174,3 +174,14 @@ Description: "CodeSystem "
 * #MCS90019	"Slår med.-Glaslegemebl;venstre øje"	"Slårede medier-Glaslegemeblødning;venstre øje"	
 * #MCS90020	"Slår med.-An/ukendt årsag;h� øje"	"Slårede medier-Anden / ukendt årsag;højre øje"	
 * #MCS90021	"Slår med.-An/ukendt årsag;ven øje"	"Slårede medier-Anden / ukendt årsag;venstre øje"	
+
+ValueSet: MedCom-McsVS
+Id: medcom-mcs-codes
+Title: "MedComMcsCodes"
+Description: "ValueSet for MedCom MCS Codes"
+* ^version  =  "1.0.0"
+* ^status  =  #active
+* ^date  =  "2025-03-26"
+//* ^caseSensitive = false
+* ^experimental = false
+* include codes from system $MedComMeasurementCodes //medcom-measurement-codes
