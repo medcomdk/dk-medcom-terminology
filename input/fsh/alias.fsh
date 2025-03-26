@@ -11,4 +11,6 @@ Alias: $obsInterpretation = http://terminology.hl7.org/CodeSystem/v3-Observation
 Alias: $medcomcodes = https://terminology.medcom.dk/fhir/observation-code
 Alias: $nullflavor = http://terminology.hl7.org/CodeSystem/v3-NullFlavor
 Alias: $sct = http://snomed.info/sct
+Alias: $MedComMeasurementCodes = medcom-measurement-codes
+Alias: $MedComMeasurementCodesVS = medcom-measurement-codes
 
