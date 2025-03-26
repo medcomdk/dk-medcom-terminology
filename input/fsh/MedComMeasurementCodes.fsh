@@ -22,7 +22,7 @@ Description: "CodeSystem "
 * #MCS88016 "Lunge-Lungefunktionsundersøgelse vitalkapasitet FVC; vol. = ? L" "FVC;Lunge"
 * #MCS88017 "Lunge-FEV1/FVC; ratio = ?" "FEV1/FVC;Lunge"
 * #MCS88019 "Arm-Blodtryk(systolisk) hjemme; tryk = ? mmHg" "Blodtryk hjemme systolisk;Arm"
-* #MCS88019 ^property[0].code = #mmHg
+//* #MCS88019 ^property[0].code = #mmHg
 * #MCS88020 "Arm-Blodtryk(diastolisk) hjemme; tryk = ? mmHg" "Blodtryk hjemme diastolisk;Arm"
 * #MCS88021 "Pt(KOL) -MRC skala; arb.antal(værdi 1-5) = ?" "MRC skala;Pt(KOL)"
 * #MCS88022 "Pt(KOL)-Antal eksacerbationer i det sidst forløbne år; antal (værdi 1-20) = ?" "Eksacerbationer;Pt(KOL)"
