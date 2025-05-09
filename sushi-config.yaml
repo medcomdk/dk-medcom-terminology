@@ -5,11 +5,11 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: medcom.fhir.dk.terminology
 canonical: http://medcomfhir.dk/ig/terminology
-name: MedComTerminology
+name: DK MedCom Terminology
 title: "DK MedCom Terminology"
-description: The DK MedCom Terminology IG
+description: This IG includes CodeSystems, ValueSets and ConceptMaps defined by MedCom and used in MedCom's FHIR standards.
 status: active # draft | active | retired | unknown
-version: 1.7.0
+version: 1.7.1
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2022+
 releaseLabel: release # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
