@@ -1,8 +1,8 @@
 CodeSystem: MedComCorePractitionerRolesSKSadministrativ
 Id: medcom-core-PractitionerRolesSKSadministrativ
 Title: "MedComCorePractitionerRolesSKSadministrativ"
-Description: "CodeSystem containing codes for practionerroles (Danish:Stillingsbetegnelser) from [SKS Administrativt-Personaleklassifikation](https://medinfo.dk/sks/brows.php?s_nod=924). NOTE: The code #pyskolog is a legacy typo inherited from the parent ValueSet. The correct code #psykolog has been added, and both are supported for backwards compatibility purpose. Use of #psykolog is recommended. NOTE: The code #socialogsundhedsmehjaelper is missing a 'd'. The code #socialogsundhedsmedhjaelper is added and is recommended to be used."
-* ^version  =  "1.1.0"
+Description: "CodeSystem containing codes for practionerroles (Danish:Stillingsbetegnelser) from [SKS Administrativt-Personaleklassifikation](https://medinfo.dk/sks/brows.php?s_nod=924):Note: The correctly spelled codes — #psykolog, #socialogsundhedsmedhjaelper, and #sygeplejesekretaer — have been added and are recommended. The misspelled variants are retained for backward compatibility."
+* ^version  =  "1.1.1"
 * ^status  =  #active
 * ^date  =  "2023-10-31"
 * ^caseSensitive = false
@@ -43,6 +43,7 @@ Description: "CodeSystem containing codes for practionerroles (Danish:Stillingsb
 * #audiologopaed "Audiologopæd"
 * #laegesekretaer "Lægesekretær"
 * #ledendelaegesekretaer "Ledende lægesekretær"
+* #sygeplejesekretaer "Sygeplejesekretær"
 * #sygeplejesekretear "Sygeplejesekretær"
 * #fodterapeut "Fodterapeut"
 * #socialraadgiver "Socialrådgiver"
