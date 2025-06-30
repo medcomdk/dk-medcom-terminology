@@ -1,8 +1,8 @@
 ValueSet: MedComCorePractitionerRoles
 Id: medcom-core-PractitionerRoles
 Title: "MedComCorePractitionerRoles"
-Description: "ValueSet containing codes for practionerroles (Danish: Stillingsbetegnelser) from MedCom. NOTE: The code #pyskolog is a legacy typo inherited from the parent ValueSet. The correct code #psykolog has been added, and both are supported for backwards compatibility purpose. Use of #psykolog is recommended. NOTE: The code #socialogsundhedsmehjaelper is missing a 'd'. The code #socialogsundhedsmedhjaelper is added and is recommended to be used."
-* ^version  =  "1.2.0"
+Description: "ValueSet containing codes for practionerroles (Danish: Stillingsbetegnelser) from MedCom. Note: The correctly spelled codes — #psykolog, #socialogsundhedsmedhjaelper, and #sygeplejesekretaer — have been added and are recommended. The misspelled variants are retained for backward compatibility."
+* ^version  =  "1.2.1"
 * ^status  =  #active
 * ^date  =  "2023-10-31"
 * ^experimental = false
@@ -45,6 +45,7 @@ Description: "ValueSet containing codes for practionerroles (Danish: Stillingsbe
 * #audiologopaed from system medcom-core-PractitionerRolesSKSadministrativ
 * #laegesekretaer from system medcom-core-PractitionerRolesSKSadministrativ
 * #ledendelaegesekretaer from system medcom-core-PractitionerRolesSKSadministrativ
+* #sygeplejesekretaer from system medcom-core-PractitionerRolesSKSadministrativ
 * #sygeplejesekretear from system medcom-core-PractitionerRolesSKSadministrativ
 * #fodterapeut from system medcom-core-PractitionerRolesSKSadministrativ
 * #socialraadgiver from system medcom-core-PractitionerRolesSKSadministrativ
