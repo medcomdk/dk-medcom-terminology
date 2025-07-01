@@ -52,6 +52,12 @@ Description: "Category codes for care communication messages"
 * #training "Training"
   * ^designation.language = #da
   * ^designation.value = "Træning"
+* #acute-ambulant "Acute ambulant"
+  * ^designation.language = #da
+  * ^designation.value = "Akut ambulant"
+* #extended-care-responsibility "Extended care responsibility"
+  * ^designation.language = #da
+  * ^designation.value = "Udvidet behandlingsansvar"
 * #other "Other"
   * ^designation.language = #da
   * ^designation.value = "Andet"
