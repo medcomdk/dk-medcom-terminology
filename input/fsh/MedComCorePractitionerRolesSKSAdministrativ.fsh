@@ -7,9 +7,22 @@ Description: "CodeSystem containing codes for practionerroles (Danish:Stillingsb
 * ^date  =  "2023-10-31"
 * ^caseSensitive = false
 * ^experimental = false
+* ^content = #complete
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "A property that indicates the status of the concept. One of active, experimental, deprecated, retired"
+* ^property[=].type = #code
+* ^property[+].code = #effectiveDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#effectiveDate"
+* ^property[=].description = "The date at which the code status was last changed."
+* ^property[=].type = #dateTime
 * #speciallaege "Speciallæge"
 * #speciallaegeipraksis "Speciallæge i praksis"
 * #cheflaege "Cheflæge"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #active
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2021-04-14"
 * #overlaege "Overlæge"
 * #afdelingslaege "Afdelingslæge"
 * #sygehuslaege "Sygehuslæge"
