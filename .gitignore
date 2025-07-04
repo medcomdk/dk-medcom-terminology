@@ -5,3 +5,10 @@ Thumbs.db
 /output
 /temp
 /template
+/.vscode
+/_gencontinuous.bat
+/_gencontinuous.sh
+/_genonce.bat
+/_genonce.sh
+/_build.bat
+/_build.sh

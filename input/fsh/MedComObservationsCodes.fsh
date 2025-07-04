@@ -1,43 +1,59 @@
-// CodeSystem: MedComObservationCodes 
-// Id: observation-code
-// Title: "MedCom Observation codes"
-// Description: "CodeSystem including observations codes used in HomeCare"
-// * ^version = "1.0.0"
-// * ^status = #draft
-// * ^date = "2023-06-29"
-// * ^caseSensitive = false
-// * ^experimental = false
-// * #MCS88122 "Respirationsfrekvens;Pt" "Pt—Respiration; frekvens = ? X 1/min"
-// * #MCS88125 "TOBS score;Pt" "Pt—Tidlig Opsporing af Begyndende Sygdom (TOBS) score; antal (værdi 0-15) = ?"
-// * #MCS88126 "Bevidsthed;Pt" "Pt—Bevidsthedsniveau; arb.antal(værdi 0-3) = ?"
-// * #MCS88147 "Manniche VAS-score(total);Pt" "Pt—Manniche VAS-score(total); antal(værdi 0-60) = ?"
+CodeSystem: MedComObservationCodes 
+Id: medcom-observation-codes
+Title: "MedComObservationCodes"
+Description: "CodeSystem with observations codes used in HomeCareObservation"
+* ^status = #draft
+* ^date = "2025-06-28"
+* ^caseSensitive = false
+* ^experimental = true
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "A property that indicates the status of the concept. One of experimental, active, deprecated, retired. Find Governance for MedCom Terminology in the 'Home' tab."
+* ^property[=].type = #code
+* ^property[+].code = #effectiveDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#effectiveDate"
+* ^property[=].description = "The date at which the code status was last changed."
+* ^property[=].type = #dateTime
+* #MCS88122 "Respirationsfrekvens;Pt" "Pt—Respiration; frekvens = ? X 1/min"
+  * ^designation[+].use.system = $sct
+  * ^designation[=].use.code = #900000000000013009
+  * ^designation[=].value = "Respirationsfrekvens;Pt"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #experimental
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2025-06-28"
+* #MCS88125 "TOBS score;Pt" "Pt—Tidlig Opsporing af Begyndende Sygdom (TOBS) score; antal (værdi 0-15) = ?"
+  * ^designation[+].use.system = $sct
+  * ^designation[=].use.code = #900000000000013009
+  * ^designation[=].value = "TOBS score;Pt"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #experimental
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2025-06-28"
+* #MCS88126 "Bevidsthed;Pt" "Pt—Bevidsthedsniveau; arb.antal(værdi 0-3) = ?"
+  * ^designation[+].use.system = $sct
+  * ^designation[=].use.code = #900000000000013009
+  * ^designation[=].value = "Bevidsthed;Pt"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #experimental
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2025-06-28"
+* #MCS88147 "Manniche VAS-score(total);Pt" "Pt—Manniche VAS-score(total); antal(værdi 0-60) = ?"
+  * ^designation[+].use.system = $sct
+  * ^designation[=].use.code = #900000000000013009
+  * ^designation[=].value = "Manniche VAS-score(total);Pt"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #experimental
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2025-06-28"
 
 
 ValueSet: MedComObservationValueSet
-Id: MedComObservationValueSet
-Title: "MedCom Observation ValueSet"
+Id: medcom-observation-valueset
+Title: "MedComObservationValueSet"
 Description: "Valuesets for Observation defined by MedCom"
 * ^version = "1.0.0"
 * ^status = #draft
-* ^date = "2023-10-31" 
+* ^date = "2025-06-28" 
 * ^experimental = true
-* ^compose.include[+].system = $medcomcodes
-* ^compose.include[=].concept[+].code = #MCS88122 
-* ^compose.include[=].concept[=].display = "Pt—Respiration; frekvens = ? X 1/min"
-* ^compose.include[=].concept[=].designation[+].use = #900000000000013009
-* ^compose.include[=].concept[=].designation[=].value = "Respirationsfrekvens;Pt" 
-* ^compose.include[=].concept[+].code = #MCS88125
-* ^compose.include[=].concept[=].display = "Pt—Tidlig Opsporing af Begyndende Sygdom (TOBS) score; antal (værdi 0-15) = ?"
-* ^compose.include[=].concept[=].designation[+].use = #900000000000013009
-* ^compose.include[=].concept[=].designation[=].value = "TOBS score;Pt" 
-* ^compose.include[=].concept[+].code = #MCS88126
-* ^compose.include[=].concept[=].display = "Pt—Bevidsthedsniveau; arb.antal(værdi 0-3) = ?"
-* ^compose.include[=].concept[=].designation[+].use = #900000000000013009
-* ^compose.include[=].concept[=].designation[=].value = "Bevidsthed;Pt"
-* ^compose.include[=].concept[+].code = #MCS88147
-* ^compose.include[=].concept[=].display = "Pt—Manniche VAS-score(total); antal(værdi 0-60) = ?"
-* ^compose.include[=].concept[=].designation[+].use = #900000000000013009
-* ^compose.include[=].concept[=].designation[=].value = "Manniche VAS-score(total);Pt"
-
-
-
+* include codes from system medcom-observation-codes
