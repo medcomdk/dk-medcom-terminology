@@ -1,159 +1,345 @@
+CodeSystem: NPUObservationCodes
+Id: npu-observation-codes
+Title: "NPUObservationCodes"
+Description: "CodeSystem with NPU observation codes"
+* ^status = #draft
+* ^date = "2025-06-28"
+* ^caseSensitive = false
+* ^experimental = true
+* ^identifier[+].value = "urn:oid:1.2.208.176.2.1"
+* ^language = #da-DK
+
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "A property that indicates the status of the concept. One of experimental, active, deprecated, retired. Find Governance for MedCom Terminology in the 'Home' tab."
+* ^property[=].type = #code
+* ^property[+].code = #effectiveDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#effectiveDate"
+* ^property[=].description = "The date at which the code status was last changed."
+* ^property[=].type = #dateTime
+
+* #DNK05473 "Arm—Blodtryk(diastolisk); tryk =? mmHg"
+  * ^designation[+].use.system = $sct
+  * ^designation[=].use.code   = #900000000000013009
+  * ^designation[=].value      = "Blodtryk diastolisk;Arm"
+  * ^property[+].code          = #status
+  * ^property[=].valueCode     = #experimental
+  * ^property[+].code          = #effectiveDate
+  * ^property[=].valueDateTime = "2025-06-28"
+
+* #DNK05472 "Arm—Blodtryk(systolisk); tryk = ? mmHg"
+  * ^designation[+].use.system = $sct
+  * ^designation[=].use.code   = #900000000000013009
+  * ^designation[=].value      = "Blodtryk systolisk;Arm"
+  * ^property[+].code          = #status
+  * ^property[=].valueCode     = #experimental
+  * ^property[+].code          = #effectiveDate
+  * ^property[=].valueDateTime = "2025-06-28"
+
+* #NPU21692 "Hjerte—Systole; frekv. = ? × 1/min"
+  * ^designation[+].use.system = $sct
+  * ^designation[=].use.code   = #900000000000013009
+  * ^designation[=].value      = "Puls;Hjerte"
+  * ^property[+].code          = #status
+  * ^property[=].valueCode     = #experimental
+  * ^property[+].code          = #effectiveDate
+  * ^property[=].valueDateTime = "2025-06-28"
+
+* #NPU10197 "Hb(Fe; O2-bind.; kB)—Oxygen(O2); mætn. = ?"
+  * ^designation[+].use.system = $sct
+  * ^designation[=].use.code   = #900000000000013009
+  * ^designation[=].value      = "O2 sat.;Hb(kB)"
+  * ^property[+].code          = #status
+  * ^property[=].valueCode     = #experimental
+  * ^property[+].code          = #effectiveDate
+  * ^property[=].valueDateTime = "2025-06-28"
+
+* #NPU08676 "Pt—Legeme; temp. = ? °C"
+  * ^designation[+].use.system = $sct
+  * ^designation[=].use.code   = #900000000000013009
+  * ^designation[=].value      = "Legeme temp.;Pt"
+  * ^property[+].code          = #status
+  * ^property[=].valueCode     = #experimental
+  * ^property[+].code          = #effectiveDate
+  * ^property[=].valueDateTime = "2025-06-28"
+
+* #NPU19748 "P—C-reaktivt protein; massek. = ? mg/L"
+  * ^designation[+].use.system = $sct
+  * ^designation[=].use.code   = #900000000000013009
+  * ^designation[=].value      = "C-reaktivt protein [CRP];P"
+  * ^property[+].code          = #status
+  * ^property[=].valueCode     = #experimental
+  * ^property[+].code          = #effectiveDate
+  * ^property[=].valueDateTime = "2025-06-28"
+
+* #NPU02593 "B—Leukocytter; antalk. = ? × 10^9/L"
+  * ^designation[+].use.system = $sct
+  * ^designation[=].use.code   = #900000000000013009
+  * ^designation[=].value      = "Leukocytter;B"
+  * ^property[+].code          = #status
+  * ^property[=].valueCode     = #experimental
+  * ^property[+].code          = #effectiveDate
+  * ^property[=].valueDateTime = "2025-06-28"
+
+* #NPU02636 "B—Leukocytter; antalk. = ? × 10^9/L"
+  * ^designation[+].use.system = $sct
+  * ^designation[=].use.code   = #900000000000013009
+  * ^designation[=].value      = "Leukocyttype gruppe;B"
+  * ^property[+].code          = #status
+  * ^property[=].valueCode     = #experimental
+  * ^property[+].code          = #effectiveDate
+  * ^property[=].valueDateTime = "2025-06-28"
+
+* #NPU02840 "B—Monocytter; antalk. = ? × 10^9/L"
+  * ^designation[+].use.system = $sct
+  * ^designation[=].use.code   = #900000000000013009
+  * ^designation[=].value      = "Monocytter;B"
+  * ^property[+].code          = #status
+  * ^property[=].valueCode     = #experimental
+  * ^property[+].code          = #effectiveDate
+  * ^property[=].valueDateTime = "2025-06-28"
+
+* #NPU02902 "B—Neutrophilocytter; antalk. = ? × 10^9/L"
+  * ^designation[+].use.system = $sct
+  * ^designation[=].use.code   = #900000000000013009
+  * ^designation[=].value      = "Neutrofilocytter;B"
+  * ^property[+].code          = #status
+  * ^property[=].valueCode     = #experimental
+  * ^property[+].code          = #effectiveDate
+  * ^property[=].valueDateTime = "2025-06-28"
+
+* #NPU01933 "B—Eosinophilocytter; antalk. = ? × 10^9/L"
+  * ^designation[+].use.system = $sct
+  * ^designation[=].use.code   = #900000000000013009
+  * ^designation[=].value      = "Eosinofilocytter;B"
+  * ^property[+].code          = #status
+  * ^property[=].valueCode     = #experimental
+  * ^property[+].code          = #effectiveDate
+  * ^property[=].valueDateTime = "2025-06-28"
+
+* #NPU01349 "B—Basophilocytter; antalk. = ? × 10^9/L"
+  * ^designation[+].use.system = $sct
+  * ^designation[=].use.code   = #900000000000013009
+  * ^designation[=].value      = "Basofilocytter;B"
+  * ^property[+].code          = #status
+  * ^property[=].valueCode     = #experimental
+  * ^property[+].code          = #effectiveDate
+  * ^property[=].valueDateTime = "2025-06-28"
+
+* #NPU22089 "P(kB)—Glucose; stofk. = ? mmol/L"
+  * ^designation[+].use.system = $sct
+  * ^designation[=].use.code   = #900000000000013009
+  * ^designation[=].value      = "Glukose;P(kB)"
+  * ^property[+].code          = #status
+  * ^property[=].valueCode     = #experimental
+  * ^property[+].code          = #effectiveDate
+  * ^property[=].valueDateTime = "2025-06-28"
+
+* #NPU01685 "P—Koagulation, vævsfaktor-induceret; rel.tid(aktuel/norm; INR; IRP 67/40; proc.) = ?"
+  * ^designation[+].use.system = $sct
+  * ^designation[=].use.code   = #900000000000013009
+  * ^designation[=].value      = "Koagulationsfaktor II+VII+X [INR];P"
+  * ^property[+].code          = #status
+  * ^property[=].valueCode     = #experimental
+  * ^property[+].code          = #effectiveDate
+  * ^property[=].valueDateTime = "2025-06-28"
+
+* #NPU03429 "P—Natrium-ion; stofk. = ? mmol/L"
+  * ^designation[+].use.system = $sct
+  * ^designation[=].use.code   = #900000000000013009
+  * ^designation[=].value      = "Natrium;P"
+  * ^property[+].code          = #status
+  * ^property[=].valueCode     = #experimental
+  * ^property[+].code          = #effectiveDate
+  * ^property[=].valueDateTime = "2025-06-28"
+
+* #NPU03230 "P—Kalium-ion; stofk. = ? mmol/L"
+  * ^designation[+].use.system = $sct
+  * ^designation[=].use.code   = #900000000000013009
+  * ^designation[=].value      = "Kalium;P"
+  * ^property[+].code          = #status
+  * ^property[=].valueCode     = #experimental
+  * ^property[+].code          = #effectiveDate
+  * ^property[=].valueDateTime = "2025-06-28"
+
+* #NPU01536 "P—Chlorid; stofk. = ? mmol/L"
+  * ^designation[+].use.system = $sct
+  * ^designation[=].use.code   = #900000000000013009
+  * ^designation[=].value      = "Klorid;P"
+  * ^property[+].code          = #status
+  * ^property[=].valueCode     = #experimental
+  * ^property[+].code          = #effectiveDate
+  * ^property[=].valueDateTime = "2025-06-28"
+
+* #NPU04144 "P—Calcium-ion(frit); stofk.(pH = 7,40; proc.) = ? mmol/L"
+  * ^designation[+].use.system = $sct
+  * ^designation[=].use.code   = #900000000000013009
+  * ^designation[=].value      = "Calcium-ion frit (pH=7,4);P"
+  * ^property[+].code          = #status
+  * ^property[=].valueCode     = #experimental
+  * ^property[+].code          = #effectiveDate
+  * ^property[=].valueDateTime = "2025-06-28"
+
+* #NPU02319 "B—Hæmoglobin(Fe); stofk. = ? mmol/L"
+  * ^designation[+].use.system = $sct
+  * ^designation[=].use.code   = #900000000000013009
+  * ^designation[=].value      = "Hæmoglobin;B"
+  * ^property[+].code          = #status
+  * ^property[=].valueCode     = #experimental
+  * ^property[+].code          = #effectiveDate
+  * ^property[=].valueDateTime = "2025-06-28"
+
+* #NPU02187 "B—Glucose; stofk. = ? mmol/L"
+  * ^designation[+].use.system = $sct
+  * ^designation[=].use.code   = #900000000000013009
+  * ^designation[=].value      = "Glukose;B"
+  * ^property[+].code          = #status
+  * ^property[=].valueCode     = #experimental
+  * ^property[+].code          = #effectiveDate
+  * ^property[=].valueDateTime = "2025-06-28"
+
+* #NPU21531 "P(vB)—Glucose; stofk. = ? mmol/L"
+  * ^designation[+].use.system = $sct
+  * ^designation[=].use.code   = #900000000000013009
+  * ^designation[=].value      = "Glukose;P(vB)"
+  * ^property[+].code          = #status
+  * ^property[=].valueCode     = #experimental
+  * ^property[+].code          = #effectiveDate
+  * ^property[=].valueDateTime = "2025-06-28"
+
+* #NPU01459 "P—Carbamid; stofk. = ? mmol/L"
+  * ^designation[+].use.system = $sct
+  * ^designation[=].use.code   = #900000000000013009
+  * ^designation[=].value      = "Karbamid;P"
+  * ^property[+].code          = #status
+  * ^property[=].valueCode     = #experimental
+  * ^property[+].code          = #effectiveDate
+  * ^property[=].valueDateTime = "2025-06-28"
+
+* #NPU04998 "P—Creatininium; stofk.(enz.) = ? µmol/L"
+  * ^designation[+].use.system = $sct
+  * ^designation[=].use.code   = #900000000000013009
+  * ^designation[=].value      = "Kreatinin;P"
+  * ^property[+].code          = #status
+  * ^property[=].valueCode     = #experimental
+  * ^property[+].code          = #effectiveDate
+  * ^property[=].valueDateTime = "2025-06-28"
+
+* #NPU18016 "P—Creatininium; stofk. = ? µmol/L"
+  * ^designation[+].use.system = $sct
+  * ^designation[=].use.code   = #900000000000013009
+  * ^designation[=].value      = "Kreatinin;P"
+  * ^property[+].code          = #status
+  * ^property[=].valueCode     = #experimental
+  * ^property[+].code          = #effectiveDate
+  * ^property[=].valueDateTime = "2025-06-28"
+
+* #NPU04206 "U—Protein; arb.k.(proc.) = ?"
+  * ^designation[+].use.system = $sct
+  * ^designation[=].use.code   = #900000000000013009
+  * ^designation[=].value      = "Protein(semikvant);U"
+  * ^property[+].code          = #status
+  * ^property[=].valueCode     = #experimental
+  * ^property[+].code          = #effectiveDate
+  * ^property[=].valueDateTime = "2025-06-28"
+
+* #NPU21578 "U—Nitrit; arb.k.(proc.) = ?"
+  * ^designation[+].use.system = $sct
+  * ^designation[=].use.code   = #900000000000013009
+  * ^designation[=].value      = "Nitrit (semikvant);U"
+  * ^property[+].code          = #status
+  * ^property[=].valueCode     = #experimental
+  * ^property[+].code          = #effectiveDate
+  * ^property[=].valueDateTime = "2025-06-28"
+
+* #NPU04207 "U—Glucose; arb.k.(proc.) = ?"
+  * ^designation[+].use.system = $sct
+  * ^designation[=].use.code   = #900000000000013009
+  * ^designation[=].value      = "Glukose(semikvant);U"
+  * ^property[+].code          = #status
+  * ^property[=].valueCode     = #experimental
+  * ^property[+].code          = #effectiveDate
+  * ^property[=].valueDateTime = "2025-06-28"
+
+* #NPU03987 "U—Leukocytter; arb.k.(proc.) = ?"
+  * ^designation[+].use.system = $sct
+  * ^designation[=].use.code   = #900000000000013009
+  * ^designation[=].value      = "Leukocytter(semikvant);U"
+  * ^property[+].code          = #status
+  * ^property[=].valueCode     = #experimental
+  * ^property[+].code          = #effectiveDate
+  * ^property[=].valueDateTime = "2025-06-28"
+
+* #NPU04208 "U—Hæmoglobin; arb.k.(proc.) = ?"
+  * ^designation[+].use.system = $sct
+  * ^designation[=].use.code   = #900000000000013009
+  * ^designation[=].value      = "Hæmoglobin(semikvant);U"
+  * ^property[+].code          = #status
+  * ^property[=].valueCode     = #experimental
+  * ^property[+].code          = #effectiveDate
+  * ^property[=].valueDateTime = "2025-06-28"
+
+* #NPU10504 "U—Acetoacetat; arb.k.(proc.) = ?"
+  * ^designation[+].use.system = $sct
+  * ^designation[=].use.code   = #900000000000013009
+  * ^designation[=].value      = "Acetoacetat(semikvant);U"
+  * ^property[+].code          = #status
+  * ^property[=].valueCode     = #experimental
+  * ^property[+].code          = #effectiveDate
+  * ^property[=].valueDateTime = "2025-06-28"
+
+* #NPU16328 "U(midtstråle)—Bacterium+fungus; taxon(proc.) = ?"
+  * ^designation[+].use.system = $sct
+  * ^designation[=].use.code   = #900000000000013009
+  * ^designation[=].value      = "Dyrkning(bacterium+fungus);U(midt)"
+  * ^property[+].code          = #status
+  * ^property[=].valueCode     = #experimental
+  * ^property[+].code          = #effectiveDate
+  * ^property[=].valueDateTime = "2025-06-28"
+
+* #NPU18542 "U(spec.)—Bacterium+fungus; taxon(proc.) = ?"
+  * ^designation[+].use.system = $sct
+  * ^designation[=].use.code   = #900000000000013009
+  * ^designation[=].value      = "Dyrkning (bacterium+fungus);U"
+  * ^property[+].code          = #status
+  * ^property[=].valueCode     = #experimental
+  * ^property[+].code          = #effectiveDate
+  * ^property[=].valueDateTime = "2025-06-28"
+
+* #NPU16271 "Ex—Bacterium+fungus; taxon(proc.) = ?"
+  * ^designation[+].use.system = $sct
+  * ^designation[=].use.code   = #900000000000013009
+  * ^designation[=].value      = "Dyrkning (bacterium+fungus);Ex"
+  * ^property[+].code          = #status
+  * ^property[=].valueCode     = #experimental
+  * ^property[+].code          = #effectiveDate
+  * ^property[=].valueDateTime = "2025-06-28"
+
+* #NPU03794 "Pt—Legeme; højde = ? m"
+  * ^designation[+].use.system = $sct
+  * ^designation[=].use.code   = #900000000000013009
+  * ^designation[=].value      = "Legeme højde;Pt"
+  * ^property[+].code          = #status
+  * ^property[=].valueCode     = #experimental
+  * ^property[+].code          = #effectiveDate
+  * ^property[=].valueDateTime = "2025-06-28"
+
+* #NPU03804 "Pt—Legeme; masse = ? kg"
+  * ^designation[+].use.system = $sct
+  * ^designation[=].use.code   = #900000000000013009
+  * ^designation[=].value      = "Legeme vægt;Pt"
+  * ^property[+].code          = #status
+  * ^property[=].valueCode     = #experimental
+  * ^property[+].code          = #effectiveDate
+  * ^property[=].valueDateTime = "2025-06-28"
+
 ValueSet: NPUObservationCodesValueSet
-Id: NPUObservationCodesValueSet
+Id: npu-observation-codes-valueset
 Title: "NPUObservationCodesValueSet"
 Description: "ValuseSet with NPU observations Codes"
 * ^version = "1.0.0"
-* ^status = #active
-* ^date = "2023-10-31"
+* ^status = #draft
+* ^date = "2025-06-28"
 * ^experimental = true
-* ^identifier.value = "urn:oid:1.2.208.176.2.1"
-* ^compose.include[+].system = $NPU
-* ^compose.include[=].concept[+].code = #DNK05473
-* ^compose.include[=].concept[=].display = "Arm—Blodtryk(diastolisk); tryk =? mmHg" 
-* ^compose.include[=].concept[=].designation[+].use = #900000000000013009
-* ^compose.include[=].concept[=].designation[=].value = "Blodtryk diastolisk;Arm" 
-* ^compose.include[=].concept[+].code = #DNK05472
-* ^compose.include[=].concept[=].display = "Arm—Blodtryk(systolisk); tryk = ? mmHg" 
-* ^compose.include[=].concept[=].designation[+].use = #900000000000013009
-* ^compose.include[=].concept[=].designation[=].value = "Blodtryk systolisk;Arm" 
-* ^compose.include[=].concept[+].code = #NPU21692
-* ^compose.include[=].concept[=].display = "Hjerte—Systole; frekv. = ? × 1/min"
-* ^compose.include[=].concept[=].designation[+].use = #900000000000013009
-* ^compose.include[=].concept[=].designation[=].value = "Puls;Hjerte" 
-* ^compose.include[=].concept[+].code = #NPU10197
-* ^compose.include[=].concept[=].display = "Hb(Fe; O2-bind.; kB)—Oxygen(O2); mætn. = ?"
-* ^compose.include[=].concept[=].designation[+].use = #900000000000013009
-* ^compose.include[=].concept[=].designation[=].value = "O2 sat.;Hb(kB)"
-* ^compose.include[=].concept[+].code = #NPU08676
-* ^compose.include[=].concept[=].display = "Pt—Legeme; temp. = ? °C"
-* ^compose.include[=].concept[=].designation[+].use = #900000000000013009
-* ^compose.include[=].concept[=].designation[=].value = "Legeme temp.;Pt"
-* ^compose.include[=].concept[+].code = #NPU19748
-* ^compose.include[=].concept[=].display = "P—C-reaktivt protein; massek. = ? mg/L"
-* ^compose.include[=].concept[=].designation[+].use = #900000000000013009
-* ^compose.include[=].concept[=].designation[=].value = "C-reaktivt protein [CRP];P"
-* ^compose.include[=].concept[+].code = #NPU02593
-* ^compose.include[=].concept[=].display = "B—Leukocytter; antalk. = ? × 10^9/L"
-* ^compose.include[=].concept[=].designation[+].use = #900000000000013009
-* ^compose.include[=].concept[=].designation[=].value = "Leukocytter;B"
-* ^compose.include[=].concept[+].code = #NPU02636 
-* ^compose.include[=].concept[=].display = "B—Leukocytter; antalk. = ? × 10^9/L"
-* ^compose.include[=].concept[=].designation[+].use = #900000000000013009
-* ^compose.include[=].concept[=].designation[=].value = "Leukocyttype gruppe;B"
-* ^compose.include[=].concept[+].code = #NPU02840
-* ^compose.include[=].concept[=].display = "B—Monocytter; antalk. = ? × 10^9/L"
-* ^compose.include[=].concept[=].designation[+].use = #900000000000013009
-* ^compose.include[=].concept[=].designation[=].value = "Monocytter;B"
-* ^compose.include[=].concept[+].code = #NPU02902
-* ^compose.include[=].concept[=].display = "B—Neutrophilocytter; antalk. = ? × 10^9/L"
-* ^compose.include[=].concept[=].designation[+].use = #900000000000013009
-* ^compose.include[=].concept[=].designation[=].value = "Neutrofilocytter;B"
-* ^compose.include[=].concept[+].code = #NPU01933
-* ^compose.include[=].concept[=].display = "B—Eosinophilocytter; antalk. = ? × 10^9/L"
-* ^compose.include[=].concept[=].designation[+].use = #900000000000013009
-* ^compose.include[=].concept[=].designation[=].value = "Eosinofilocytter;B"
-* ^compose.include[=].concept[+].code = #NPU01933
-* ^compose.include[=].concept[=].display = "B—Eosinophilocytter; antalk. = ? × 10^9/L"
-* ^compose.include[=].concept[=].designation[+].use = #900000000000013009
-* ^compose.include[=].concept[=].designation[=].value = "Eosinofilocytter;B"
-* ^compose.include[=].concept[+].code = #NPU01349
-* ^compose.include[=].concept[=].display = "B—Basophilocytter; antalk. = ? × 10^9/L"
-* ^compose.include[=].concept[=].designation[+].use = #900000000000013009
-* ^compose.include[=].concept[=].designation[=].value = "Basofilocytter;B"
-* ^compose.include[=].concept[+].code = #NPU22089
-* ^compose.include[=].concept[=].display = "P(kB)—Glucose; stofk. = ? mmol/L"
-* ^compose.include[=].concept[=].designation[+].use = #900000000000013009
-* ^compose.include[=].concept[=].designation[=].value = "Glukose;P(kB)"
-* ^compose.include[=].concept[+].code = #NPU01685
-* ^compose.include[=].concept[=].display = "P—Koagulation, vævsfaktor-induceret; rel.tid(aktuel/norm; INR; IRP 67/40; proc.) = ?"
-* ^compose.include[=].concept[=].designation[+].use = #900000000000013009
-* ^compose.include[=].concept[=].designation[=].value = "Koagulationsfaktor II+VII+X [INR];P"
-* ^compose.include[=].concept[+].code = #NPU03429
-* ^compose.include[=].concept[=].display = "P—Natrium-ion; stofk. = ? mmol/L"
-* ^compose.include[=].concept[=].designation[+].use = #900000000000013009
-* ^compose.include[=].concept[=].designation[=].value = "Natrium;P"
-* ^compose.include[=].concept[+].code = #NPU03230
-* ^compose.include[=].concept[=].display = "P—Kalium-ion; stofk. = ? mmol/L"
-* ^compose.include[=].concept[=].designation[+].use = #900000000000013009
-* ^compose.include[=].concept[=].designation[=].value = "Kalium;P"
-* ^compose.include[=].concept[+].code = #NPU01536
-* ^compose.include[=].concept[=].display = "P—Chlorid; stofk. = ? mmol/L"
-* ^compose.include[=].concept[=].designation[+].use = #900000000000013009
-* ^compose.include[=].concept[=].designation[=].value = "Klorid;P"
-* ^compose.include[=].concept[+].code = #NPU04144
-* ^compose.include[=].concept[=].display = "P—Calcium-ion(frit); stofk.(pH = 7,40; proc.) = ? mmol/L"
-* ^compose.include[=].concept[=].designation[+].use = #900000000000013009
-* ^compose.include[=].concept[=].designation[=].value = "Calcium-ion frit (pH=7,4);P"
-* ^compose.include[=].concept[+].code = #NPU02319
-* ^compose.include[=].concept[=].display = "B—Hæmoglobin(Fe); stofk. = ? mmol/L"
-* ^compose.include[=].concept[=].designation[+].use = #900000000000013009
-* ^compose.include[=].concept[=].designation[=].value = "Hæmoglobin;B"
-* ^compose.include[=].concept[+].code = #NPU02187
-* ^compose.include[=].concept[=].display = "B—Glucose; stofk. = ? mmol/L"
-* ^compose.include[=].concept[=].designation[+].use = #900000000000013009
-* ^compose.include[=].concept[=].designation[=].value = "Glukose;B"
-* ^compose.include[=].concept[+].code = #NPU21531
-* ^compose.include[=].concept[=].display = "P(vB)—Glucose; stofk. = ? mmol/L"
-* ^compose.include[=].concept[=].designation[+].use = #900000000000013009
-* ^compose.include[=].concept[=].designation[=].value = "Glukose;P(vB)"
-* ^compose.include[=].concept[+].code = #NPU01459
-* ^compose.include[=].concept[=].display = "P—Carbamid; stofk. = ? mmol/L"
-* ^compose.include[=].concept[=].designation[+].use = #900000000000013009
-* ^compose.include[=].concept[=].designation[=].value = "Karbamid;P"
-* ^compose.include[=].concept[+].code = #NPU04998 
-* ^compose.include[=].concept[=].display = "P—Creatininium; stofk.(enz.) = ? µmol/L"
-* ^compose.include[=].concept[=].designation[+].use = #900000000000013009
-* ^compose.include[=].concept[=].designation[=].value = "Kreatinin;P"
-* ^compose.include[=].concept[+].code = #NPU18016
-* ^compose.include[=].concept[=].display = "P—Creatininium; stofk. = ? µmol/L"
-* ^compose.include[=].concept[=].designation[+].use = #900000000000013009
-* ^compose.include[=].concept[=].designation[=].value = "Kreatinin;P"
-* ^compose.include[=].concept[+].code = #NPU04206
-* ^compose.include[=].concept[=].display = "U—Protein; arb.k.(proc.) = ?"
-* ^compose.include[=].concept[=].designation[+].use = #900000000000013009
-* ^compose.include[=].concept[=].designation[=].value = "Protein(semikvant);U"
-* ^compose.include[=].concept[+].code = #NPU21578
-* ^compose.include[=].concept[=].display = "U—Nitrit; arb.k.(proc.) = ?"
-* ^compose.include[=].concept[=].designation[+].use = #900000000000013009
-* ^compose.include[=].concept[=].designation[=].value = "Nitrit (semikvant);U"
-* ^compose.include[=].concept[+].code = #NPU04207 
-* ^compose.include[=].concept[=].display = "U—Glucose; arb.k.(proc.) = ?"
-* ^compose.include[=].concept[=].designation[+].use = #900000000000013009
-* ^compose.include[=].concept[=].designation[=].value = "Glukose(semikvant);U"
-* ^compose.include[=].concept[+].code = #NPU03987
-* ^compose.include[=].concept[=].display = "U—Leukocytter; arb.k.(proc.) = ?"
-* ^compose.include[=].concept[=].designation[+].use = #900000000000013009
-* ^compose.include[=].concept[=].designation[=].value = "Leukocytter(semikvant);U"
-* ^compose.include[=].concept[+].code = #NPU04208
-* ^compose.include[=].concept[=].display = "U—Hæmoglobin; arb.k.(proc.) = ?"
-* ^compose.include[=].concept[=].designation[+].use = #900000000000013009
-* ^compose.include[=].concept[=].designation[=].value = "Hæmoglobin(semikvant);U"
-* ^compose.include[=].concept[+].code = #NPU10504
-* ^compose.include[=].concept[=].display = "U—Acetoacetat; arb.k.(proc.) = ?"
-* ^compose.include[=].concept[=].designation[+].use = #900000000000013009
-* ^compose.include[=].concept[=].designation[=].value = "Acetoacetat(semikvant);U"
-* ^compose.include[=].concept[+].code = #NPU16328
-* ^compose.include[=].concept[=].display = "U(midtstråle)—Bacterium+fungus; taxon(proc.) = ?"
-* ^compose.include[=].concept[=].designation[+].use = #900000000000013009
-* ^compose.include[=].concept[=].designation[=].value = "Dyrkning(bacterium+fungus);U(midt)"
-* ^compose.include[=].concept[+].code = #NPU18542
-* ^compose.include[=].concept[=].display = "U(spec.)—Bacterium+fungus; taxon(proc.) = ?"
-* ^compose.include[=].concept[=].designation[+].use = #900000000000013009
-* ^compose.include[=].concept[=].designation[=].value = "Dyrkning (bacterium+fungus);U"
-* ^compose.include[=].concept[+].code = #NPU16271
-* ^compose.include[=].concept[=].display = "Ex—Bacterium+fungus; taxon(proc.) = ?"
-* ^compose.include[=].concept[=].designation[+].use = #900000000000013009
-* ^compose.include[=].concept[=].designation[=].value = "Dyrkning (bacterium+fungus);Ex"
-* ^compose.include[=].concept[+].code = #NPU03794
-* ^compose.include[=].concept[=].display = "Pt—Legeme; højde = ? m"
-* ^compose.include[=].concept[=].designation[+].use = #900000000000013009
-* ^compose.include[=].concept[=].designation[=].value = "Legeme højde;Pt"
-* ^compose.include[=].concept[+].code = #NPU03804
-* ^compose.include[=].concept[=].display = "Pt—Legeme; masse = ? kg"
-* ^compose.include[=].concept[=].designation[+].use = #900000000000013009
-* ^compose.include[=].concept[=].designation[=].value = "Legeme vægt;Pt"
-
-
-
-
+* include codes from system npu-observation-codes
 
