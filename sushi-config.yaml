@@ -1,8 +1,3 @@
-# ╭─────────────────────────Commonly Used ImplementationGuide Properties───────────────────────────╮
-# │  The properties below are used to create the ImplementationGuide resource. The most commonly   │
-# │  used properties are included. For a list of all supported properties and their functions,     │
-# │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
-# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: medcom.fhir.dk.terminology
 canonical: http://medcomfhir.dk/ig/terminology
 name: DK MedCom Terminology
@@ -10,10 +5,9 @@ title: "DK MedCom Terminology"
 description: This IG includes CodeSystems, ValueSets and ConceptMaps defined by MedCom and used in MedCom's FHIR standards.
 status: active # draft | active | retired | unknown
 version: 1.8.1
-fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
+fhirVersion: 4.0.1
 copyrightYear: 2022+
 releaseLabel: release # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
-# license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
 jurisdiction: urn:iso:std:iso:3166#DK "Denmark"
 publisher:
   name: MedCom
