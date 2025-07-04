@@ -1,4 +1,3 @@
-
 ValueSet: MedComHomeCareObservationMessageActivities
 Id: medcom-HomeCareObservation-messagingActivities
 Title: "MedComHomeCareObservationMessageActivityCodes"

@@ -1,12 +1,13 @@
 CodeSystem: MedComObservationResultGroup
 Id: medcom-observation-resultGroup
-Title: "MedCom Observation Result Group"
-Description: "The observation result group are intende to be used to sort the individual analyzes."
+Title: "MedComObservationResultGroup"
+Description: "The observation result group are intended to be used to sort the individual analyzes."
 * ^version = "1.1.0"
 * ^status = #draft
 * ^date = "2024-01-18" 
 * ^caseSensitive = false
 * ^experimental = true
+* ^language = #da-DK
 * #5 "Hæmatologi"
 * #10 "Væske- og elektrolytbalance"
 * #15 "Syre/base- og oxygenstatus"
@@ -40,27 +41,4 @@ Description: "National response groups for observation results."
 * ^status = #draft
 * ^date = "2024-01-18" 
 * ^experimental = true
-* MedComObservationResultGroup#5 
-* MedComObservationResultGroup#10
-* MedComObservationResultGroup#15
-* MedComObservationResultGroup#20
-* MedComObservationResultGroup#25
-* MedComObservationResultGroup#30 
-* MedComObservationResultGroup#35 
-* MedComObservationResultGroup#40 
-* MedComObservationResultGroup#45 
-* MedComObservationResultGroup#50 
-* MedComObservationResultGroup#55 
-* MedComObservationResultGroup#60 
-* MedComObservationResultGroup#65 
-* MedComObservationResultGroup#70 
-* MedComObservationResultGroup#75 
-* MedComObservationResultGroup#80 
-* MedComObservationResultGroup#85 
-* MedComObservationResultGroup#90 
-* MedComObservationResultGroup#95 
-* MedComObservationResultGroup#100
-* MedComObservationResultGroup#105
-* MedComObservationResultGroup#110
-* MedComObservationResultGroup#115
-* MedComObservationResultGroup#120
+* include codes from system medcom-observation-resultGroup
