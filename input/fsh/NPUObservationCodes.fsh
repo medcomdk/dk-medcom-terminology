@@ -5,8 +5,7 @@ Description: "CodeSystem with NPU observation codes"
 * ^status = #draft
 * ^date = "2025-06-28"
 * ^caseSensitive = false
-* ^experimental = true
-* ^identifier[+].value = "urn:oid:1.2.208.176.2.1"
+* ^url = "urn:oid:1.2.208.176.2.1"
 * ^language = #da-DK
 
 * ^property[+].code = #status
@@ -340,6 +339,5 @@ Description: "ValuseSet with NPU observations Codes"
 * ^version = "1.0.0"
 * ^status = #draft
 * ^date = "2025-06-28"
-* ^experimental = true
 * include codes from system npu-observation-codes
 
