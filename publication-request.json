@@ -4,7 +4,7 @@
   "path": "http://medcomfhir.dk/ig/terminology/2.0.0-draft",
   "status": "release",
   "sequence": "Release",
-  "mode" : "milestone",
+  "mode" : "working",
   "descmd": "@release-notes.md",
   "desc": "CodeSystems and valuesets related to HomeCareObservation has been fixed."
 }
