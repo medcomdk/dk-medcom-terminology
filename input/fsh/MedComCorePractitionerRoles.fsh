@@ -1,10 +1,10 @@
 ValueSet: MedComCorePractitionerRoles
 Id: medcom-core-PractitionerRoles
 Title: "MedComCorePractitionerRoles"
-Description: "ValueSet containing codes for practionerroles (Danish: Stillingsbetegnelser) from MedCom. Note: The correctly spelled codes — #psykolog, #socialogsundhedsmedhjaelper, and #sygeplejesekretaer — have been added and are recommended. The misspelled variants are retained for backward compatibility."
-* ^version  =  "1.2.1"
+Description: "ValueSet containing codes for practionerroles (Danish: Stillingsbetegnelser) from MedCom."
+* ^version  =  "2.0.0"
 * ^status  =  #active
-* ^date  =  "2023-10-31"
+* ^date  =  "2025-09-22"
 * ^experimental = false
 * #ambulancebehandler from system medcom-core-PractitionerRolesAutorisationsregistret
 * #laege from system medcom-core-PractitionerRolesAutorisationsregistret

@@ -10,7 +10,7 @@ Description: "CodeSystem containing codes for practionerroles (Danish:Stillingsb
 * ^content = #complete
 * ^property[+].code = #status
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
-* ^property[=].description = "A property that indicates the status of the concept. One of active, experimental, deprecated, retired"
+* ^property[=].description = "A property that indicates the status of the concept. One of active, experimental, deprecated, or retired."
 * ^property[=].type = #code
 * ^property[+].code = #effectiveDate
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#effectiveDate"
