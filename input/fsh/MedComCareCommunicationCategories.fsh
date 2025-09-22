@@ -127,14 +127,14 @@ Description: "Category codes for care communication messages"
   * ^property[+].code = #status
   * ^property[=].valueCode = #active
   * ^property[+].code = #effectiveDate
-  * ^property[=].valueDateTime = "2022-11-01"
+  * ^property[=].valueDateTime = "2025-09-22"
 * #extended-care-responsibility "Extended care responsibility"
   * ^designation.language = #da
   * ^designation.value = "Udvidet behandlingsansvar"
   * ^property[+].code = #status
   * ^property[=].valueCode = #active
   * ^property[+].code = #effectiveDate
-  * ^property[=].valueDateTime = "2022-11-01"
+  * ^property[=].valueDateTime = "2025-09-22"
 * #other "Other"
   * ^designation.language = #da
   * ^designation.value = "Andet"
