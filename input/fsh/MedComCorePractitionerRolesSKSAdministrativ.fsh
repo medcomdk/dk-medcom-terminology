@@ -203,7 +203,7 @@ Description: "CodeSystem containing codes for practionerroles (Danish:Stillingsb
   * ^property[=].valueDateTime = "2022-10-05"
 * #sygeplejesekretear "Sygeplejesekretær"
   * ^property[+].code = #status
-  * ^property[=].valueCode = #active
+  * ^property[=].valueCode = #deprecated
   * ^property[+].code = #effectiveDate
   * ^property[=].valueDateTime = "2022-10-05"
 * #fodterapeut "Fodterapeut"
