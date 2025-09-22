@@ -2,45 +2,154 @@ CodeSystem: MedComMessagingActivityCodes
 Id: medcom-messaging-activityCodes
 Title: "MedComMessagingActivityCodes"
 Description: "CodeSystem containing codes for activities occuring in MedCom messages"
-* ^version  =  "1.0.1"
+* ^version  =  "1.0.2"
 * ^status  =  #active
-* ^date  =  "2023-01-06"
+* ^date  =  "2025-09-22"
 * ^caseSensitive = false
 * ^experimental = false
+* ^content = #complete
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "A property that indicates the status of the concept. One of active, experimental, deprecated, or retired."
+* ^property[=].type = #code
+* ^property[+].code = #effectiveDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#effectiveDate"
+* ^property[=].description = "The date at which the concept status was last changed."
+* ^property[=].type = #dateTime
 * #new-message "A new message has been sent"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #active
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2022-10-05"
 * #forward-message "A message has been forwarded and potentially changed"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #active
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2022-10-05"
 * #reply-message "A message has been replied to"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #active
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2022-10-05"
 * #retract-message "A message has been retracted/cancelled"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #active
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2022-10-05"
 * #modified-message "A message has been modified"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #active
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2022-10-05"
 * #carboncopy-message "An exact copy of a message to a primary receiver has been sent to a carbon copy receiver"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #active
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2022-10-05"
 * #admit-emergency "Start hospital stay - acute ambulant"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #active
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2022-10-05"
 * #revise-admit-emergency "Update Start hospital stay - acute ambulant"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #active
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2022-10-05"
 * #cancel-admit-emergency "Cancellation Start hospital stay - acute ambulant"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #active
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2022-10-05"
 * #admit-inpatient "Start hospital stay - admitted"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #active
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2022-10-05"
 * #revise-admit-inpatient "Update Start hospital stay - admitted"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #active
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2022-10-05"
 * #cancel-admit-inpatient "Cancellation Start hospital stay - admitted"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #active
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2022-10-05"
 * #start-leave-inpatient "Start leave"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #active
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2022-10-05"
 * #revise-start-leave-inpatient "Update Start leave"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #active
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2022-10-05"
 * #cancel-start-leave-inpatient "Cancellation Start leave"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #active
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2022-10-05"
 * #end-leave-inpatient "End leave"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #active
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2022-10-05"
 * #revise-end-leave-inpatient "Update End leave"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #active
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2022-10-05"
 * #cancel-end-leave-inpatient "Cancellation End leave"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #active
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2022-10-05"
 * #discharge-emergency-home "End hospital stay - patient completed to home/primary sector"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #active
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2022-10-05"
 * #discharge-inpatient-home "End hospital stay - patient completed to home/primary sector"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #active
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2022-10-05"
 * #revise-discharge-emergency-home "Update End hospital stay - patient completed to home/primary sector"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #active
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2022-10-05"
 * #revise-discharge-inpatient-home "Update End hospital stay - patient completed to home/primary sector"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #active
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2022-10-05"
 * #cancel-discharge-emergency-home "Cancellation End hospital stay - patient completed to home/primary sector"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #active
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2022-10-05"
 * #cancel-discharge-inpatient-home "Cancellation End hospital stay - patient completed to home/primary sector"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #active
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2022-10-05"
 * #acknowledgement "Acknowledgement message has been sent"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #active
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2022-10-05"
 
 
 ValueSet: MedComMessagingActivityCodes
 Id: medcom-messaging-activityCodes
 Title: "MedComMessagingActivityCodes"
 Description: "ValueSet containing codes for activities occuring in MedCom messages"
-* ^version  =  "1.0.0"
+* ^version  =  "1.0.1"
 * ^status  =  #active
-* ^date  =  "2023-01-06"
+* ^date  =  "2025-09-22"
 * ^experimental = false
 * MedComMessagingActivityCodes#new-message
 * MedComMessagingActivityCodes#forward-message
@@ -72,9 +181,9 @@ ValueSet: MedComHospitalNotificationMessageActivities
 Id: medcom-hospitalNotification-messageActivities
 Title: "MedComHospitalNotificationMessageActivityCodes"
 Description: "ValueSet containg activity codes for hospital notification messages"
-* ^version  =  "1.0.2"
+* ^version  =  "1.0.3"
 * ^status  =  #active
-* ^date  =  "2023-01-06"
+* ^date  =  "2025-09-22"
 * ^experimental = false
 * ^url = "http://medcomfhir.dk/ig/terminology/ValueSet/medcom-hospitalNotification-messageActivities"
 * ^compose.include[+].system = "http://medcomfhir.dk/ig/terminology/CodeSystem/medcom-messaging-activityCodes"
