@@ -26,8 +26,6 @@ Description: "Category codes for care communication messages"
 * #assistive-devices "Assistive technology"
   * ^designation.language = #da
   * ^designation.value = "Hjælpemidler"
-  * ^designation.language = #da
-  * ^designation.value = "Rusmiddelbehandling"
   * ^property[+].code = #status
   * ^property[=].valueCode = #active
   * ^property[+].code = #effectiveDate
@@ -35,8 +33,6 @@ Description: "Category codes for care communication messages"
 * #carecoordination "Care Coordination"
   * ^designation.language = #da
   * ^designation.value = "Forløbskoordinering"
-  * ^designation.language = #da
-  * ^designation.value = "Rusmiddelbehandling"
   * ^property[+].code = #status
   * ^property[=].valueCode = #active
   * ^property[+].code = #effectiveDate
@@ -44,8 +40,6 @@ Description: "Category codes for care communication messages"
 * #decease "Decease"
   * ^designation.language = #da
   * ^designation.value = "Dødsfald"
-  * ^designation.language = #da
-  * ^designation.value = "Rusmiddelbehandling"
   * ^property[+].code = #status
   * ^property[=].valueCode = #active
   * ^property[+].code = #effectiveDate
@@ -53,8 +47,6 @@ Description: "Category codes for care communication messages"
 * #discharge "Discharge"
   * ^designation.language = #da
   * ^designation.value = "Udskrivelse"
-  * ^designation.language = #da
-  * ^designation.value = "Rusmiddelbehandling"
   * ^property[+].code = #status
   * ^property[=].valueCode = #active
   * ^property[+].code = #effectiveDate
@@ -62,8 +54,6 @@ Description: "Category codes for care communication messages"
 * #examination-results "Examination Results"
   * ^designation.language = #da
   * ^designation.value = "Undersøgelsessvar"
-  * ^designation.language = #da
-  * ^designation.value = "Rusmiddelbehandling"
   * ^property[+].code = #status
   * ^property[=].valueCode = #active
   * ^property[+].code = #effectiveDate
@@ -71,8 +61,6 @@ Description: "Category codes for care communication messages"
 * #healthcare "Healthcare"
   * ^designation.language = #da
   * ^designation.value = "Sundhedspleje"
-  * ^designation.language = #da
-  * ^designation.value = "Rusmiddelbehandling"
   * ^property[+].code = #status
   * ^property[=].valueCode = #active
   * ^property[+].code = #effectiveDate
@@ -80,8 +68,6 @@ Description: "Category codes for care communication messages"
 * #home-care-assessment "Home care assessment"
   * ^designation.language = #da
   * ^designation.value = "Visitation"
-  * ^designation.language = #da
-  * ^designation.value = "Rusmiddelbehandling"
   * ^property[+].code = #status
   * ^property[=].valueCode = #active
   * ^property[+].code = #effectiveDate
@@ -89,8 +75,6 @@ Description: "Category codes for care communication messages"
 * #medicine "Medicine"
   * ^designation.language = #da
   * ^designation.value = "Medicin"
-  * ^designation.language = #da
-  * ^designation.value = "Rusmiddelbehandling"
   * ^property[+].code = #status
   * ^property[=].valueCode = #active
   * ^property[+].code = #effectiveDate
@@ -98,8 +82,6 @@ Description: "Category codes for care communication messages"
 * #nursing "Nursing"
   * ^designation.language = #da
   * ^designation.value = "Sygepleje"
-  * ^designation.language = #da
-  * ^designation.value = "Rusmiddelbehandling"
   * ^property[+].code = #status
   * ^property[=].valueCode = #active
   * ^property[+].code = #effectiveDate
@@ -107,8 +89,6 @@ Description: "Category codes for care communication messages"
 * #outpatient "Outpatient"
   * ^designation.language = #da
   * ^designation.value = "Ambulant"
-  * ^designation.language = #da
-  * ^designation.value = "Rusmiddelbehandling"
   * ^property[+].code = #status
   * ^property[=].valueCode = #active
   * ^property[+].code = #effectiveDate
@@ -116,8 +96,6 @@ Description: "Category codes for care communication messages"
 * #psychiatry-social-disability "Psychiatry, Social, Disability"
   * ^designation.language = #da
   * ^designation.value = "Psykiatri, social, handicap"
-  * ^designation.language = #da
-  * ^designation.value = "Rusmiddelbehandling"
   * ^property[+].code = #status
   * ^property[=].valueCode = #active
   * ^property[+].code = #effectiveDate
@@ -125,8 +103,6 @@ Description: "Category codes for care communication messages"
 * #regarding-referral "Regarding Referral"
   * ^designation.language = #da
   * ^designation.value = "Vedr. henvisning"
-  * ^designation.language = #da
-  * ^designation.value = "Rusmiddelbehandling"
   * ^property[+].code = #status
   * ^property[=].valueCode = #active
   * ^property[+].code = #effectiveDate
@@ -134,8 +110,6 @@ Description: "Category codes for care communication messages"
 * #telemedicine "Telemedicine"
   * ^designation.language = #da
   * ^designation.value = "Telemedicin"
-  * ^designation.language = #da
-  * ^designation.value = "Rusmiddelbehandling"
   * ^property[+].code = #status
   * ^property[=].valueCode = #active
   * ^property[+].code = #effectiveDate
@@ -143,8 +117,6 @@ Description: "Category codes for care communication messages"
 * #training "Training"
   * ^designation.language = #da
   * ^designation.value = "Træning"
-  * ^designation.language = #da
-  * ^designation.value = "Rusmiddelbehandling"
   * ^property[+].code = #status
   * ^property[=].valueCode = #active
   * ^property[+].code = #effectiveDate
@@ -152,8 +124,6 @@ Description: "Category codes for care communication messages"
 * #acute-ambulant "Acute ambulant"
   * ^designation.language = #da
   * ^designation.value = "Akut ambulant"
-  * ^designation.language = #da
-  * ^designation.value = "Rusmiddelbehandling"
   * ^property[+].code = #status
   * ^property[=].valueCode = #active
   * ^property[+].code = #effectiveDate
@@ -161,8 +131,6 @@ Description: "Category codes for care communication messages"
 * #extended-care-responsibility "Extended care responsibility"
   * ^designation.language = #da
   * ^designation.value = "Udvidet behandlingsansvar"
-  * ^designation.language = #da
-  * ^designation.value = "Rusmiddelbehandling"
   * ^property[+].code = #status
   * ^property[=].valueCode = #active
   * ^property[+].code = #effectiveDate
@@ -170,8 +138,6 @@ Description: "Category codes for care communication messages"
 * #other "Other"
   * ^designation.language = #da
   * ^designation.value = "Andet"
-  * ^designation.language = #da
-  * ^designation.value = "Rusmiddelbehandling"
   * ^property[+].code = #status
   * ^property[=].valueCode = #active
   * ^property[+].code = #effectiveDate
