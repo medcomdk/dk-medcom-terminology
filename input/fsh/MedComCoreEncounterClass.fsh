@@ -26,12 +26,13 @@ ValueSet: MedComCoreEncounterClass
 Id: medcom-core-encounter-class
 Title: "MedComCoreEncounterClassCodes"
 Description: "ValueSet containing classification codes for MedComCoreEncounter."
-* ^version  =  "1.0.1"
+* ^version  =  "2.0.0"
 * ^status  =  #active
 * ^date  =  "2025-09-22"
 * ^experimental = false
 * include codes from system $ActCodes where concept descendent-of #_ActEncounterCode
-* MedComCoreEncounterActCodes#other
+* exclude $ActCodes#OBSENC
+* MedComCoreEncounterActCodes#other "Other encounter class"
 
 ValueSet: MedComHospitalNotificationEncounterClass
 Id: medcom-hospitalNotification-encounterClass
