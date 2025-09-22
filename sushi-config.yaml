@@ -27,9 +27,6 @@ parameters:
   apply-version: true
   default-version: false
 
-dependencies:
-  hl7.fhir.uv.extensions.r4: 5.2.0
-
 menu:
   Home: index.html
   Terminology: terminology.html
