@@ -24,6 +24,8 @@ parameters:
   apply-jurisdiction: true
   apply-publisher: true
   special-url: [urn:oid:1.2.208.176.2.1]
+  apply-version: true
+  default-version: false
 
 menu:
   Home: index.html
