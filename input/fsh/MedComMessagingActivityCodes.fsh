@@ -15,6 +15,7 @@ Description: "CodeSystem containing codes for activities occuring in MedCom mess
 * ^property[+].code = #effectiveDate
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#effectiveDate"
 * ^property[=].description = "The date at which the concept status was last changed."
+* ^property[=].type = #dateTime
 * #new-message "A new message has been sent"
   * ^property[+].code = #status
   * ^property[=].valueCode = #active

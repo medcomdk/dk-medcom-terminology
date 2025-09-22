@@ -15,6 +15,7 @@ Description: "CodeSystem with code for classification of an encounter."
 * ^property[+].code = #effectiveDate
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#effectiveDate"
 * ^property[=].description = "The date at which the concept status was last changed."
+* ^property[=].type = #dateTime
 * #other "Other encounter class"
   * ^property[+].code = #status
   * ^property[=].valueCode = #active

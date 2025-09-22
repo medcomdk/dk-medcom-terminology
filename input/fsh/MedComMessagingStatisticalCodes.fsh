@@ -15,6 +15,7 @@ Description: "Statistical Codes for MedCom VANS messages"
 * ^property[+].code = #effectiveDate
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#effectiveDate"
 * ^property[=].description = "The date at which the concept status was last changed."
+* ^property[=].type = #dateTime
 * #MCM:FDIS20#AcuteAmbulant "Start hospital stay-acute ambulant"
   * ^property[+].code = #status
   * ^property[=].valueCode = #active

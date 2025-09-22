@@ -15,6 +15,7 @@ Description: "Codes indicatin whether the use of a destination in a MedCom messa
 * ^property[+].code = #effectiveDate
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#effectiveDate"
 * ^property[=].description = "The date at which the concept status was last changed."
+* ^property[=].type = #dateTime
 * #primary "Primary destination"
   * ^property[+].code = #status
   * ^property[=].valueCode = #active
