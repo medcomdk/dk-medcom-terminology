@@ -2,7 +2,7 @@ CodeSystem: MedComMessagingStatisticalCodes
 Id: medcom-messaging-statisticalCodes
 Title: "MedComMessagingStatisticalCodes"
 Description: "Statistical Codes for MedCom VANS messages"
-* ^version  =  "1.0.1"
+* ^version  =  "2.0.0"
 * ^status  =  #active
 * ^date  =  "2025-09-22"
 * ^caseSensitive = false
@@ -103,14 +103,34 @@ Description: "Statistical Codes for MedCom VANS messages"
   * ^property[=].valueDateTime = "2022-10-05"
 * #MCM:FDIS91#assessment "Assessment"
   * ^property[+].code = #status
+  * ^property[=].valueCode = #deprecated
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2025-09-22"
+  * #MCM:FDIS91#home-care-assessment "Home Care Assessment"
+  * ^property[+].code = #status
   * ^property[=].valueCode = #active
   * ^property[+].code = #effectiveDate
-  * ^property[=].valueDateTime = "2022-10-05"
+  * ^property[=].valueDateTime = "2025-09-22"
 * #MCM:FDIS91#examination-results "Examination Results"
   * ^property[+].code = #status
   * ^property[=].valueCode = #active
   * ^property[+].code = #effectiveDate
   * ^property[=].valueDateTime = "2022-10-05"
+* #MCM:FDIS91#alcohol-and-drug-treatment "Alcohol and Drug Treatment"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #active
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2025-09-22"
+* #MCM:FDIS91#acute-ambulant "Acute Ambulant"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #active
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2025-09-22"
+* #MCM:FDIS91#extended-care-responsibility "Extended Care Responsibility"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #active
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2025-09-22"
 * #MCM:FDIS91#other "Other"
   * ^property[+].code = #status
   * ^property[=].valueCode = #active
