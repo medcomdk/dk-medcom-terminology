@@ -32,7 +32,7 @@ An example of a ConceptMaps is [MedComMessagingMapFhirToSorEdi](https://medcomfh
 
 ### Governance of Terminologies
 
-[This page the governance concerning updating, maintaining and versioning CodeSystems, ValueSets and ConceptMaps.](https://medcomdk.github.io/MedCom-FHIR-Communication/#7-governance-for-medcom-fhir-terminology)
+[This page the governance concerning updating, maintaining and versioning CodeSystems, ValueSets and ConceptMaps.](https://medcomdk.github.io/MedComLandingPage/assets/documents/GovernanceTerminology.html)
 
 ### Usage 
 
