@@ -136,7 +136,7 @@ Description: "Statistical Codes for MedCom VANS messages"
   * ^property[=].valueCode = #active
   * ^property[+].code = #effectiveDate
   * ^property[=].valueDateTime = "2022-10-05"
-  * #MCM:FCTL#ok "OK"
+* #MCM:FCTL#ok "OK"
   * ^property[+].code = #status
   * ^property[=].valueCode = #active
   * ^property[+].code = #effectiveDate
