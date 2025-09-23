@@ -106,7 +106,7 @@ Description: "Statistical Codes for MedCom VANS messages"
   * ^property[=].valueCode = #deprecated
   * ^property[+].code = #effectiveDate
   * ^property[=].valueDateTime = "2025-09-22"
-  * #MCM:FDIS91#home-care-assessment "Home Care Assessment"
+* #MCM:FDIS91#home-care-assessment "Home Care Assessment"
   * ^property[+].code = #status
   * ^property[=].valueCode = #active
   * ^property[+].code = #effectiveDate
