@@ -136,3 +136,18 @@ Description: "Statistical Codes for MedCom VANS messages"
   * ^property[=].valueCode = #active
   * ^property[+].code = #effectiveDate
   * ^property[=].valueDateTime = "2022-10-05"
+  * #MCM:FCTL#ok "OK"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #active
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2025-09-22"
+* #MCM:FCTL#transient-error "Transient Error"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #active
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2025-09-22"
+* #MCM:FCTL#fatal-error "Fatal Error"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #active
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2025-09-22"
