@@ -1,10 +1,10 @@
 {
   "package-id": "medcom.fhir.dk.terminology",
-  "version": "2.0.0-draft",
-  "path": "http://medcomfhir.dk/ig/terminology/2.0.0-draft",
+  "version": "2.0.0",
+  "path": "http://medcomfhir.dk/ig/terminology/2.0.0",
   "status": "release",
-  "sequence": "Release",
-  "mode" : "working",
+  "sequence": "Release 2.x.x",
+  "mode" : "milestone", 
   "descmd": "@release-notes.md",
-  "desc": "CodeSystems and valuesets related to HomeCareObservation has been fixed."
+  "desc": "Release 2.0.0 introduces codesystem specific versioning and various important fixes and new codes"
 }

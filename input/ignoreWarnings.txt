@@ -3,3 +3,17 @@
 # Add warning and/or information messages here after you've confirmed that they aren't really a problem
 # (And include comments like this justifying why)
 # See https://github.com/FHIR/sample-ig/blob/master/input/ignoreWarnings.txt for examples
+
+%The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide%
+
+# The link is not to be found
+%The link 'CodeSystem-medcom-messaging-sorEdiSystem.html#medcom-messaging-sorEdiSystem-ValueSet-medcom-messaging-sorEdiValues.46html' for "ValueSet-medcom-messaging-sorEdiValues.html" cannot be resolved (valid targets: [segment-header, publish-box, bottom, hl7-logo, medcom-messaging-sorEdiSystem, segment-post-footer, hcmedcom-messaging-sorEdiSystem, family-logo, family-nav, ig-status, medcom-messaging-sorEdiSystem-FDIS91, top, codesystem-medcommessagingsoredicodesystem, root, medcom-messaging-sorEdiSystem-FDIS20, stripe, segment-footer, hl7-nav, segment-navbar, medcom-messaging-sorEdiSystem-FCTL, segment-content, segment-breadcrumb])%
+
+%An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide%
+
+%An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide%
+
+%The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide%
+
+# It renders fine, and will fix itself with R5. Alternatively look into using it as an extension? We need to use the R5 codesystem
+%The uri 'http://hl7.org/fhir/concept-properties#effectiveDate' for the property 'effectiveDate' implies a property with that URI exists in the CodeSystem FHIR Defined Concept Properties for http://hl7.org/fhir/concept-properties, or the code 'effectiveDate' does, but neither were found%

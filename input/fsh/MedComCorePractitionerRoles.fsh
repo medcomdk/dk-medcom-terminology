@@ -1,10 +1,10 @@
 ValueSet: MedComCorePractitionerRoles
 Id: medcom-core-PractitionerRoles
 Title: "MedComCorePractitionerRoles"
-Description: "ValueSet containing codes for practionerroles (Danish: Stillingsbetegnelser) from MedCom"
-* ^version  =  "1.2.0"
+Description: "ValueSet containing codes for practionerroles (Danish: Stillingsbetegnelser) from MedCom."
+* ^version  =  "2.0.0"
 * ^status  =  #active
-* ^date  =  "2023-10-31"
+* ^date  =  "2025-09-22"
 * ^experimental = false
 * #ambulancebehandler from system medcom-core-PractitionerRolesAutorisationsregistret
 * #laege from system medcom-core-PractitionerRolesAutorisationsregistret
@@ -18,6 +18,7 @@ Description: "ValueSet containing codes for practionerroles (Danish: Stillingsbe
 * #sygeplejerske from system medcom-core-PractitionerRolesSKSadministrativ
 * #sundhedsplejerske from system medcom-core-PractitionerRolesSKSadministrativ
 * #socialogsundhedsassistent from system medcom-core-PractitionerRolesSKSadministrativ
+* #socialogsundhedsmedhjaelper from system medcom-core-PractitionerRolesSKSadministrativ
 * #socialogsundhedsmehjaelper from system medcom-core-PractitionerRolesSKSadministrativ
 * #sygehjaelper from system medcom-core-PractitionerRolesSKSadministrativ
 * #plejer from system medcom-core-PractitionerRolesSKSadministrativ
@@ -27,6 +28,7 @@ Description: "ValueSet containing codes for practionerroles (Danish: Stillingsbe
 * #tandplejer from system medcom-core-PractitionerRolesSKSadministrativ
 * #farmaceut from system medcom-core-PractitionerRolesSKSadministrativ
 * #apoteker from system medcom-core-PractitionerRolesSKSadministrativ
+* #psykolog from system medcom-core-PractitionerRolesSKSadministrativ
 * #pyskolog from system medcom-core-PractitionerRolesSKSadministrativ
 * #jordemoder from system medcom-core-PractitionerRolesSKSadministrativ
 * #fysioterapeut from system medcom-core-PractitionerRolesSKSadministrativ
@@ -43,6 +45,7 @@ Description: "ValueSet containing codes for practionerroles (Danish: Stillingsbe
 * #audiologopaed from system medcom-core-PractitionerRolesSKSadministrativ
 * #laegesekretaer from system medcom-core-PractitionerRolesSKSadministrativ
 * #ledendelaegesekretaer from system medcom-core-PractitionerRolesSKSadministrativ
+* #sygeplejesekretaer from system medcom-core-PractitionerRolesSKSadministrativ
 * #sygeplejesekretear from system medcom-core-PractitionerRolesSKSadministrativ
 * #fodterapeut from system medcom-core-PractitionerRolesSKSadministrativ
 * #socialraadgiver from system medcom-core-PractitionerRolesSKSadministrativ

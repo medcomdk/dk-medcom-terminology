@@ -3,11 +3,11 @@ canonical: http://medcomfhir.dk/ig/terminology
 name: DK MedCom Terminology
 title: "DK MedCom Terminology"
 description: This IG includes CodeSystems, ValueSets and ConceptMaps defined by MedCom and used in MedCom's FHIR standards.
-status: draft # draft | active | retired | unknown
-version: 2.0.0-draft
+status: active # draft | active | retired | unknown
+version: 2.0.0
 fhirVersion: 4.0.1
 copyrightYear: 2022+
-releaseLabel: draft # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
+releaseLabel: release # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 jurisdiction: urn:iso:std:iso:3166#DK "Denmark"
 publisher:
   name: MedCom
@@ -18,6 +18,8 @@ parameters:
   apply-jurisdiction: true
   apply-publisher: true
   special-url: [urn:oid:1.2.208.176.2.1]
+  apply-version: false
+  default-version: true
 
 menu:
   Home: index.html
