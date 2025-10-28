@@ -2,6 +2,7 @@ CodeSystem: NPUObservationCodes
 Id: npu-observation-codes
 Title: "NPUObservationCodes"
 Description: "CodeSystem with NPU observation codes"
+* ^version = "1.0.0"
 * ^status = #draft
 * ^date = "2025-06-28"
 * ^caseSensitive = false

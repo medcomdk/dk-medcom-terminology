@@ -3,10 +3,12 @@ Id: medcom-observation-codes
 Title: "MedComObservationCodes"
 Description: "CodeSystem with observations codes used in HomeCareObservation"
 * ^status = #draft
+* ^version = "1.0.0"
 * ^date = "2025-06-28"
 * ^caseSensitive = false
 * ^experimental = true
 * ^language = #da-DK
+
 * ^property[+].code = #status
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
 * ^property[=].description = "A property that indicates the status of the concept. One of experimental, active, deprecated, retired. Find Governance for MedCom Terminology in the 'Home' tab."
