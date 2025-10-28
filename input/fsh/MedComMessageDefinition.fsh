@@ -3,7 +3,7 @@ CodeSystem: MedComMessageDefinitionIdentifierSystem
 Id: medcom-messagedefinition-identifer-system
 Title: "MessageDefinitionIdentifierSystemCodeSystem"
 Description: "MessageDefinitionIdentifierSystemCS for the messaging infrastructure"
-* ^version  =  "1.0.0"
+* ^version  =  "1.8.1"
 * ^status  =  #active
 * ^date  =  "2024-06-26"
 * ^experimental = false
@@ -17,7 +17,7 @@ ValueSet: MedComMessageDefinitionIdentifierSystemVS
 Id: medcom-messagedefinition-identifer-system-valueset
 Title: "MessageDefinitionIdentifierSystemValueset"
 Description: "MessageDefinitionIdentifierSystemVS for the messaging infrastructure"
-* ^version  =  "1.0.0"
+* ^version  =  "1.8.1"
 * ^status  =  #active
 * ^date  =  "2024-06-26"
 * ^experimental = false
@@ -27,7 +27,7 @@ CodeSystem: MedComMessageDefinitionType
 Id: medcom-message-definition-type
 Title: "MedComMessageDefinitionTypeCodeSystem"
 Description: "MedComMessageDefinitionTypeCS for the messaging infrastructure"
-* ^version  =  "1.0.0"
+* ^version  =  "1.8.1"
 * ^status  =  #active
 * ^date  =  "2024-06-26"
 * ^experimental = false
@@ -41,7 +41,7 @@ ValueSet: MedComMessageDefinitionTypeVS
 Id: medcom-message-definition-type-valueset
 Title: "MedComMessageDefinitionTypeValueset"
 Description: "MedComMessageDefinitionTypeVS for the messaging infrastructure"
-* ^version  =  "1.0.0"
+* ^version  =  "1.8.1"
 * ^status  =  #active
 * ^date  =  "2024-06-26"
 * ^experimental = false
@@ -51,7 +51,7 @@ ValueSet: MedComUseContextCodeSystemVS
 Id: medcom-messagedefinition-use-context-code-valueset
 Title: "UseContextCodeSystemValueset"
 Description: "UseContextCodeSystemVS for the messaging infrastructure"
-* ^version  =  "1.0.0"
+* ^version  =  "1.8.1"
 * ^status  =  #active
 * ^date  =  "2024-06-26"
 * ^experimental = false

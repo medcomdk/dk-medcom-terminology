@@ -2,7 +2,7 @@ CodeSystem: MedComMessagingActivityCodes
 Id: medcom-messaging-activityCodes
 Title: "MedComMessagingActivityCodes"
 Description: "CodeSystem containing codes for activities occuring in MedCom messages"
-* ^version  =  "1.0.2"
+* ^version  =  "1.8.1"
 * ^status  =  #active
 * ^date  =  "2025-09-22"
 * ^caseSensitive = false
@@ -147,7 +147,7 @@ ValueSet: MedComMessagingActivityCodes
 Id: medcom-messaging-activityCodes
 Title: "MedComMessagingActivityCodes"
 Description: "ValueSet containing codes for activities occuring in MedCom messages"
-* ^version  =  "1.0.1"
+* ^version  =  "1.8.1"
 * ^status  =  #active
 * ^date  =  "2025-09-22"
 * ^experimental = false
@@ -181,7 +181,7 @@ ValueSet: MedComHospitalNotificationMessageActivities
 Id: medcom-hospitalNotification-messageActivities
 Title: "MedComHospitalNotificationMessageActivityCodes"
 Description: "ValueSet containg activity codes for hospital notification messages"
-* ^version  =  "1.0.3"
+* ^version  =  "1.8.1"
 * ^status  =  #active
 * ^date  =  "2025-09-22"
 * ^experimental = false

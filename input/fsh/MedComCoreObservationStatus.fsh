@@ -2,7 +2,7 @@ ValueSet: MedComCoreObservationStatus
 Id: medcom-core-observation-status
 Title: "MedComCoreObservationStatus"
 Description: "ValueSet containing status codes for MedCom Core Observation"
-* ^version = "1.0.0"
+* ^version = "1.8.1"
 * ^status = #active
 * ^date = "2023-10-31"
 * ^experimental = true

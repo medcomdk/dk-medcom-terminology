@@ -3,7 +3,7 @@ ValueSet: MedComConditionListStatus
 Id: medcom-conditionlist-status-valueset
 Title: "MedComConditionListStatus"
 Description: "MedComConditionListStatus used to define the status of a condition"
-* ^version  =  "1.0.0"
+* ^version  =  "1.8.1"
 * ^status  =  #active
 * ^date  =  "2024-09-15"
 * ^experimental = false
