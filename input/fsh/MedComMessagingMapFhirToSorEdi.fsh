@@ -3,7 +3,7 @@ InstanceOf: ConceptMap
 Title: "MedComMessagingMapFhirToSorEdi"
 Description: "ConceptMap between MedComs FHIR message names and SOREDI message names"
 * name = "MedComMessagingMapFhirToSorEdi"
-* version  =  "1.1.0"
+* version  =  "1.8.1"
 * status  =  #active
 * date = "2023-02-27"
 * sourceUri = Canonical(MedComMessagingMessageTypes)

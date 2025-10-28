@@ -2,7 +2,7 @@ ValueSet: MedComCoreAttachmentMimeTypes
 Id: medcom-core-attachmentMimeTypes
 Title: "MedComCoreAttachmentMimeTypes"
 Description: "ValueSet containing allowed mime types for MedCom messages"
-* ^version  =  "1.1.0"
+* ^version  =  "1.8.1"
 * ^status  =  #active
 * ^date  =  "2024-01-18"
 * ^experimental = false

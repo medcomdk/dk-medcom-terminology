@@ -1,4 +1,3 @@
-
 ValueSet: MedComCareCommunicationMessageActivities
 Id: medcom-careCommunication-messagingActivities
 Title: "MedComCareCommunicationMessageActivityCodes"

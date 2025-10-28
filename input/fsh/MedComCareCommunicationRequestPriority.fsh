@@ -1,4 +1,3 @@
-
 ValueSet: MedComCareCommunicationRequestPriority
 Id: medcom-careCommunication-requestPriority
 Title: "MedComCareCommunicationRequestPriorityCodes"
