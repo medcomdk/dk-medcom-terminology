@@ -2,7 +2,7 @@ CodeSystem: MedComCorePractitionerRolesAutorisationsregistret
 Id: medcom-core-PractitionerRolesAutorisationsregistret
 Title: "MedComCorePractitionerRolesAutorisationsregistret"
 Description: "CodeSystem containing codes for practionerroles (Danish:Stillingsbetegnelser) from [autorisationsregistret](https://stps.dk/da/autorisation/opslagautreg/) "
-* ^version  =  "1.9.0"
+* ^version  =  "1.8.1"
 * ^status  =  #active
 * ^date  =  "2025-09-22"
 * ^caseSensitive = false
