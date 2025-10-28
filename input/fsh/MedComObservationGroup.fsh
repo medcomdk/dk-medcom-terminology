@@ -2,7 +2,7 @@ CodeSystem: MedComObservationResultGroup
 Id: medcom-observation-resultGroup
 Title: "MedComObservationResultGroup"
 Description: "The observation result group are intended to be used to sort the individual analyzes."
-* ^version = "1.1.0"
+* ^version = "1.8.1"
 * ^status = #draft
 * ^date = "2024-01-18" 
 * ^caseSensitive = false
@@ -37,7 +37,7 @@ ValueSet: MedComObservarionResponesGroupValueSet
 Id: medcom-obs-responseGroup
 Title: "MedComObservationResultGroupValueSet"
 Description: "National response groups for observation results."
-* ^version = "1.1.0"
+* ^version = "1.8.1"
 * ^status = #draft
 * ^date = "2024-01-18" 
 * ^experimental = true

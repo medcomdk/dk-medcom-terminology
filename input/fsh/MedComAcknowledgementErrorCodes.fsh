@@ -2,7 +2,7 @@ CodeSystem: MedComAcknowledgementErrorCodes
 Id: medcom-acknowledgement-error-codes
 Title: "MedComAcknowledgementErrorCodes"
 Description: "CodeSystem including detailed error codes describtions. "
-* ^version  =  "1.0.0"
+* ^version  =  "1.8.1"
 * ^status  =  #active
 * ^date  =  "2023-06-29"
 * ^caseSensitive = false

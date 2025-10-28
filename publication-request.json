@@ -1,10 +1,10 @@
 {
   "package-id": "medcom.fhir.dk.terminology",
-  "version": "2.0.0",
-  "path": "http://medcomfhir.dk/ig/terminology/2.0.0",
+  "version": "2.0.1",
+  "path": "http://medcomfhir.dk/ig/terminology/2.0.1",
   "status": "release",
   "sequence": "Release 2.x.x",
   "mode" : "milestone", 
   "descmd": "@release-notes.md",
-  "desc": "Release 2.0.0 introduces codesystem specific versioning and various important fixes and new codes"
+  "desc": "Release 2.0.1 see release notes"
 }

@@ -2,7 +2,7 @@ CodeSystem: MedComMessageEventCodes
 Id: medcom-messaging-eventCodes
 Title: "MedComMessagingEventCodes"
 Description: "CodeSystem including all types of MedCom messages"
-* ^version  =  "1.1.1"
+* ^version  =  "1.8.1"
 * ^status  =  #active
 * ^date  =  "2025-09-22"
 * ^caseSensitive = false
@@ -46,7 +46,7 @@ ValueSet: MedComMessagingMessageTypes
 Id: medcom-messaging-messageTypes
 Title: "MedComMessagingMessageTypes"
 Description: "All message types of MedCom messages"
-* ^version  =  "1.1.1"
+* ^version  =  "1.8.1"
 * ^status  =  #active
 * ^date  =  "2025-09-22"
 * ^experimental = false

@@ -2,7 +2,7 @@ CodeSystem: MedComMessagingSorEdiSystem
 Id: medcom-messaging-sorEdiSystem
 Title: "MedComMessagingSorEdiCodeSystem"
 Description: "Codes for SOREDI message types"
-* ^version  =  "1.2.1"
+* ^version  =  "1.8.1"
 * ^status  =  #active
 * ^date  =  "2025-09-22"
 * ^caseSensitive = false
@@ -36,7 +36,7 @@ ValueSet: MedComMessagingSorEdiValues
 Id: medcom-messaging-sorEdiValues
 Title: "MedComMessagingSorEdiValues"
 Description: "Values for SOREDI message types"
-* ^version  =  "1.2.1"
+* ^version  =  "1.8.1"
 * ^status  =  #active
 * ^date  =  "2025-09-22"
 * ^experimental = false

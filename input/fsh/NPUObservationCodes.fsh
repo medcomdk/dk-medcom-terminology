@@ -336,7 +336,7 @@ ValueSet: NPUObservationCodesValueSet
 Id: npu-observation-codes-valueset
 Title: "NPUObservationCodesValueSet"
 Description: "ValuseSet with NPU observations Codes"
-* ^version = "1.0.0"
+* ^version = "1.8.1"
 * ^status = #draft
 * ^date = "2025-06-28"
 * include codes from system npu-observation-codes

@@ -57,7 +57,7 @@ ValueSet: MedComObservationValueSet
 Id: medcom-observation-valueset
 Title: "MedComObservationValueSet"
 Description: "Valuesets for Observation defined by MedCom"
-* ^version = "1.0.0"
+* ^version = "1.8.1"
 * ^status = #draft
 * ^date = "2025-06-28" 
 * ^experimental = true
