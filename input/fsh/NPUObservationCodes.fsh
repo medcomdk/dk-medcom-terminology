@@ -2,6 +2,7 @@ CodeSystem: NPUObservationCodes
 Id: npu-observation-codes
 Title: "NPUObservationCodes"
 Description: "CodeSystem with NPU observation codes"
+* ^version = "1.0.0"
 * ^status = #draft
 * ^date = "2025-06-28"
 * ^caseSensitive = false
@@ -336,7 +337,7 @@ ValueSet: NPUObservationCodesValueSet
 Id: npu-observation-codes-valueset
 Title: "NPUObservationCodesValueSet"
 Description: "ValuseSet with NPU observations Codes"
-* ^version = "1.0.0"
+* ^version = "1.8.1"
 * ^status = #draft
 * ^date = "2025-06-28"
 * include codes from system npu-observation-codes

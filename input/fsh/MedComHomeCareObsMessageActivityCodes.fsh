@@ -2,7 +2,7 @@ ValueSet: MedComHomeCareObservationMessageActivities
 Id: medcom-HomeCareObservation-messagingActivities
 Title: "MedComHomeCareObservationMessageActivityCodes"
 Description: "ValueSet containg activity codes for HomeCareObservation messages"
-* ^version  =  "1.0.0"
+* ^version  =  "1.8.1"
 * ^status  =  #draft
 * ^date  =  "2023-10-31"
 * ^experimental = true

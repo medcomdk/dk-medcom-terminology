@@ -2,9 +2,9 @@ CodeSystem: MedComCareCommunicationCategoryCodes
 Id: medcom-careCommunication-categoryCodes
 Title: "MedComCareCommunicationCategories"
 Description: "Category codes for care communication messages"
-* ^version  =  "1.0.2"
+* ^version  =  "1.9.0"
 * ^status  =  #active
-* ^date  =  "2025-09-22"
+* ^date  =  "2025-10-28"
 * ^caseSensitive = false
 * ^experimental = false
 * ^content = #complete
@@ -149,8 +149,8 @@ ValueSet: MedComCareCommunicationCategories
 Id: medcom-careCommunication-categories
 Title: "MedComCareCommunicationCategoryCodes"
 Description: "ValueSet containing category codes for care communication messages"
-* ^version  =  "1.0.2"
+* ^version  =  "1.9.0"
 * ^status  =  #active
-* ^date  =  "2025-09-22"
+* ^date  =  "2025-10-28"
 * ^experimental = false
 * include codes from system MedComCareCommunicationCategoryCodes
