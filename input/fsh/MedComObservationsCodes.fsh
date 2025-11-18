@@ -3,7 +3,7 @@ Id: medcom-observation-codes
 Title: "MedComObservationCodes"
 Description: "CodeSystem with observations codes used in HomeCareObservation"
 * ^status = #active
-* ^version = "1.0.2"
+* ^version = "1.0.1"
 * ^date = "2025-11-18"
 * ^caseSensitive = false
 * ^language = #da-DK
