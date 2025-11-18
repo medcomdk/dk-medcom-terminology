@@ -13,7 +13,7 @@ ValueSet: MedComProducentIDValueSet
 Id: medcm-producentID-valueset
 Title: "MedComProducentIDValueSet"
 Description: "ProducentID"
-* ^version = "1.8.1"
+* ^version = "1.8.2"
 * ^status = #active
 * ^date = "2025-11-18" 
 * MedComProducentID#KAF

@@ -60,11 +60,13 @@ Description: "CodeSystem with NPU observation codes"
   * ^property[+].code          = #effectiveDate
   * ^property[=].valueDateTime = "2025-06-28"
 
-* #NPU02636 "B—Leukocytter; antalk. = ? × 10^9/L"
+// TODO: Figure out if we should keep the old code with the wrong display value as deprecated if even possible
+// if not is this then a major version change?
+* #NPU02636 "B—Lymfocytter; antalk. = ? × 10^9/L"
   * ^property[+].code          = #status
   * ^property[=].valueCode     = #active
   * ^property[+].code          = #effectiveDate
-  * ^property[=].valueDateTime = "2025-06-28"
+  * ^property[=].valueDateTime = "2025-11-18"
 
 * #NPU02840 "B—Monocytter; antalk. = ? × 10^9/L"
   * ^property[+].code          = #status

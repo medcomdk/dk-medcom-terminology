@@ -6,6 +6,7 @@ Description: "The observation result group are intended to be used to sort the i
 * ^status = #draft
 * ^date = "2024-01-18" 
 * ^caseSensitive = false
+// TODO: Make this non experimental
 * ^experimental = true
 * ^language = #da-DK
 * #5 "Hæmatologi"
