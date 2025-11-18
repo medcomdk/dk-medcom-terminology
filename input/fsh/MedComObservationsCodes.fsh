@@ -6,6 +6,7 @@ Description: "CodeSystem with observations codes used in HomeCareObservation"
 * ^version = "1.0.0"
 * ^date = "2025-06-28"
 * ^caseSensitive = false
+// TODO: Make this and all other HCO codes non-experimental
 * ^experimental = true
 * ^language = #da-DK
 
@@ -23,7 +24,7 @@ Description: "CodeSystem with observations codes used in HomeCareObservation"
   * ^designation[=].use.code = #900000000000013009
   * ^designation[=].value = "Respirationsfrekvens;Pt"
   * ^property[+].code = #status
-  * ^property[=].valueCode = #experimental
+  * ^property[=].valueCode = #active
   * ^property[+].code = #effectiveDate
   * ^property[=].valueDateTime = "2025-06-28"
 
@@ -32,7 +33,7 @@ Description: "CodeSystem with observations codes used in HomeCareObservation"
   * ^designation[=].use.code = #900000000000013009
   * ^designation[=].value = "TOBS score;Pt"
   * ^property[+].code = #status
-  * ^property[=].valueCode = #experimental
+  * ^property[=].valueCode = #active
   * ^property[+].code = #effectiveDate
   * ^property[=].valueDateTime = "2025-06-28"
 
@@ -41,7 +42,7 @@ Description: "CodeSystem with observations codes used in HomeCareObservation"
   * ^designation[=].use.code = #900000000000013009
   * ^designation[=].value = "Bevidsthed;Pt"
   * ^property[+].code = #status
-  * ^property[=].valueCode = #experimental
+  * ^property[=].valueCode = #active
   * ^property[+].code = #effectiveDate
   * ^property[=].valueDateTime = "2025-06-28"
 
@@ -50,7 +51,7 @@ Description: "CodeSystem with observations codes used in HomeCareObservation"
   * ^designation[=].use.code = #900000000000013009
   * ^designation[=].value = "Manniche VAS-score(total);Pt"
   * ^property[+].code = #status
-  * ^property[=].valueCode = #experimental
+  * ^property[=].valueCode = #active
   * ^property[+].code = #effectiveDate
   * ^property[=].valueDateTime = "2025-06-28"
 
