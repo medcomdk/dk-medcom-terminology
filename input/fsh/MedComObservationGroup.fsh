@@ -2,11 +2,10 @@ CodeSystem: MedComObservationResultGroup
 Id: medcom-observation-resultGroup
 Title: "MedComObservationResultGroup"
 Description: "The observation result group are intended to be used to sort the individual analyzes."
-* ^version = "1.8.1"
-* ^status = #draft
-* ^date = "2024-01-18" 
+* ^version = "1.8.2"
+* ^status = #active
+* ^date = "2025-11-18" 
 * ^caseSensitive = false
-* ^experimental = true
 * ^language = #da-DK
 * #5 "Hæmatologi"
 * #10 "Væske- og elektrolytbalance"
@@ -37,8 +36,7 @@ ValueSet: MedComObservarionResponesGroupValueSet
 Id: medcom-obs-responseGroup
 Title: "MedComObservationResultGroupValueSet"
 Description: "National response groups for observation results."
-* ^version = "1.8.1"
-* ^status = #draft
-* ^date = "2024-01-18" 
-* ^experimental = true
+* ^version = "1.8.2"
+* ^status = #active
+* ^date = "2025-11-18" 
 * include codes from system medcom-observation-resultGroup
