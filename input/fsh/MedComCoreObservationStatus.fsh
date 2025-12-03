@@ -2,10 +2,10 @@ ValueSet: MedComCoreObservationStatus
 Id: medcom-core-observation-status
 Title: "MedComCoreObservationStatus"
 Description: "ValueSet containing status codes for MedCom Core Observation"
-* ^version = "1.8.1"
+* ^version = "1.8.2"
 * ^status = #active
-* ^date = "2023-10-31"
-* ^experimental = true
+* ^date = "2025-11-18"
+* ^experimental = false
 * ^compose.include[+].system = $ObsStatusCodes
 * ^compose.include[=].concept[+].code = #registered 
 * ^compose.include[=].concept[=].display = "Registered"
