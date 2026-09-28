@@ -1,5 +1,3 @@
-In version 2.0.2 the following things have been introduced/fixed:
-- NPU03963 code has been added to the codesystem 'npu-observation-codes'.
-- NPU02636 in codesystem 'npu-observation-codes', has had its display value corrected. 
-- MCS88126 in codesystem 'medcom-observation-codes', has had its definition updated to clarify what the different values represent.
-- Experimental and draft has been removed from various codesystems and valuesets.
+In version 2.0.3 the following things have been introduced/fixed:
+- The category acute nursing care has been added to the codesystem 'CareCommunication-Categories'.
+- The category health and care beds has been added to the codesystem 'CareCommunication-Categories'.

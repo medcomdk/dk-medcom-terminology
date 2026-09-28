@@ -135,6 +135,20 @@ Description: "Category codes for care communication messages"
   * ^property[=].valueCode = #active
   * ^property[+].code = #effectiveDate
   * ^property[=].valueDateTime = "2025-09-22"
+* #acute-nursing-care "Acute nursing care"
+  * ^designation.language = #da
+  * ^designation.value = "Akutsygepleje"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #active
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2027-01-01"
+* #health-and-care-beds "Health and care beds"
+  * ^designation.language = #da
+  * ^designation.value = "Sundheds- og omsorgspladser"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #active
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2027-01-01"
 * #other "Other"
   * ^designation.language = #da
   * ^designation.value = "Andet"
